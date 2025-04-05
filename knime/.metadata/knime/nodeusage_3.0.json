@@ -1,0 +1,184 @@
+{
+    "version": "5.4.3.v202503031608",
+    "created": "2025-04-03 16:44",
+    "nodestats": {
+        "nodes": [
+            {
+                "id": "org.knime.base.node.io.csvreader.CSVReaderNodeFactory",
+                "nodename": "CSV Reader (deprecated)",
+                "nrexecs": 2,
+                "nrfails": 6,
+                "exectime": 926,
+                "nrcreated": 0,
+                "nrsettingsChanged": 6,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.viz.property.color.ColorManager2NodeFactory",
+                "nodename": "Color Manager",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 1,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.viz.property.size.SizeManager2NodeFactory",
+                "nodename": "Size Manager",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 1,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.viz.property.shape.ShapeManagerNodeFactory",
+                "nodename": "Shape Manager",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.viz.plotter.scatter.ScatterPlotterNodeFactory",
+                "nodename": "Scatter Plot (legacy)",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 4,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.viz.plotter.scattermatrix.ScatterMatrixNodeFactory",
+                "nodename": "Scatter Matrix (legacy)",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 1,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.io.arffwriter.ARFFWriterNodeFactory",
+                "nodename": "ARFF Writer",
+                "nrexecs": 1,
+                "nrfails": 1,
+                "exectime": 10,
+                "nrcreated": 0,
+                "nrsettingsChanged": 3,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.ext.weka37.classifier.WekaClassifierNodeFactory#RandomForest (3.7)",
+                "nodename": "RandomForest (3.7)",
+                "nrexecs": 14,
+                "nrfails": 0,
+                "exectime": 3079,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.ext.weka37.predictor3.WekaPredictorNodeFactory",
+                "nodename": "Weka Predictor (3.7)",
+                "nrexecs": 14,
+                "nrfails": 0,
+                "exectime": 1674,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.mine.scorer.accuracy.AccuracyScorerNodeFactory",
+                "nodename": "Scorer (deprecated)",
+                "nrexecs": 5,
+                "nrfails": 0,
+                "exectime": 40,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.io.arffreader.ARFFReaderNodeFactory",
+                "nodename": "ARFF Reader",
+                "nrexecs": 4,
+                "nrfails": 0,
+                "exectime": 11,
+                "nrcreated": 0,
+                "nrsettingsChanged": 7,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.partition.PartitionNodeFactory",
+                "nodename": "Partitioning",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 4,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.meta.xvalidation.XValidatePartitionerFactory",
+                "nodename": "X-Partitioner",
+                "nrexecs": 10,
+                "nrfails": 0,
+                "exectime": 27,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.meta.xvalidation.AggregateOutputNodeFactory",
+                "nodename": "X-Aggregator",
+                "nrexecs": 10,
+                "nrfails": 0,
+                "exectime": 5,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            }
+        ],
+        "metaNodes": {
+        },
+        "wrappedNodes": {
+        },
+        "createdVia": {
+        }
+    },
+    "uptime": 535434,
+    "workflowsOpened": 5,
+    "remoteWorkflowsOpened": 0,
+    "workflowsCreated": 0,
+    "remoteWorkflowsCreated": 0,
+    "columnarStorageWorkflowsOpened": 0,
+    "workflowsImported": 3,
+    "workflowsExported": 0,
+    "webUIPerspectiveSwitches": 0,
+    "javaUIPerspectiveSwitches": 0,
+    "lastUsedPerspective": "none",
+    "launches": 3,
+    "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
+    "timeSinceLastStart": 655766,
+    "crashes": 0,
+    "properlyShutDown": true
+}

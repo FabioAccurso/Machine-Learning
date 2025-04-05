@@ -1,0 +1,56 @@
+{
+  "version" : "5.4.3.v202503031608",
+  "projects" : [ {
+    "name" : "01. Basics",
+    "active" : false,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "1_esercitazione\\Esercitazione n1\\01. Basics"
+    }
+  }, {
+    "name" : "02. Evaluation Metrics",
+    "active" : false,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "1_esercitazione\\Esercitazione n1\\02. Evaluation Metrics"
+    }
+  }, {
+    "name" : "03. X-Validation",
+    "active" : true,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "1_esercitazione\\Esercitazione n1\\03. X-Validation"
+    }
+  } ],
+  "mostRecentlyUsedProjects" : [ {
+    "name" : "01. Basics",
+    "timeUsed" : "2025-04-05T10:14:38.49193+02:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "1_esercitazione\\Esercitazione n1\\01. Basics"
+    }
+  }, {
+    "name" : "02. Evaluation Metrics",
+    "timeUsed" : "2025-04-05T10:15:04.6141611+02:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "1_esercitazione\\Esercitazione n1\\02. Evaluation Metrics"
+    }
+  }, {
+    "name" : "03. X-Validation",
+    "timeUsed" : "2025-04-05T10:16:02.6360982+02:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "1_esercitazione\\Esercitazione n1\\03. X-Validation"
+    }
+  } ]
+}

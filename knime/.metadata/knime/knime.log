@@ -1,0 +1,534 @@
+2025-04-03 18:44:14,185 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-04-03 18:44:14,185 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-04-03 18:44:14,185 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Accesso al Registro di sistema non consentito.
+2025-04-03 18:44:14,185 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : In riga:1 car:1
+2025-04-03 18:44:14,185 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-04-03 18:44:14,185 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-04-03 18:44:14,185 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-04-03 18:44:14,185 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-04-03 18:44:14,185 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-04-03 18:44:14,185 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-04-05 10:13:38,183 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-04-05 10:13:38,183 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-04-05 10:13:38,183 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Accesso al Registro di sistema non consentito.
+2025-04-05 10:13:38,183 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : In riga:1 car:1
+2025-04-05 10:13:38,183 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-04-05 10:13:38,183 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-04-05 10:13:38,183 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-04-05 10:13:38,183 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-04-05 10:13:38,183 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-04-05 10:13:38,183 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-04-05 10:14:38,337 : WARN  : ModalContext :  : Node : CSV Reader (deprecated) : 3:1 : No settings available
+2025-04-05 10:14:38,339 : WARN  : ModalContext :  : Node : CSV Reader (deprecated) : 3:1 : No settings available
+2025-04-05 10:14:38,342 : WARN  : ModalContext :  : Node : Excel Reader (XLS) (deprecated) : 3:2 : No file location specified
+2025-04-05 10:14:38,342 : WARN  : ModalContext :  : Node : Excel Reader (XLS) (deprecated) : 3:2 : No file location specified
+2025-04-05 10:14:38,366 : WARN  : ModalContext :  : Node : MISSING Weka Classifier Writer (3.7) : 3:11 : Node can't be executed - Node "Weka Classifier Writer (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-05 10:14:38,367 : WARN  : ModalContext :  : Node : MISSING Weka Classifier Reader (3.7) : 3:12 : No source location provided! Please enter a valid location.
+2025-04-05 10:14:38,367 : WARN  : ModalContext :  : Node : MISSING Weka Classifier Reader (3.7) : 3:12 : Node can't be executed - Node "Weka Classifier Reader (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-05 10:14:38,367 : WARN  : ModalContext :  : Node : MISSING Weka Predictor (3.7) : 3:13 : Node can't be executed - Node "Weka Predictor (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-05 10:14:38,368 : WARN  : ModalContext :  : Node : ARFF Reader : 3:14 : No source location provided! Please enter a valid location.
+2025-04-05 10:14:38,368 : WARN  : ModalContext :  : Node : ARFF Reader : 3:14 : No source location provided! Please enter a valid location.
+2025-04-05 10:14:38,392 : WARN  : ModalContext :  : Node : MISSING J48 (3.7) : 3:24 : Node can't be executed - Node "J48 (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-05 10:14:38,487 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: DataLoadError: 01. Basics 3 loaded with error during data load
+2025-04-05 10:14:38,487 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: DataLoadError: 01. Basics 3
+2025-04-05 10:14:38,487 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "Weka Classifier Writer (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-05 10:14:38,487 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "Weka Classifier Reader (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-05 10:14:38,487 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "Weka Predictor (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-05 10:14:38,487 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "J48 (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-05 10:14:38,487 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: CSV Reader (deprecated) 3:16
+2025-04-05 10:14:38,487 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "CSV Reader (deprecated)": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\01. Basics\CSV Reader (#16)\port_1\data.xml
+2025-04-05 10:14:38,487 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to CONFIGURED
+2025-04-05 10:14:38,487 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Color Manager 3:17
+2025-04-05 10:14:38,487 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Color Manager": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\01. Basics\Color Manager (#17)\port_1\data.xml
+2025-04-05 10:14:38,487 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Size Manager 3:18
+2025-04-05 10:14:38,488 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Size Manager": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\01. Basics\Size Manager (#18)\port_1\data.xml
+2025-04-05 10:14:38,488 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Shape Manager 3:19
+2025-04-05 10:14:38,488 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Shape Manager": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\01. Basics\Shape Manager (#19)\port_1\data.xml
+2025-04-05 10:14:38,488 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Scatter Plot (legacy) 3:20
+2025-04-05 10:14:38,488 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\01. Basics\Scatter Plot (#20)\internal\internals (Impossibile trovare il percorso specificato)
+2025-04-05 10:15:04,546 : WARN  : ModalContext :  : Node : ARFF Reader : 4:3 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.arff.
+2025-04-05 10:15:04,611 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: DataLoadError: 02. Evaluation Metrics 4 loaded with error during data load
+2025-04-05 10:15:04,611 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: DataLoadError: 02. Evaluation Metrics 4
+2025-04-05 10:15:04,611 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: metanode with ID suffix 1
+2025-04-05 10:15:04,611 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Can't load workflow outport (internal ID "outport_0", skipping it: Unable to restore port type, can't load class "org.knime.ext.weka37.ports.WekaClassifierModelPortObject"
+2025-04-05 10:15:04,611 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Assigning fallback port type for missing output port 0
+2025-04-05 10:15:04,611 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: metanode with ID suffix 2
+2025-04-05 10:15:04,611 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Can't load workflow inport (internal ID "inport_0", skipping it: Unable to restore port type, can't load class "org.knime.ext.weka37.ports.WekaClassifierModelPortObject"
+2025-04-05 10:15:04,611 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Assigning fallback port type for missing input port 0
+2025-04-05 10:15:04,611 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: metanode with ID suffix 7
+2025-04-05 10:15:04,611 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Can't load workflow outport (internal ID "outport_0", skipping it: Unable to restore port type, can't load class "org.knime.ext.weka37.ports.WekaClassifierModelPortObject"
+2025-04-05 10:15:04,611 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Assigning fallback port type for missing output port 0
+2025-04-05 10:15:04,611 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: metanode with ID suffix 8
+2025-04-05 10:15:04,612 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Can't load workflow inport (internal ID "inport_0", skipping it: Unable to restore port type, can't load class "org.knime.ext.weka37.ports.WekaClassifierModelPortObject"
+2025-04-05 10:15:04,612 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Assigning fallback port type for missing input port 0
+2025-04-05 10:15:04,612 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: metanode with ID suffix 11
+2025-04-05 10:15:04,612 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Can't load workflow outport (internal ID "outport_0", skipping it: Unable to restore port type, can't load class "org.knime.ext.weka37.ports.WekaClassifierModelPortObject"
+2025-04-05 10:15:04,612 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Assigning fallback port type for missing output port 0
+2025-04-05 10:15:04,612 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: metanode with ID suffix 12
+2025-04-05 10:15:04,612 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Can't load workflow inport (internal ID "inport_0", skipping it: Unable to restore port type, can't load class "org.knime.ext.weka37.ports.WekaClassifierModelPortObject"
+2025-04-05 10:15:04,612 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Assigning fallback port type for missing input port 0
+2025-04-05 10:15:04,612 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: ARFF Reader 4:3
+2025-04-05 10:15:04,612 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "ARFF Reader": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\02. Evaluation Metrics\ARFF Reader (#3)\port_1\data.xml
+2025-04-05 10:15:04,612 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to IDLE
+2025-04-05 10:15:04,612 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: CSV Reader (deprecated) 4:6
+2025-04-05 10:15:04,612 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "CSV Reader (deprecated)": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\02. Evaluation Metrics\CSV Reader (#6)\port_1\data.xml
+2025-04-05 10:15:04,612 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to CONFIGURED
+2025-04-05 10:15:04,612 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: CSV Reader (deprecated) 4:10
+2025-04-05 10:15:04,612 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "CSV Reader (deprecated)": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\02. Evaluation Metrics\CSV Reader (#10)\port_1\data.xml
+2025-04-05 10:15:04,612 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to CONFIGURED
+2025-04-05 10:15:04,612 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Training 4:1
+2025-04-05 10:15:04,612 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "RandomForest (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-05 10:15:04,612 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING RandomForest (3.7) 4:1:1
+2025-04-05 10:15:04,612 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING RandomForest (3.7)": Invalid spec class "org.knime.ext.weka37.ports.WekaClassifierModelPortObjectSpec"
+2025-04-05 10:15:04,612 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: State has changed from EXECUTED to IDLE
+2025-04-05 10:15:04,613 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Training 4:7
+2025-04-05 10:15:04,613 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "RandomForest (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-05 10:15:04,613 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING RandomForest (3.7) 4:7:1
+2025-04-05 10:15:04,613 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING RandomForest (3.7)": Invalid spec class "org.knime.ext.weka37.ports.WekaClassifierModelPortObjectSpec"
+2025-04-05 10:15:04,613 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: State has changed from EXECUTED to IDLE
+2025-04-05 10:15:04,613 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Evaluate 4:8
+2025-04-05 10:15:04,613 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Weka Predictor (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-05 10:15:04,613 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Weka Predictor (3.7) 4:8:1
+2025-04-05 10:15:04,613 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Weka Predictor (3.7)": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\02. Evaluation Metrics\Evaluate (#8)\Weka Predictor _3_7_ (#1)\port_1\data.xml
+2025-04-05 10:15:04,613 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: State has changed from EXECUTED to IDLE
+2025-04-05 10:15:04,613 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Training 4:11
+2025-04-05 10:15:04,613 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "RBFRegressor (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-05 10:15:04,613 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING RBFRegressor (3.7) 4:11:2
+2025-04-05 10:15:04,613 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING RBFRegressor (3.7)": Invalid spec class "org.knime.ext.weka37.ports.WekaClassifierModelPortObjectSpec"
+2025-04-05 10:15:04,613 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: State has changed from EXECUTED to IDLE
+2025-04-05 10:15:04,613 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Evaluate 4:12
+2025-04-05 10:15:04,613 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Weka Predictor (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-05 10:15:04,613 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Weka Predictor (3.7) 4:12:1
+2025-04-05 10:15:04,613 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Weka Predictor (3.7)": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\02. Evaluation Metrics\Evaluate (#12)\Weka Predictor _3_7_ (#1)\port_1\data.xml
+2025-04-05 10:15:04,613 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: State has changed from EXECUTED to IDLE
+2025-04-05 10:15:04,613 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Evaluate 4:2
+2025-04-05 10:15:04,613 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Weka Predictor (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-05 10:15:04,614 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Weka Predictor (3.7) 4:2:1
+2025-04-05 10:15:04,614 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Weka Predictor (3.7)": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\02. Evaluation Metrics\Evaluate (#2)\Weka Predictor _3_7_ (#1)\port_1\data.xml
+2025-04-05 10:15:04,614 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: State has changed from EXECUTED to IDLE
+2025-04-05 10:15:04,614 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Scorer (deprecated) 4:9
+2025-04-05 10:15:04,614 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Scorer (deprecated)": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\02. Evaluation Metrics\Scorer (#9)\port_1\data.xml
+2025-04-05 10:15:04,614 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\02. Evaluation Metrics\Scorer (#9)\internal\internals.xml.gz (Impossibile trovare il percorso specificato)
+2025-04-05 10:15:04,614 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Numeric Scorer (deprecated) 4:13
+2025-04-05 10:15:04,614 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Numeric Scorer (deprecated)": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\02. Evaluation Metrics\Numeric Scorer (#13)\port_1\data.xml
+2025-04-05 10:15:04,614 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\02. Evaluation Metrics\Numeric Scorer (#13)\internal\internals.xml.gz (Impossibile trovare il percorso specificato)
+2025-04-05 10:15:04,614 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Scorer (deprecated) 4:4
+2025-04-05 10:15:04,614 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Scorer (deprecated)": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\02. Evaluation Metrics\Scorer (#4)\port_1\data.xml
+2025-04-05 10:15:04,614 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\02. Evaluation Metrics\Scorer (#4)\internal\internals.xml.gz (Impossibile trovare il percorso specificato)
+2025-04-05 10:15:04,614 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: State has changed from EXECUTED to IDLE
+2025-04-05 10:15:30,679 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-04-05 10:15:30,679 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-04-05 10:15:30,679 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Accesso al Registro di sistema non consentito.
+2025-04-05 10:15:30,679 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : In riga:1 car:1
+2025-04-05 10:15:30,679 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-04-05 10:15:30,679 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-04-05 10:15:30,679 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-04-05 10:15:30,679 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-04-05 10:15:30,679 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-04-05 10:15:30,679 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-04-05 10:15:34,435 : WARN  : ModalContext :  : Node : ARFF Reader : 3:3 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.arff.
+2025-04-05 10:15:34,463 : WARN  : ModalContext :  : Node : ARFF Reader : 3:3 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.arff.
+2025-04-05 10:16:02,443 : WARN  : ModalContext :  : Node : ARFF Reader : 4:3 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.arff.
+2025-04-05 10:16:02,448 : WARN  : ModalContext :  : Node : ARFF Reader : 4:5 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.arff.
+2025-04-05 10:16:02,451 : WARN  : ModalContext :  : Node : ARFF Reader : 4:12 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.arff.
+2025-04-05 10:16:02,454 : WARN  : ModalContext :  : Node : ARFF Reader : 4:30 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.arff.
+2025-04-05 10:16:02,458 : WARN  : ModalContext :  : Node : ARFF Reader : 4:45 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.arff.
+2025-04-05 10:16:02,626 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  : Warnings during load: Status: DataLoadError: 03. X-Validation 4 loaded with error during data load
+2025-04-05 10:16:02,627 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: DataLoadError: 03. X-Validation 4
+2025-04-05 10:16:02,627 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: ARFF Reader 4:3
+2025-04-05 10:16:02,627 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from CONFIGURED to IDLE
+2025-04-05 10:16:02,627 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: ARFF Reader 4:5
+2025-04-05 10:16:02,627 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "ARFF Reader": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\03. X-Validation\ARFF Reader (#5)\port_1\data.xml
+2025-04-05 10:16:02,627 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to IDLE
+2025-04-05 10:16:02,627 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: ARFF Reader 4:12
+2025-04-05 10:16:02,627 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "ARFF Reader": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\03. X-Validation\ARFF Reader (#12)\port_1\data.xml
+2025-04-05 10:16:02,627 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to IDLE
+2025-04-05 10:16:02,627 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: ARFF Reader 4:30
+2025-04-05 10:16:02,627 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "ARFF Reader": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\03. X-Validation\ARFF Reader (#30)\port_1\data.xml
+2025-04-05 10:16:02,627 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to IDLE
+2025-04-05 10:16:02,627 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: ARFF Reader 4:45
+2025-04-05 10:16:02,627 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "ARFF Reader": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\03. X-Validation\ARFF Reader (#45)\port_1\data.xml
+2025-04-05 10:16:02,627 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to IDLE
+2025-04-05 10:16:02,628 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Training 4:1
+2025-04-05 10:16:02,628 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: Some node states were invalid
+2025-04-05 10:16:02,628 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from CONFIGURED to IDLE
+2025-04-05 10:16:02,628 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Partitioning 4:8
+2025-04-05 10:16:02,628 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Partitioning": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\03. X-Validation\Partitioning (#8)\port_1\data.xml
+2025-04-05 10:16:02,628 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: X-Partitioner 4:15
+2025-04-05 10:16:02,628 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "X-Partitioner": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\03. X-Validation\X_Partitioner (#15)\port_1\data.xml
+2025-04-05 10:16:02,628 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Shuffle 4:52
+2025-04-05 10:16:02,628 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Shuffle": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\03. X-Validation\Shuffle (#52)\port_1\data.xml
+2025-04-05 10:16:02,628 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Shuffle 4:50
+2025-04-05 10:16:02,628 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Shuffle": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\03. X-Validation\Shuffle (#50)\port_1\data.xml
+2025-04-05 10:16:02,628 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Evaluate 4:2
+2025-04-05 10:16:02,628 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: Some node states were invalid
+2025-04-05 10:16:02,629 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from CONFIGURED to IDLE
+2025-04-05 10:16:02,629 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Training 4:6
+2025-04-05 10:16:02,629 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: RandomForest (3.7) 4:6:1
+2025-04-05 10:16:02,629 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "RandomForest (3.7)": Can't read spec file C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\03. X-Validation\Training (#6)\RandomForest _3_7_ (#1)\port_1\spec\spec.zip
+2025-04-05 10:16:02,629 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Loading model internals failed: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\03. X-Validation\Training (#6)\RandomForest _3_7_ (#1)\internal\WekaClassifier (Impossibile trovare il percorso specificato)
+2025-04-05 10:16:02,629 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: State has changed from EXECUTED to IDLE
+2025-04-05 10:16:02,629 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Evaluate 4:7
+2025-04-05 10:16:02,629 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Weka Predictor (3.7) 4:7:1
+2025-04-05 10:16:02,629 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Weka Predictor (3.7)": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\03. X-Validation\Evaluate (#7)\Weka Predictor _3_7_ (#1)\port_1\data.xml
+2025-04-05 10:16:02,629 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Loading model internals failed: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\03. X-Validation\Evaluate (#7)\Weka Predictor _3_7_ (#1)\internal\WekaClassifier (Impossibile trovare il percorso specificato)
+2025-04-05 10:16:02,630 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: State has changed from EXECUTED to IDLE
+2025-04-05 10:16:02,630 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Training 4:10
+2025-04-05 10:16:02,630 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: RandomForest (3.7) 4:10:1
+2025-04-05 10:16:02,630 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "RandomForest (3.7)": Can't read spec file C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\03. X-Validation\Training (#10)\RandomForest _3_7_ (#1)\port_1\spec\spec.zip
+2025-04-05 10:16:02,630 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Loading model internals failed: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\03. X-Validation\Training (#10)\RandomForest _3_7_ (#1)\internal\WekaClassifier (Impossibile trovare il percorso specificato)
+2025-04-05 10:16:02,630 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: State has changed from EXECUTED to IDLE
+2025-04-05 10:16:02,630 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Partitioning 4:31
+2025-04-05 10:16:02,630 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Partitioning": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\03. X-Validation\Partitioning (#31)\port_1\data.xml
+2025-04-05 10:16:02,630 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Normalizer 4:46
+2025-04-05 10:16:02,630 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Normalizer": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\03. X-Validation\Normalizer (#46)\port_1\data.xml
+2025-04-05 10:16:02,630 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Scorer (deprecated) 4:9
+2025-04-05 10:16:02,630 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Scorer (deprecated)": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\03. X-Validation\Scorer (#9)\port_1\data.xml
+2025-04-05 10:16:02,630 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\03. X-Validation\Scorer (#9)\internal\internals.xml.gz (Impossibile trovare il percorso specificato)
+2025-04-05 10:16:02,630 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Evaluate 4:14
+2025-04-05 10:16:02,631 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Weka Predictor (3.7) 4:14:1
+2025-04-05 10:16:02,631 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Weka Predictor (3.7)": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\03. X-Validation\Evaluate (#14)\Weka Predictor _3_7_ (#1)\port_1\data.xml
+2025-04-05 10:16:02,631 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Loading model internals failed: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\03. X-Validation\Evaluate (#14)\Weka Predictor _3_7_ (#1)\internal\WekaClassifier (Impossibile trovare il percorso specificato)
+2025-04-05 10:16:02,631 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: State has changed from EXECUTED to IDLE
+2025-04-05 10:16:02,631 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Normalizer 4:27
+2025-04-05 10:16:02,631 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Normalizer": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\03. X-Validation\Normalizer (#27)\port_1\data.xml
+2025-04-05 10:16:02,631 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: X-Aggregator 4:16
+2025-04-05 10:16:02,631 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "X-Aggregator": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\03. X-Validation\X_Aggregator (#16)\port_1\data.xml
+2025-04-05 10:16:02,631 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Normalizer (Apply) 4:28
+2025-04-05 10:16:02,631 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Normalizer (Apply)": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\03. X-Validation\Normalizer _Apply_ (#28)\port_1\data.xml
+2025-04-05 10:16:02,631 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Training 4:51
+2025-04-05 10:16:02,631 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MultilayerPerceptron (3.7) 4:51:2
+2025-04-05 10:16:02,631 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MultilayerPerceptron (3.7)": Can't read spec file C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\03. X-Validation\Training (#51)\MultilayerPerceptron _3_7_ (#2)\port_1\spec\spec.zip
+2025-04-05 10:16:02,631 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Loading model internals failed: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\03. X-Validation\Training (#51)\MultilayerPerceptron _3_7_ (#2)\internal\WekaClassifier (Impossibile trovare il percorso specificato)
+2025-04-05 10:16:02,631 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: State has changed from EXECUTED to IDLE
+2025-04-05 10:16:02,632 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Statistics 4:34
+2025-04-05 10:16:02,632 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Statistics": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\03. X-Validation\Statistics (#34)\port_1\data.xml
+2025-04-05 10:16:02,632 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\03. X-Validation\Statistics (#34)\internal\statistic.xml.gz (Impossibile trovare il percorso specificato)
+2025-04-05 10:16:02,632 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Training 4:49
+2025-04-05 10:16:02,632 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: Some node states were invalid
+2025-04-05 10:16:02,632 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Scorer (deprecated) 4:13
+2025-04-05 10:16:02,632 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Scorer (deprecated)": No such data file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\03. X-Validation\Scorer (#13)\port_1\data.xml
+2025-04-05 10:16:02,632 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\03. X-Validation\Scorer (#13)\internal\internals.xml.gz (Impossibile trovare il percorso specificato)
+2025-04-05 10:16:02,632 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Evaluate 4:37
+2025-04-05 10:16:02,632 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: Some node states were invalid
+2025-04-05 10:16:02,632 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Evaluate 4:40
+2025-04-05 10:16:02,633 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: Some node states were invalid
+2025-04-05 10:16:02,633 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: State has changed from CONFIGURED to IDLE
+2025-04-05 10:16:11,794 : WARN  : ModalContext :  : Node : CSV Reader (deprecated) : 5:1 : No settings available
+2025-04-05 10:16:11,794 : WARN  : ModalContext :  : Node : CSV Reader (deprecated) : 5:1 : No settings available
+2025-04-05 10:16:11,796 : WARN  : ModalContext :  : Node : Excel Reader (XLS) (deprecated) : 5:2 : No file location specified
+2025-04-05 10:16:11,796 : WARN  : ModalContext :  : Node : Excel Reader (XLS) (deprecated) : 5:2 : No file location specified
+2025-04-05 10:16:11,797 : WARN  : ModalContext :  : Node : Weka Classifier Writer (3.7) (deprecated) : 5:11 : Node can't be executed - Node "Weka Classifier Writer (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-05 10:16:11,797 : WARN  : ModalContext :  : Node : Weka Classifier Reader (3.7) (deprecated) : 5:12 : Node can't be executed - Node "Weka Classifier Reader (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-05 10:16:11,797 : WARN  : ModalContext :  : Node : Weka Classifier Reader (3.7) (deprecated) : 5:12 : No source location provided! Please enter a valid location.
+2025-04-05 10:16:11,798 : WARN  : ModalContext :  : Node : Weka Predictor (3.7) : 5:13 : Node can't be executed - Node "Weka Predictor (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-05 10:16:11,798 : WARN  : ModalContext :  : Node : ARFF Reader : 5:14 : No source location provided! Please enter a valid location.
+2025-04-05 10:16:11,798 : WARN  : ModalContext :  : Node : ARFF Reader : 5:14 : No source location provided! Please enter a valid location.
+2025-04-05 10:16:11,801 : WARN  : ModalContext :  : Node : J48 (3.7) : 5:24 : Node can't be executed - Node "J48 (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-05 10:16:55,340 : ERROR : KNIME-Worker-0-CSV Reader (deprecated) 5:16 :  : Node : CSV Reader (deprecated) : 5:16 : Execute failed: Can't access 'knime://LOCAL/Datasets/iris.csv'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.)
+java.io.IOException: Can't access 'knime://LOCAL/Datasets/iris.csv'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.)
+	at org.knime.base.node.util.BufferedFileReader.createReader(BufferedFileReader.java:598)
+	at org.knime.base.node.util.BufferedFileReader.createNewReader(BufferedFileReader.java:493)
+	at org.knime.base.node.io.filereader.FileReaderSettings.createNewInputReader(FileReaderSettings.java:713)
+	at org.knime.base.node.io.filereader.FileAnalyzer.getMaximumNumberOfColumns(FileAnalyzer.java:1502)
+	at org.knime.base.node.io.filereader.FileAnalyzer.setDelimitersAndColNum(FileAnalyzer.java:1321)
+	at org.knime.base.node.io.filereader.FileAnalyzer.analyze(FileAnalyzer.java:225)
+	at org.knime.base.node.io.csvreader.CSVReaderNodeModel.createFileTable(CSVReaderNodeModel.java:218)
+	at org.knime.base.node.io.csvreader.CSVReaderNodeModel.execute(CSVReaderNodeModel.java:129)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:820)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: java.io.IOException: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getInputStream(ExplorerURLStreamHandler.java:306)
+	at org.knime.core.util.WrappedURLInputStream.<init>(WrappedURLInputStream.java:78)
+	at org.knime.core.util.FileUtil.openStreamWithTimeout(FileUtil.java:1491)
+	at org.knime.core.util.FileUtil.openStreamWithTimeout(FileUtil.java:1483)
+	at org.knime.base.node.util.BufferedFileReader.openStream(BufferedFileReader.java:603)
+	at org.knime.base.node.util.BufferedFileReader.lambda$0(BufferedFileReader.java:493)
+	at org.knime.base.node.util.BufferedFileReader.createReader(BufferedFileReader.java:547)
+	... 21 more
+Caused by: org.eclipse.core.runtime.CoreException: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:458)
+	at org.knime.workbench.explorer.localworkspace.LocalWorkspaceFileStore.openInputStream(LocalWorkspaceFileStore.java:241)
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getInputStream(ExplorerURLStreamHandler.java:304)
+	... 27 more
+Caused by: java.io.FileNotFoundException: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv (Impossibile trovare il percorso specificato)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(Unknown Source)
+	at java.base/java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:453)
+	... 29 more
+2025-04-05 10:16:59,389 : ERROR : KNIME-Worker-0-CSV Reader (deprecated) 5:16 :  : Node : CSV Reader (deprecated) : 5:16 : Execute failed: Can't access 'knime://LOCAL/Datasets/iris.csv'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.)
+java.io.IOException: Can't access 'knime://LOCAL/Datasets/iris.csv'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.)
+	at org.knime.base.node.util.BufferedFileReader.createReader(BufferedFileReader.java:598)
+	at org.knime.base.node.util.BufferedFileReader.createNewReader(BufferedFileReader.java:493)
+	at org.knime.base.node.io.filereader.FileReaderSettings.createNewInputReader(FileReaderSettings.java:713)
+	at org.knime.base.node.io.filereader.FileAnalyzer.getMaximumNumberOfColumns(FileAnalyzer.java:1502)
+	at org.knime.base.node.io.filereader.FileAnalyzer.setDelimitersAndColNum(FileAnalyzer.java:1321)
+	at org.knime.base.node.io.filereader.FileAnalyzer.analyze(FileAnalyzer.java:225)
+	at org.knime.base.node.io.csvreader.CSVReaderNodeModel.createFileTable(CSVReaderNodeModel.java:218)
+	at org.knime.base.node.io.csvreader.CSVReaderNodeModel.execute(CSVReaderNodeModel.java:129)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:820)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: java.io.IOException: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getInputStream(ExplorerURLStreamHandler.java:306)
+	at org.knime.core.util.WrappedURLInputStream.<init>(WrappedURLInputStream.java:78)
+	at org.knime.core.util.FileUtil.openStreamWithTimeout(FileUtil.java:1491)
+	at org.knime.core.util.FileUtil.openStreamWithTimeout(FileUtil.java:1483)
+	at org.knime.base.node.util.BufferedFileReader.openStream(BufferedFileReader.java:603)
+	at org.knime.base.node.util.BufferedFileReader.lambda$0(BufferedFileReader.java:493)
+	at org.knime.base.node.util.BufferedFileReader.createReader(BufferedFileReader.java:547)
+	... 21 more
+Caused by: org.eclipse.core.runtime.CoreException: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:458)
+	at org.knime.workbench.explorer.localworkspace.LocalWorkspaceFileStore.openInputStream(LocalWorkspaceFileStore.java:241)
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getInputStream(ExplorerURLStreamHandler.java:304)
+	... 27 more
+Caused by: java.io.FileNotFoundException: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv (Impossibile trovare il percorso specificato)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(Unknown Source)
+	at java.base/java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:453)
+	... 29 more
+2025-04-05 10:17:27,185 : ERROR : KNIME-Worker-0-CSV Reader (deprecated) 5:16 :  : Node : CSV Reader (deprecated) : 5:16 : Execute failed: Can't access 'knime://LOCAL/Datasets/iris.csv'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.)
+java.io.IOException: Can't access 'knime://LOCAL/Datasets/iris.csv'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.)
+	at org.knime.base.node.util.BufferedFileReader.createReader(BufferedFileReader.java:598)
+	at org.knime.base.node.util.BufferedFileReader.createNewReader(BufferedFileReader.java:493)
+	at org.knime.base.node.io.filereader.FileReaderSettings.createNewInputReader(FileReaderSettings.java:713)
+	at org.knime.base.node.io.filereader.FileAnalyzer.getMaximumNumberOfColumns(FileAnalyzer.java:1502)
+	at org.knime.base.node.io.filereader.FileAnalyzer.setDelimitersAndColNum(FileAnalyzer.java:1321)
+	at org.knime.base.node.io.filereader.FileAnalyzer.analyze(FileAnalyzer.java:225)
+	at org.knime.base.node.io.csvreader.CSVReaderNodeModel.createFileTable(CSVReaderNodeModel.java:218)
+	at org.knime.base.node.io.csvreader.CSVReaderNodeModel.execute(CSVReaderNodeModel.java:129)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:820)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: java.io.IOException: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getInputStream(ExplorerURLStreamHandler.java:306)
+	at org.knime.core.util.WrappedURLInputStream.<init>(WrappedURLInputStream.java:78)
+	at org.knime.core.util.FileUtil.openStreamWithTimeout(FileUtil.java:1491)
+	at org.knime.core.util.FileUtil.openStreamWithTimeout(FileUtil.java:1483)
+	at org.knime.base.node.util.BufferedFileReader.openStream(BufferedFileReader.java:603)
+	at org.knime.base.node.util.BufferedFileReader.lambda$0(BufferedFileReader.java:493)
+	at org.knime.base.node.util.BufferedFileReader.createReader(BufferedFileReader.java:547)
+	... 21 more
+Caused by: org.eclipse.core.runtime.CoreException: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:458)
+	at org.knime.workbench.explorer.localworkspace.LocalWorkspaceFileStore.openInputStream(LocalWorkspaceFileStore.java:241)
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getInputStream(ExplorerURLStreamHandler.java:304)
+	... 27 more
+Caused by: java.io.FileNotFoundException: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv (Impossibile trovare il percorso specificato)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(Unknown Source)
+	at java.base/java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:453)
+	... 29 more
+2025-04-05 10:17:28,198 : ERROR : KNIME-Worker-0-CSV Reader (deprecated) 5:16 :  : Node : CSV Reader (deprecated) : 5:16 : Execute failed: Can't access 'knime://LOCAL/Datasets/iris.csv'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.)
+java.io.IOException: Can't access 'knime://LOCAL/Datasets/iris.csv'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.)
+	at org.knime.base.node.util.BufferedFileReader.createReader(BufferedFileReader.java:598)
+	at org.knime.base.node.util.BufferedFileReader.createNewReader(BufferedFileReader.java:493)
+	at org.knime.base.node.io.filereader.FileReaderSettings.createNewInputReader(FileReaderSettings.java:713)
+	at org.knime.base.node.io.filereader.FileAnalyzer.getMaximumNumberOfColumns(FileAnalyzer.java:1502)
+	at org.knime.base.node.io.filereader.FileAnalyzer.setDelimitersAndColNum(FileAnalyzer.java:1321)
+	at org.knime.base.node.io.filereader.FileAnalyzer.analyze(FileAnalyzer.java:225)
+	at org.knime.base.node.io.csvreader.CSVReaderNodeModel.createFileTable(CSVReaderNodeModel.java:218)
+	at org.knime.base.node.io.csvreader.CSVReaderNodeModel.execute(CSVReaderNodeModel.java:129)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:820)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: java.io.IOException: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getInputStream(ExplorerURLStreamHandler.java:306)
+	at org.knime.core.util.WrappedURLInputStream.<init>(WrappedURLInputStream.java:78)
+	at org.knime.core.util.FileUtil.openStreamWithTimeout(FileUtil.java:1491)
+	at org.knime.core.util.FileUtil.openStreamWithTimeout(FileUtil.java:1483)
+	at org.knime.base.node.util.BufferedFileReader.openStream(BufferedFileReader.java:603)
+	at org.knime.base.node.util.BufferedFileReader.lambda$0(BufferedFileReader.java:493)
+	at org.knime.base.node.util.BufferedFileReader.createReader(BufferedFileReader.java:547)
+	... 21 more
+Caused by: org.eclipse.core.runtime.CoreException: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:458)
+	at org.knime.workbench.explorer.localworkspace.LocalWorkspaceFileStore.openInputStream(LocalWorkspaceFileStore.java:241)
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getInputStream(ExplorerURLStreamHandler.java:304)
+	... 27 more
+Caused by: java.io.FileNotFoundException: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv (Impossibile trovare il percorso specificato)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(Unknown Source)
+	at java.base/java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:453)
+	... 29 more
+2025-04-05 10:17:53,453 : ERROR : KNIME-Worker-0-CSV Reader (deprecated) 5:16 :  : Node : CSV Reader (deprecated) : 5:16 : Execute failed: Can't access 'knime://LOCAL/Datasets/iris.csv'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.)
+java.io.IOException: Can't access 'knime://LOCAL/Datasets/iris.csv'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.)
+	at org.knime.base.node.util.BufferedFileReader.createReader(BufferedFileReader.java:598)
+	at org.knime.base.node.util.BufferedFileReader.createNewReader(BufferedFileReader.java:493)
+	at org.knime.base.node.io.filereader.FileReaderSettings.createNewInputReader(FileReaderSettings.java:713)
+	at org.knime.base.node.io.filereader.FileAnalyzer.getMaximumNumberOfColumns(FileAnalyzer.java:1502)
+	at org.knime.base.node.io.filereader.FileAnalyzer.setDelimitersAndColNum(FileAnalyzer.java:1321)
+	at org.knime.base.node.io.filereader.FileAnalyzer.analyze(FileAnalyzer.java:225)
+	at org.knime.base.node.io.csvreader.CSVReaderNodeModel.createFileTable(CSVReaderNodeModel.java:218)
+	at org.knime.base.node.io.csvreader.CSVReaderNodeModel.execute(CSVReaderNodeModel.java:129)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:820)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: java.io.IOException: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getInputStream(ExplorerURLStreamHandler.java:306)
+	at org.knime.core.util.WrappedURLInputStream.<init>(WrappedURLInputStream.java:78)
+	at org.knime.core.util.FileUtil.openStreamWithTimeout(FileUtil.java:1491)
+	at org.knime.core.util.FileUtil.openStreamWithTimeout(FileUtil.java:1483)
+	at org.knime.base.node.util.BufferedFileReader.openStream(BufferedFileReader.java:603)
+	at org.knime.base.node.util.BufferedFileReader.lambda$0(BufferedFileReader.java:493)
+	at org.knime.base.node.util.BufferedFileReader.createReader(BufferedFileReader.java:547)
+	... 21 more
+Caused by: org.eclipse.core.runtime.CoreException: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:458)
+	at org.knime.workbench.explorer.localworkspace.LocalWorkspaceFileStore.openInputStream(LocalWorkspaceFileStore.java:241)
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getInputStream(ExplorerURLStreamHandler.java:304)
+	... 27 more
+Caused by: java.io.FileNotFoundException: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv (Impossibile trovare il percorso specificato)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(Unknown Source)
+	at java.base/java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:453)
+	... 29 more
+2025-04-05 10:18:45,342 : ERROR : KNIME-Worker-0-CSV Reader (deprecated) 5:16 :  : Node : CSV Reader (deprecated) : 5:16 : Execute failed: Can't access 'knime://LOCAL/Datasets/iris.csv'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.)
+java.io.IOException: Can't access 'knime://LOCAL/Datasets/iris.csv'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.)
+	at org.knime.base.node.util.BufferedFileReader.createReader(BufferedFileReader.java:598)
+	at org.knime.base.node.util.BufferedFileReader.createNewReader(BufferedFileReader.java:493)
+	at org.knime.base.node.io.filereader.FileReaderSettings.createNewInputReader(FileReaderSettings.java:713)
+	at org.knime.base.node.io.filereader.FileAnalyzer.getMaximumNumberOfColumns(FileAnalyzer.java:1502)
+	at org.knime.base.node.io.filereader.FileAnalyzer.setDelimitersAndColNum(FileAnalyzer.java:1321)
+	at org.knime.base.node.io.filereader.FileAnalyzer.analyze(FileAnalyzer.java:225)
+	at org.knime.base.node.io.csvreader.CSVReaderNodeModel.createFileTable(CSVReaderNodeModel.java:218)
+	at org.knime.base.node.io.csvreader.CSVReaderNodeModel.execute(CSVReaderNodeModel.java:129)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:820)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: java.io.IOException: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getInputStream(ExplorerURLStreamHandler.java:306)
+	at org.knime.core.util.WrappedURLInputStream.<init>(WrappedURLInputStream.java:78)
+	at org.knime.core.util.FileUtil.openStreamWithTimeout(FileUtil.java:1491)
+	at org.knime.core.util.FileUtil.openStreamWithTimeout(FileUtil.java:1483)
+	at org.knime.base.node.util.BufferedFileReader.openStream(BufferedFileReader.java:603)
+	at org.knime.base.node.util.BufferedFileReader.lambda$0(BufferedFileReader.java:493)
+	at org.knime.base.node.util.BufferedFileReader.createReader(BufferedFileReader.java:547)
+	... 21 more
+Caused by: org.eclipse.core.runtime.CoreException: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:458)
+	at org.knime.workbench.explorer.localworkspace.LocalWorkspaceFileStore.openInputStream(LocalWorkspaceFileStore.java:241)
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getInputStream(ExplorerURLStreamHandler.java:304)
+	... 27 more
+Caused by: java.io.FileNotFoundException: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv (Impossibile trovare il percorso specificato)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(Unknown Source)
+	at java.base/java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:453)
+	... 29 more
+2025-04-05 10:20:23,773 : ERROR : KNIME-Worker-0-ARFF Writer 5:23 :  : Node : ARFF Writer : 5:23 : Execute failed: Could not write file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.arff.
+java.io.IOException: Could not write file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.arff.
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getOutputStream(ExplorerURLStreamHandler.java:318)
+	at org.knime.core.util.WrappedURLOutputStream.<init>(WrappedURLOutputStream.java:78)
+	at org.knime.core.util.FileUtil.openOutputStream(FileUtil.java:1431)
+	at org.knime.core.util.FileUtil.openOutputStream(FileUtil.java:1412)
+	at org.knime.base.node.io.arffwriter.ARFFWriterNodeModel.openWriter(ARFFWriterNodeModel.java:301)
+	at org.knime.base.node.io.arffwriter.ARFFWriterNodeModel.execute(ARFFWriterNodeModel.java:192)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:820)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.eclipse.core.runtime.CoreException: Could not write file: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.arff.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:483)
+	at org.knime.workbench.explorer.localworkspace.LocalWorkspaceFileStore.openOutputStream(LocalWorkspaceFileStore.java:313)
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getOutputStream(ExplorerURLStreamHandler.java:316)
+	... 19 more
+Caused by: java.io.FileNotFoundException: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.arff (Impossibile trovare il percorso specificato)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(Unknown Source)
+	at java.base/java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:473)
+	... 21 more
+2025-04-05 10:21:25,207 : WARN  : KNIME-Worker-0-CSV Reader (deprecated) 3:6 :  : Node : CSV Writer (deprecated) : 3:14 : Directory 'D:\Michela' of output file does not exist
+2025-04-05 10:23:12,107 : WARN  : main :  : Node : ARFF Writer : 5:23 : Output file 'C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\Datasets\iris.arff' exists and must not be overwritten due to user settings
+2025-04-05 10:23:12,743 : WARN  : main :  : Node : ARFF Writer : 5:23 : Output file 'C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\Datasets\iris.arff' exists and must not be overwritten due to user settings

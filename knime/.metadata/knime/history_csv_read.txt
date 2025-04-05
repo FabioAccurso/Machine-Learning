@@ -1,0 +1,3 @@
+C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\Datasets\adult.csv
+C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\Datasets\iris.csv
+knime://LOCAL/Datasets/iris.csv
