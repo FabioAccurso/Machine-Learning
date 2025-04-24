@@ -165,20 +165,20 @@
         "createdVia": {
         }
     },
-    "uptime": 535434,
-    "workflowsOpened": 5,
+    "uptime": 1608724,
+    "workflowsOpened": 8,
     "remoteWorkflowsOpened": 0,
     "workflowsCreated": 0,
     "remoteWorkflowsCreated": 0,
     "columnarStorageWorkflowsOpened": 0,
-    "workflowsImported": 3,
+    "workflowsImported": 7,
     "workflowsExported": 0,
     "webUIPerspectiveSwitches": 0,
     "javaUIPerspectiveSwitches": 0,
     "lastUsedPerspective": "none",
-    "launches": 3,
+    "launches": 6,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 655766,
+    "timeSinceLastStart": 7552580,
     "crashes": 0,
     "properlyShutDown": true
 }

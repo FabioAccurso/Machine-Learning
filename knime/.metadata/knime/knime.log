@@ -532,3 +532,209 @@ Caused by: java.io.FileNotFoundException: C:\Users\Fabio\Desktop\Magistrale\Mach
 2025-04-05 10:21:25,207 : WARN  : KNIME-Worker-0-CSV Reader (deprecated) 3:6 :  : Node : CSV Writer (deprecated) : 3:14 : Directory 'D:\Michela' of output file does not exist
 2025-04-05 10:23:12,107 : WARN  : main :  : Node : ARFF Writer : 5:23 : Output file 'C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\Datasets\iris.arff' exists and must not be overwritten due to user settings
 2025-04-05 10:23:12,743 : WARN  : main :  : Node : ARFF Writer : 5:23 : Output file 'C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\Datasets\iris.arff' exists and must not be overwritten due to user settings
+2025-04-24 13:05:48,689 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-04-24 13:05:48,689 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-04-24 13:05:48,689 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Accesso al Registro di sistema non consentito.
+2025-04-24 13:05:48,689 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : In riga:1 car:1
+2025-04-24 13:05:48,689 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-04-24 13:05:48,689 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-04-24 13:05:48,689 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-04-24 13:05:48,689 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-04-24 13:05:48,689 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-04-24 13:05:48,689 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-04-24 13:06:08,175 : ERROR : main :  : ProjectAPI :  :  : Workflow with ID '03. X-Validation_3b7e406e-b554-43ad-9430-1819e4591b65' couldn't be loaded. Workflow closed.
+2025-04-24 13:06:08,255 : WARN  : comm-pool-thread-1 :  : JsonRpcErrorResolver :  :  : An unexpected json rpc error occurred
+java.util.NoSuchElementException: Workflow project for ID "03. X-Validation_3b7e406e-b554-43ad-9430-1819e4591b65" not found.
+	at org.knime.gateway.impl.service.util.DefaultServiceUtil.lambda$0(DefaultServiceUtil.java:126)
+	at java.base/java.util.Optional.orElseThrow(Unknown Source)
+	at org.knime.gateway.impl.service.util.DefaultServiceUtil.getRootWorkflowManager(DefaultServiceUtil.java:125)
+	at org.knime.gateway.impl.service.util.DefaultServiceUtil.getWorkflowManager(DefaultServiceUtil.java:155)
+	at org.knime.gateway.impl.webui.WorkflowMiddleware$WorkflowState.<init>(WorkflowMiddleware.java:434)
+	at org.knime.gateway.impl.webui.WorkflowMiddleware.createWorkflowStateAndEventuallyClearCache(WorkflowMiddleware.java:388)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(Unknown Source)
+	at org.knime.gateway.impl.webui.WorkflowMiddleware.getWorkflowState(WorkflowMiddleware.java:384)
+	at org.knime.gateway.impl.webui.WorkflowMiddleware.buildWorkflowSnapshotEnt(WorkflowMiddleware.java:188)
+	at org.knime.gateway.impl.webui.service.DefaultWorkflowService.getWorkflow(DefaultWorkflowService.java:125)
+	at org.knime.gateway.impl.webui.jsonrpc.service.JsonRpcWorkflowServiceWrapper.getWorkflow(JsonRpcWorkflowServiceWrapper.java:124)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.invoke(JsonRpcBasicServer.java:478)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleObject(JsonRpcBasicServer.java:349)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleJsonNodeRequest(JsonRpcBasicServer.java:274)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleRequest(JsonRpcBasicServer.java:242)
+	at org.knime.gateway.impl.jsonrpc.JsonRpcRequestHandler.handle(JsonRpcRequestHandler.java:104)
+	at org.knime.ui.java.browser.lifecycle.Init.lambda$13(Init.java:290)
+	at com.equo.comm.common.MessageHandler.processReceivedEventMessage(MessageHandler.java:131)
+	at com.equo.comm.ee.provider.service.ChromiumService.receiveMessage(ChromiumService.java:98)
+	at com.equo.comm.ee.provider.CommunicationManagerChromiumImpl.receiveMessage(CommunicationManagerChromiumImpl.java:48)
+	at com.equo.chromium.swt.internal.spi.CommRouterHandler.handleRequest(CommRouterHandler.java:33)
+	at com.equo.chromium.swt.internal.spi.CommRouterHandler.lambda$1(CommRouterHandler.java:51)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2025-04-24 13:06:08,269 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Workflow project for ID "03. X-Validation_3b7e406e-b554-43ad-9430-1819e4591b65" not found. (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-04-24 13:06:08,270 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c lifecycle::loadWorkflow failed to load workflow 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-04-24 13:08:14,937 : WARN  : ModalContext :  : Node : CSV Reader (deprecated) : 3:1 : No settings available
+2025-04-24 13:08:14,942 : WARN  : ModalContext :  : Node : CSV Reader (deprecated) : 3:1 : No settings available
+2025-04-24 13:08:14,945 : WARN  : ModalContext :  : Node : Excel Reader (XLS) (deprecated) : 3:2 : No file location specified
+2025-04-24 13:08:14,946 : WARN  : ModalContext :  : Node : Excel Reader (XLS) (deprecated) : 3:2 : No file location specified
+2025-04-24 13:08:14,984 : WARN  : ModalContext :  : Node : MISSING Weka Classifier Writer (3.7) : 3:11 : Node can't be executed - Node "Weka Classifier Writer (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-24 13:08:14,985 : WARN  : ModalContext :  : Node : MISSING Weka Classifier Writer (3.7) : 3:11 : Node can't be executed - Node "Weka Classifier Writer (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-24 13:08:14,986 : WARN  : ModalContext :  : Node : MISSING Weka Classifier Reader (3.7) : 3:12 : Node can't be executed - Node "Weka Classifier Reader (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-24 13:08:14,986 : WARN  : ModalContext :  : Node : MISSING Weka Classifier Reader (3.7) : 3:12 : Node can't be executed - Node "Weka Classifier Reader (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-24 13:08:14,987 : WARN  : ModalContext :  : Node : MISSING Weka Predictor (3.7) : 3:13 : Node can't be executed - Node "Weka Predictor (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-24 13:08:14,987 : WARN  : ModalContext :  : Node : MISSING Weka Predictor (3.7) : 3:13 : Node can't be executed - Node "Weka Predictor (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-24 13:08:14,988 : WARN  : ModalContext :  : Node : ARFF Reader : 3:14 : No source location provided! Please enter a valid location.
+2025-04-24 13:08:14,988 : WARN  : ModalContext :  : Node : ARFF Reader : 3:14 : No source location provided! Please enter a valid location.
+2025-04-24 13:08:15,017 : WARN  : ModalContext :  : Node : MISSING J48 (3.7) : 3:24 : Node can't be executed - Node "J48 (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-24 13:08:15,018 : WARN  : ModalContext :  : Node : MISSING J48 (3.7) : 3:24 : Node can't be executed - Node "J48 (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-24 13:08:15,313 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: Error: 01. Basics 3 loaded with errors
+2025-04-24 13:08:15,313 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: Error: 01. Basics 3
+2025-04-24 13:08:15,313 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "Weka Classifier Writer (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-24 13:08:15,313 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "Weka Classifier Reader (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-24 13:08:15,314 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "Weka Predictor (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-24 13:08:15,314 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "J48 (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-24 13:10:50,656 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-04-24 13:10:50,656 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-04-24 13:10:50,656 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Accesso al Registro di sistema non consentito.
+2025-04-24 13:10:50,656 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : In riga:1 car:1
+2025-04-24 13:10:50,656 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-04-24 13:10:50,656 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-04-24 13:10:50,656 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-04-24 13:10:50,656 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-04-24 13:10:50,656 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-04-24 13:10:50,656 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-04-24 13:11:01,851 : WARN  : ModalContext :  : Node : CSV Reader (deprecated) : 3:1 : No settings available
+2025-04-24 13:11:01,859 : WARN  : ModalContext :  : Node : CSV Reader (deprecated) : 3:1 : No settings available
+2025-04-24 13:11:01,869 : WARN  : ModalContext :  : Node : Excel Reader (XLS) (deprecated) : 3:2 : No file location specified
+2025-04-24 13:11:01,870 : WARN  : ModalContext :  : Node : Excel Reader (XLS) (deprecated) : 3:2 : No file location specified
+2025-04-24 13:11:01,945 : WARN  : ModalContext :  : Node : Weka Classifier Writer (3.7) (deprecated) : 3:11 : Node can't be executed - Node "Weka Classifier Writer (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-24 13:11:01,947 : WARN  : ModalContext :  : Node : Weka Classifier Reader (3.7) (deprecated) : 3:12 : Node can't be executed - Node "Weka Classifier Reader (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-24 13:11:01,948 : WARN  : ModalContext :  : Node : Weka Classifier Reader (3.7) (deprecated) : 3:12 : No source location provided! Please enter a valid location.
+2025-04-24 13:11:01,949 : WARN  : ModalContext :  : Node : Weka Predictor (3.7) : 3:13 : Node can't be executed - Node "Weka Predictor (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-24 13:11:01,950 : WARN  : ModalContext :  : Node : ARFF Reader : 3:14 : No source location provided! Please enter a valid location.
+2025-04-24 13:11:01,952 : WARN  : ModalContext :  : Node : ARFF Reader : 3:14 : No source location provided! Please enter a valid location.
+2025-04-24 13:11:01,980 : WARN  : ModalContext :  : Node : J48 (3.7) : 3:24 : Node can't be executed - Node "J48 (3.7)" not available from extension "KNIME Weka Data Mining Integration (3.7)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.weka_3.7" is not installed)
+2025-04-24 14:29:49,415 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-04-24 14:29:49,415 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-04-24 14:29:49,415 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Accesso al Registro di sistema non consentito.
+2025-04-24 14:29:49,415 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : In riga:1 car:1
+2025-04-24 14:29:49,415 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-04-24 14:29:49,415 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-04-24 14:29:49,415 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-04-24 14:29:49,415 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-04-24 14:29:49,415 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-04-24 14:29:49,415 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-04-24 14:29:57,654 : ERROR : ForkJoinPool.commonPool-worker-2 :  : WelcomeAPEndpoint :  :  : Calling welcome page endpoint failed:tips-and-tricks.knime.com
+java.net.UnknownHostException: tips-and-tricks.knime.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+	at java.base/sun.net.NetworkClient.doConnect(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
+	at org.knime.product.rcp.intro.WelcomeAPEndpoint.performRequest(WelcomeAPEndpoint.java:179)
+	at org.knime.product.rcp.intro.WelcomeAPEndpoint.requestCategories(WelcomeAPEndpoint.java:147)
+	at org.knime.product.rcp.intro.WelcomeAPEndpoint.lambda$0(WelcomeAPEndpoint.java:119)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+2025-04-24 14:30:00,098 : ERROR : KNIME-Worker-0 :  : DesktopAPUtil :  :  : Could not check for updates
+java.io.IOException: update.knime.com, while checking updates for site at "https://update.knime.com/community-contributions/trusted/5.4".
+	at org.knime.core.eclipseUtil.UpdateChecker.checkForNewRelease(UpdateChecker.java:200)
+	at org.knime.product.rcp.intro.UpdateDetector.checkForNewRelease(UpdateDetector.java:97)
+	at org.knime.ui.java.util.DesktopAPUtil.checkForUpdate(DesktopAPUtil.java:253)
+	at org.knime.gateway.impl.webui.UpdateStateProvider.lambda$0(UpdateStateProvider.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: java.net.UnknownHostException: update.knime.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+	at java.base/sun.net.NetworkClient.doConnect(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
+	at org.knime.core.eclipseUtil.UpdateChecker.checkForNewRelease(UpdateChecker.java:182)
+	... 7 more
+2025-04-24 14:30:00,291 : WARN  : comm-pool-thread-1 :  : JsonRpcErrorResolver :  :  : An unexpected json rpc error occurred
+java.lang.NullPointerException: Cannot invoke "java.net.URL.getProtocol()" because "url" is null
+	at org.knime.core.util.proxy.URLConnectionFactory.resolveJavaNetProxy(URLConnectionFactory.java:228)
+	at org.knime.core.util.proxy.URLConnectionFactory.getConnection(URLConnectionFactory.java:193)
+	at org.knime.ai.assistant.java.UiStringsUtils.getUiStrings(UiStringsUtils.java:84)
+	at org.knime.ai.assistant.java.ChatBackend.getUiStrings(ChatBackend.java:216)
+	at java.base/java.util.Optional.map(Unknown Source)
+	at org.knime.gateway.impl.webui.service.DefaultKaiService.getUiStrings(DefaultKaiService.java:91)
+	at org.knime.gateway.impl.webui.jsonrpc.service.JsonRpcKaiServiceWrapper.getUiStrings(JsonRpcKaiServiceWrapper.java:91)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.invoke(JsonRpcBasicServer.java:478)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleObject(JsonRpcBasicServer.java:349)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleJsonNodeRequest(JsonRpcBasicServer.java:274)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleRequest(JsonRpcBasicServer.java:242)
+	at org.knime.gateway.impl.jsonrpc.JsonRpcRequestHandler.handle(JsonRpcRequestHandler.java:104)
+	at org.knime.ui.java.browser.lifecycle.Init.lambda$13(Init.java:290)
+	at com.equo.comm.common.MessageHandler.processReceivedEventMessage(MessageHandler.java:131)
+	at com.equo.comm.ee.provider.service.ChromiumService.receiveMessage(ChromiumService.java:98)
+	at com.equo.comm.ee.provider.CommunicationManagerChromiumImpl.receiveMessage(CommunicationManagerChromiumImpl.java:48)
+	at com.equo.chromium.swt.internal.spi.CommRouterHandler.handleRequest(CommRouterHandler.java:33)
+	at com.equo.chromium.swt.internal.spi.CommRouterHandler.lambda$1(CommRouterHandler.java:51)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2025-04-24 14:30:00,473 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Cannot invoke "java.net.URL.getProtocol()" because "url" is null (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-04-24 14:30:01,708 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-04-24 14:30:01,709 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22 (source: http://org.knime.ui.java/get-started; line: 0)
+2025-04-24 14:36:51,397 : WARN  : ModalContext :  : Node : ARFF Reader : 3:30 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.arff.
+2025-04-24 14:36:51,462 : WARN  : ModalContext :  : Node : ARFF Reader : 3:30 : ARFFReader: I/O Error: File not found: C:\Users\UTENTE\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.arff.
+2025-04-24 14:36:51,464 : WARN  : ModalContext :  : Node : ARFF Reader : 3:45 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.arff.
+2025-04-24 14:36:51,474 : WARN  : ModalContext :  : Node : ARFF Reader : 3:45 : ARFFReader: I/O Error: File not found: C:\Users\UTENTE\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.arff.
