@@ -8,7 +8,7 @@
         <entry key="authored-by" type="xstring" value="gabri"/>
         <entry key="authored-when" type="xstring" value="2017-10-17 17:51:30 +0200"/>
         <entry key="lastEdited-by" type="xstring" value="Fabio"/>
-        <entry key="lastEdited-when" type="xstring" value="2025-04-05 10:26:27 +0200"/>
+        <entry key="lastEdited-when" type="xstring" value="2025-05-03 11:10:53 +0200"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="IDLE"/>

@@ -6,7 +6,7 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="FileURL" type="xstring" value="C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\Datasets\iris.arff"/>
+        <entry key="FileURL" type="xstring" value="C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Esercitazione_1\Datasets\iris.arff"/>
         <entry key="RowPrefix" type="xstring" value="Row"/>
     </config>
     <config key="nodeAnnotation">
@@ -51,6 +51,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="d772e5f6-d7bd-42c3-b2b7-20b011010d52"/>
+        <entry key="file_store_id" type="xstring" value="c7e039e6-a513-455f-b1c3-a9e6b146196f"/>
     </config>
 </config>

@@ -43,18 +43,18 @@
     <entry key="node-bundle-name" type="xstring" value="KNIME WEKA nodes (3.7)"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.weka_3.7"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-bundle-version" type="xstring" value="4.1.0.v201911281246"/>
+    <entry key="node-bundle-version" type="xstring" value="5.4.0.v202407231410"/>
     <entry key="node-feature-name" type="xstring" value="KNIME Weka Data Mining Integration (3.7)"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ext.weka_3.7.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="4.1.0.v201911281246"/>
+    <entry key="node-feature-version" type="xstring" value="5.4.0.v202407231410"/>
     <entry key="factory-id-uniquifier" type="xstring" isnull="true" value=""/>
     <config key="factory_settings">
         <entry key="weka-class" type="xstring" value="weka.classifiers.functions.RBFRegressor"/>
         <entry key="weka-version" type="xstring" value="3.7"/>
         <entry key="weka_nodes_version" type="xstring" value="V112015"/>
     </config>
-    <entry key="name" type="xstring" value="MISSING RBFRegressor (3.7)"/>
+    <entry key="name" type="xstring" value="RBFRegressor (3.7)"/>
     <entry key="hasContent" type="xboolean" value="false"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">

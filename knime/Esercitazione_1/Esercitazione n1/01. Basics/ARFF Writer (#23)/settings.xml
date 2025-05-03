@@ -6,7 +6,7 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="ARFFoutput" type="xstring" value="C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\Datasets\iris.arff"/>
+        <entry key="ARFFoutput" type="xstring" value="C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Esercitazione_1\Datasets\iris.arff"/>
         <entry key="overwriteOK" type="xboolean" value="true"/>
     </config>
     <config key="nodeAnnotation">
@@ -43,6 +43,6 @@
     <config key="ports"/>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="cf73db3f-c1e8-4235-8a2f-50d9a9af2e86"/>
+        <entry key="file_store_id" type="xstring" value="16401430-f2dd-4cb1-ac32-7df121f4a7c5"/>
     </config>
 </config>

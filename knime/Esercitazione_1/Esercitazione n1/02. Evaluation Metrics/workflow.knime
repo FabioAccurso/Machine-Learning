@@ -8,10 +8,15 @@
         <entry key="authored-by" type="xstring" value="gabri"/>
         <entry key="authored-when" type="xstring" value="2017-10-17 14:44:12 +0200"/>
         <entry key="lastEdited-by" type="xstring" value="Fabio"/>
-        <entry key="lastEdited-when" type="xstring" value="2025-04-05 10:24:24 +0200"/>
+        <entry key="lastEdited-when" type="xstring" value="2025-05-03 11:05:16 +0200"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="IDLE"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="ERROR"/>
+        <entry key="message" type="xstring" value="Contains 3 nodes with execution failure"/>
+        <entry key="issue" type="xstring" value="CSV Reader (deprecated) #10: Can't access 'knime://LOCAL/Datasets/winequality-all.csv'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\winequality-all.csv.)"/>
+    </config>
     <config key="workflow_credentials"/>
     <config key="annotations">
         <config key="annotation_0">
@@ -249,8 +254,8 @@
             <config key="ui_settings">
                 <config key="extrainfo.node.bounds">
                     <entry key="array-size" type="xint" value="4"/>
-                    <entry key="0" type="xint" value="184"/>
-                    <entry key="1" type="xint" value="77"/>
+                    <entry key="0" type="xint" value="185"/>
+                    <entry key="1" type="xint" value="59"/>
                     <entry key="2" type="xint" value="50"/>
                     <entry key="3" type="xint" value="65"/>
                 </config>

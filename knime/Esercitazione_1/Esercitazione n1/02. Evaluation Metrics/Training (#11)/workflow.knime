@@ -77,7 +77,7 @@
         <config key="port_enum">
             <config key="outport_0">
                 <entry key="index" type="xint" value="0"/>
-                <entry key="name" type="xstring" value="Connected to: Port 0"/>
+                <entry key="name" type="xstring" value="Connected to: Trained model"/>
                 <config key="type">
                     <entry key="object_class" type="xstring" value="org.knime.core.node.port.PortObject"/>
                 </config>

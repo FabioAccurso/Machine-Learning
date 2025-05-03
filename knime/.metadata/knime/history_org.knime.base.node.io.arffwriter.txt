@@ -1,1 +1,2 @@
+C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Esercitazione_1\Datasets\iris.arff
 C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_esercitazione\Esercitazione n1\Datasets\iris.arff

@@ -2,18 +2,18 @@
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="filestore">
     <config key="filestore_keys">
         <config key="filestore_key_0">
-            <entry key="storeUUID" type="xstring" value="f1acc4cb-f9c5-472f-8e1a-5e06dad448a4"/>
+            <entry key="storeUUID" type="xstring" value="ac18cd31-358b-4db3-8675-b5a2b900c412"/>
             <entry key="index" type="xint" value="18"/>
-            <entry key="name" type="xstring" value="0a16843e-cbe4-4762-861e-6a5cdf24843f"/>
+            <entry key="name" type="xstring" value="7e6e05a2-1a8f-4d6a-9b79-11bafa5b21a5"/>
             <entry key="iterationIndex" type="xint" value="9"/>
             <config key="nestedLoopPath">
                 <entry key="array-size" type="xint" value="0"/>
             </config>
         </config>
         <config key="filestore_key_1">
-            <entry key="storeUUID" type="xstring" value="f1acc4cb-f9c5-472f-8e1a-5e06dad448a4"/>
+            <entry key="storeUUID" type="xstring" value="ac18cd31-358b-4db3-8675-b5a2b900c412"/>
             <entry key="index" type="xint" value="19"/>
-            <entry key="name" type="xstring" value="7239424b-4608-43c7-bc4d-cf98243e9cee"/>
+            <entry key="name" type="xstring" value="4bd5faf7-8dcd-4ac2-96e5-db8e9d4e0b55"/>
             <entry key="iterationIndex" type="xint" value="9"/>
             <config key="nestedLoopPath">
                 <entry key="array-size" type="xint" value="0"/>

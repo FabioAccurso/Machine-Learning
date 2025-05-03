@@ -34,7 +34,11 @@
         <config key="styles"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Target column income not found in DataTableSpec."/>
+    </config>
     <entry key="factory" type="xstring" value="org.knime.ext.weka37.classifier.WekaClassifierNodeFactory"/>
     <entry key="node-name" type="xstring" value="RandomForest (3.7)"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME WEKA nodes (3.7)"/>
@@ -52,21 +56,16 @@
         <entry key="weka_nodes_version" type="xstring" value="V112015"/>
     </config>
     <entry key="name" type="xstring" value="RandomForest (3.7)"/>
-    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_spec_class" type="xstring" value="org.knime.ext.weka37.ports.WekaClassifierModelPortObjectSpec"/>
-            <entry key="port_object_class" type="xstring" value="org.knime.ext.weka37.ports.WekaClassifierModelFileStorePortObject"/>
-            <entry key="port_object_summary" type="xstring" value="RandomForest"/>
-            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
-            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
-            <entry key="port_dir_location" type="xstring" value="port_1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
         </config>
     </config>
     <config key="filestores">
-        <entry key="file_store_location" type="xstring" value="filestore"/>
-        <entry key="file_store_id" type="xstring" value="cd6f786d-7e7f-4aff-9d32-51f228ec6cfe"/>
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
     </config>
 </config>

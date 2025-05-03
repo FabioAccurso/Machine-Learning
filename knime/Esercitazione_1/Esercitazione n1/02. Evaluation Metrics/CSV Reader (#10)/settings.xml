@@ -36,6 +36,10 @@
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="CONFIGURED"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="ERROR"/>
+        <entry key="message" type="xstring" value="Execute failed: Can't access 'knime://LOCAL/Datasets/winequality-all.csv'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\winequality-all.csv.)"/>
+    </config>
     <entry key="factory" type="xstring" value="org.knime.base.node.io.csvreader.CSVReaderNodeFactory"/>
     <entry key="node-name" type="xstring" value="CSV Reader (deprecated)"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>

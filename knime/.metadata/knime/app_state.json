@@ -1,31 +1,83 @@
 {
   "version" : "5.4.3.v202503031608",
   "projects" : [ {
-    "name" : "03. X-Validation",
+    "name" : "01. Classification",
     "active" : true,
     "origin" : {
       "providerId" : "local",
       "spaceId" : "local",
+      "relativePath" : "Esercitazione_1\\Esercitazione n2\\01. Classification"
+    }
+  }, {
+    "name" : "03. X-Validation",
+    "active" : false,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
       "relativePath" : "Esercitazione_1\\Esercitazione n1\\03. X-Validation"
+    }
+  }, {
+    "name" : "soluzione_1_contest1",
+    "active" : false,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "1_Contest\\soluzione_1_contest1"
     }
   } ],
   "mostRecentlyUsedProjects" : [ {
     "name" : "01. Basics",
-    "timeUsed" : "2025-04-24T13:08:15.3180062+02:00",
+    "timeUsed" : "2025-05-02T19:57:20.0689587+02:00",
     "origin" : {
       "providerId" : "local",
       "spaceId" : "local",
       "projectType" : "WORKFLOW",
-      "relativePath" : "Esercitazione n1\\01. Basics"
+      "relativePath" : "Esercitazione_1\\Esercitazione n1\\01. Basics"
+    }
+  }, {
+    "name" : "02. Evaluation Metrics",
+    "timeUsed" : "2025-05-02T19:57:36.6399229+02:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "Esercitazione_1\\Esercitazione n1\\02. Evaluation Metrics"
+    }
+  }, {
+    "name" : "02. Normalization",
+    "timeUsed" : "2025-05-03T11:12:27.853357+02:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "Esercitazione_1\\Esercitazione n2\\02. Normalization"
+    }
+  }, {
+    "name" : "01. Classification",
+    "timeUsed" : "2025-05-03T12:35:17.4047632+02:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "Esercitazione_1\\Esercitazione n2\\01. Classification"
     }
   }, {
     "name" : "03. X-Validation",
-    "timeUsed" : "2025-04-24T14:36:52.5395421+02:00",
+    "timeUsed" : "2025-05-03T12:39:20.0435852+02:00",
     "origin" : {
       "providerId" : "local",
       "spaceId" : "local",
       "projectType" : "WORKFLOW",
       "relativePath" : "Esercitazione_1\\Esercitazione n1\\03. X-Validation"
+    }
+  }, {
+    "name" : "soluzione_1_contest1",
+    "timeUsed" : "2025-05-03T12:51:01.3917938+02:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "1_Contest\\soluzione_1_contest1"
     }
   } ]
 }
