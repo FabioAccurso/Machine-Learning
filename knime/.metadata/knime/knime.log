@@ -3275,3 +3275,202 @@ java.lang.NullPointerException: Cannot invoke "org.knime.core.node.BufferedDataT
 2025-05-03 17:40:27,819 : WARN  : comm-pool-thread-24 :  : Node : Column Renamer : 4:156 : The column 'Prediction (LANDCOVER)' is configured but no longer exists.
 2025-05-03 17:40:27,820 : WARN  : comm-pool-thread-24 :  : Node : Column Renamer : 4:156 : The column 'Prediction (LANDCOVER)' is configured but no longer exists.
 2025-05-03 17:40:30,013 : WARN  : KNIME-Worker-160-Number to String 4:165 :  : Node : Column Renamer : 4:156 : The column 'Prediction (LANDCOVER)' is configured but no longer exists.
+2025-05-04 10:29:39,748 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-05-04 10:29:39,748 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-05-04 10:29:39,748 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Accesso al Registro di sistema non consentito.
+2025-05-04 10:29:39,748 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : In riga:1 car:1
+2025-05-04 10:29:39,748 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-05-04 10:29:39,748 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-05-04 10:29:39,748 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-05-04 10:29:39,748 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-05-04 10:29:39,748 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-05-04 10:29:39,748 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-05-04 10:30:12,893 : WARN  : ModalContext :  : Node : IBk (3.7) : 3:147 : No target column specified. Target column was set to class
+2025-05-04 10:31:22,144 : WARN  : ModalContext :  : Node : ARFF Reader : 4:45 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.arff.
+2025-05-04 10:31:22,169 : WARN  : ModalContext :  : Node : ARFF Reader : 4:45 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.arff.
+2025-05-04 10:31:22,857 : WARN  : ModalContext :  : Node : Normalizer (Apply) : 4:28 : Normalized value is out of bounds. Original value: 4.3 Transformed value: -0.028571428571428692 Lower Bound: 0.0
+2025-05-04 10:31:36,770 : WARN  : ModalContext :  : Node : ARFF Reader : 5:45 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.arff.
+2025-05-04 10:31:36,774 : WARN  : ModalContext :  : Node : ARFF Reader : 5:45 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.arff.
+2025-05-04 10:31:36,984 : WARN  : ModalContext :  : Node : Normalizer (Apply) : 5:28 : Normalized value is out of bounds. Original value: 1.0 Transformed value: -0.017241379310344834 Lower Bound: 0.0
+2025-05-04 10:31:47,341 : WARN  : ModalContext :  : Node : CSV Reader (deprecated) : 6:10 : Execute failed: Can't access 'knime://LOCAL/Datasets/winequality-all.csv'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\winequality-all.csv.)
+2025-05-04 10:31:47,414 : WARN  : ModalContext :  : Node : RandomForest (3.7) : 6:7:1 : Target column income not found in DataTableSpec.
+2025-05-04 10:31:47,414 : WARN  : ModalContext :  : Node : RandomForest (3.7) : 6:7:1 : Target column income not found in DataTableSpec.
+2025-05-04 10:31:47,415 : WARN  : ModalContext :  : Node : CSV Writer (deprecated) : 6:14 : Directory 'D:\Michela' of output file does not exist
+2025-05-04 10:31:47,416 : WARN  : ModalContext :  : Node : CSV Writer (deprecated) : 6:14 : Directory 'D:\Michela' of output file does not exist
+2025-05-04 10:31:59,027 : WARN  : ModalContext :  : Node : Normalizer (Apply) : 7:13 : Normalized value is out of bounds. Original value: 1111.0 Transformed value: -9.40010254657328E-4 Lower Bound: 0.0
+2025-05-04 10:46:01,997 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 7:214 valid [7:1, 7:9, 7:11, 7:12, 7:13, 7:14, 7:15, 7:16, 7:17, 7:18, 7:20, 7:21, 7:22, 7:23, 7:24, 7:25, 7:146, 7:147, 7:148, 7:149, 7:175, 7:176, 7:177, 7:178, 7:179, 7:180, 7:181, 7:182, 7:183, 7:184, 7:188, 7:189, 7:190, 7:191, 7:192, 7:193, 7:194, 7:195, 7:196, 7:197, 7:198, 7:199, 7:200, 7:201, 7:202, 7:203, 7:204, 7:205, 7:206, 7:207, 7:208, 7:209, 7:210, 7:211, 7:213, 7:215, 7:216, 7:217, 7:218, 7:219, 7:220, 7:221, 7:222] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-05-04 10:46:01,997 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-05-04 10:46:01,997 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 7:214 valid [7:1, 7:9, 7:11, 7:12, 7:13, 7:14, 7:15, 7:16, 7:17, 7:18, 7:20, 7:21, 7:22, 7:23, 7:24, 7:25, 7:146, 7:147, 7:148, 7:149, 7:175, 7:176, 7:177, 7:178, 7:179, 7:180, 7:181, 7:182, 7:183, 7:184, 7:188, 7:189, 7:190, 7:191, 7:192, 7:193, 7:194, 7:195, 7:196, 7:197, 7:198, 7:199, 7:200, 7:201, 7:202, 7:203, 7:204, 7:205, 7:206, 7:207, 7:208, 7:209, 7:210, 7:211, 7:213, 7:215, 7:216, 7:217, 7:218, 7:219, 7:220, 7:221, 7:222] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 45)
+2025-05-04 10:46:14,449 : WARN  : comm-pool-thread-4 :  : Node : Partitioning : 7:223 : No sampling method selected
+2025-05-04 10:47:23,712 : WARN  : comm-pool-thread-4 :  : Node : Parameter Optimization Loop End : 7:216 : Wrong Loop Start Node Connected
+2025-05-04 10:51:04,639 : WARN  : comm-pool-thread-4 :  : Node : Parameter Optimization Loop End : 7:216 : Wrong Loop Start Node Connected
+2025-05-04 11:03:43,504 : WARN  : main :  : Node : K Nearest Neighbor : 7:219 : Auto-selected column 'LANDCOVER' as class column.
+2025-05-04 11:03:55,924 : WARN  : main :  : Node : K Nearest Neighbor : 7:219 : Auto-selected column 'LANDCOVER' as class column.
+2025-05-04 11:03:56,499 : WARN  : main :  : Node : K Nearest Neighbor : 7:219 : Auto-selected column 'LANDCOVER' as class column.
+2025-05-04 11:08:09,637 : WARN  : main :  : Node : K Nearest Neighbor : 7:219 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Can't evaluate variable "k" as xint expression, it is a DOUBLE (""k" (DOUBLE: 1.0)"
+2025-05-04 11:08:15,951 : WARN  : main :  : Node : K Nearest Neighbor : 7:219 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Can't evaluate variable "k" as xint expression, it is a DOUBLE (""k" (DOUBLE: 1.0)"
+2025-05-04 11:08:16,843 : WARN  : main :  : Node : K Nearest Neighbor : 7:219 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Can't evaluate variable "k" as xint expression, it is a DOUBLE (""k" (DOUBLE: 1.0)"
+2025-05-04 11:49:59,836 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 7:206 valid [7:1, 7:9, 7:11, 7:12, 7:13, 7:14, 7:15, 7:16, 7:17, 7:18, 7:20, 7:21, 7:22, 7:23, 7:24, 7:25, 7:146, 7:147, 7:148, 7:149, 7:175, 7:176, 7:177, 7:178, 7:179, 7:180, 7:181, 7:182, 7:183, 7:184, 7:188, 7:189, 7:190, 7:191, 7:192, 7:193, 7:194, 7:195, 7:196, 7:197, 7:198, 7:199, 7:200, 7:201, 7:202, 7:203, 7:204, 7:205, 7:207, 7:208, 7:209, 7:210, 7:211, 7:213, 7:216] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-05-04 11:49:59,842 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-05-04 11:49:59,842 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 7:206 valid [7:1, 7:9, 7:11, 7:12, 7:13, 7:14, 7:15, 7:16, 7:17, 7:18, 7:20, 7:21, 7:22, 7:23, 7:24, 7:25, 7:146, 7:147, 7:148, 7:149, 7:175, 7:176, 7:177, 7:178, 7:179, 7:180, 7:181, 7:182, 7:183, 7:184, 7:188, 7:189, 7:190, 7:191, 7:192, 7:193, 7:194, 7:195, 7:196, 7:197, 7:198, 7:199, 7:200, 7:201, 7:202, 7:203, 7:204, 7:205, 7:207, 7:208, 7:209, 7:210, 7:211, 7:213, 7:216] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 45)
+2025-05-04 11:50:10,582 : WARN  : comm-pool-thread-4 :  : Node : Decision Tree Learner : 7:217 : Guessing target column: "LANDCOVER".
+2025-05-04 11:50:18,307 : WARN  : comm-pool-thread-4 :  : Node : X-Aggregator : 7:205 : No such column: Class [kNN]
+2025-05-04 11:50:27,665 : WARN  : main :  : Node : Scorer : 7:198 : Column 'Class [kNN]' not found.
+2025-05-04 11:50:28,509 : WARN  : main :  : Node : Scorer : 7:198 : Column 'Class [kNN]' not found.
+2025-05-04 11:51:00,797 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-05-04 12:08:36,329 : ERROR : KNIME-Worker-50-Decision Tree Learner 7:217 :  : Node : Decision Tree Learner : 7:217 : Execute failed: Cannot invoke "org.knime.base.node.mine.decisiontree2.model.DecisionTreeNode.getOwnIndex()" because "children[i]" is null
+java.lang.RuntimeException: Cannot invoke "org.knime.base.node.mine.decisiontree2.model.DecisionTreeNode.getOwnIndex()" because "children[i]" is null
+	at org.knime.base.node.mine.decisiontree2.learner2.DecisionTreeLearnerNodeModel2.buildTree(DecisionTreeLearnerNodeModel2.java:826)
+	at org.knime.base.node.mine.decisiontree2.learner2.DecisionTreeLearnerNodeModel2.execute(DecisionTreeLearnerNodeModel2.java:535)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-05-04 12:14:41,700 : ERROR : KNIME-Worker-55-Decision Tree Learner 7:217 :  : Node : Decision Tree Learner : 7:217 : Execute failed: Cannot invoke "org.knime.base.node.mine.decisiontree2.model.DecisionTreeNode.getOwnIndex()" because "children[i]" is null
+java.lang.RuntimeException: Cannot invoke "org.knime.base.node.mine.decisiontree2.model.DecisionTreeNode.getOwnIndex()" because "children[i]" is null
+	at org.knime.base.node.mine.decisiontree2.learner2.DecisionTreeLearnerNodeModel2.buildTree(DecisionTreeLearnerNodeModel2.java:826)
+	at org.knime.base.node.mine.decisiontree2.learner2.DecisionTreeLearnerNodeModel2.execute(DecisionTreeLearnerNodeModel2.java:535)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-05-04 12:46:40,282 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-05-04 12:52:53,337 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-05-04 12:59:27,297 : WARN  : comm-pool-thread-9 :  : Node : Parameter Optimization Loop End : 7:216 : Wrong Loop Start Node Connected
+2025-05-04 16:14:36,963 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-05-04 16:14:36,963 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-05-04 16:14:36,963 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Accesso al Registro di sistema non consentito.
+2025-05-04 16:14:36,963 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : In riga:1 car:1
+2025-05-04 16:14:36,963 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-05-04 16:14:36,963 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-05-04 16:14:36,963 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-05-04 16:14:36,963 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-05-04 16:14:36,963 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-05-04 16:14:36,963 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-05-04 16:15:01,606 : WARN  : ModalContext :  : Node : Normalizer (Apply) : 3:13 : Normalized value is out of bounds. Original value: 1111.0 Transformed value: -9.40010254657328E-4 Lower Bound: 0.0
+2025-05-04 16:16:41,039 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:218 valid [3:1, 3:9, 3:11, 3:12, 3:13, 3:14, 3:15, 3:16, 3:17, 3:18, 3:20, 3:21, 3:22, 3:23, 3:24, 3:25, 3:146, 3:147, 3:148, 3:149, 3:175, 3:176, 3:177, 3:178, 3:179, 3:180, 3:181, 3:182, 3:183, 3:184, 3:188, 3:189, 3:190, 3:191, 3:192, 3:193, 3:194, 3:195, 3:196, 3:197, 3:198, 3:199, 3:200, 3:201, 3:202, 3:203, 3:204, 3:205, 3:207, 3:208, 3:209, 3:210, 3:211, 3:213, 3:216, 3:217, 3:219, 3:220] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-05-04 16:16:41,058 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-05-04 16:16:41,058 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:218 valid [3:1, 3:9, 3:11, 3:12, 3:13, 3:14, 3:15, 3:16, 3:17, 3:18, 3:20, 3:21, 3:22, 3:23, 3:24, 3:25, 3:146, 3:147, 3:148, 3:149, 3:175, 3:176, 3:177, 3:178, 3:179, 3:180, 3:181, 3:182, 3:183, 3:184, 3:188, 3:189, 3:190, 3:191, 3:192, 3:193, 3:194, 3:195, 3:196, 3:197, 3:198, 3:199, 3:200, 3:201, 3:202, 3:203, 3:204, 3:205, 3:207, 3:208, 3:209, 3:210, 3:211, 3:213, 3:216, 3:217, 3:219, 3:220] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 45)
+2025-05-04 16:16:41,239 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-05-04 16:16:46,195 : WARN  : comm-pool-thread-2 :  : Node : MultilayerPerceptron (3.7) : 3:219 : No target column specified. Target column was set to LANDCOVER
+2025-05-04 16:17:31,529 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:202 valid [3:1, 3:9, 3:11, 3:12, 3:13, 3:14, 3:15, 3:16, 3:17, 3:18, 3:20, 3:21, 3:22, 3:23, 3:24, 3:25, 3:146, 3:147, 3:148, 3:149, 3:175, 3:176, 3:177, 3:178, 3:179, 3:180, 3:181, 3:182, 3:183, 3:184, 3:188, 3:189, 3:190, 3:191, 3:192, 3:193, 3:194, 3:195, 3:196, 3:197, 3:198, 3:199, 3:200, 3:201, 3:203, 3:204, 3:205, 3:207, 3:208, 3:209, 3:210, 3:211, 3:213, 3:216, 3:219, 3:220] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-05-04 16:17:31,533 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-05-04 16:17:31,533 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:202 valid [3:1, 3:9, 3:11, 3:12, 3:13, 3:14, 3:15, 3:16, 3:17, 3:18, 3:20, 3:21, 3:22, 3:23, 3:24, 3:25, 3:146, 3:147, 3:148, 3:149, 3:175, 3:176, 3:177, 3:178, 3:179, 3:180, 3:181, 3:182, 3:183, 3:184, 3:188, 3:189, 3:190, 3:191, 3:192, 3:193, 3:194, 3:195, 3:196, 3:197, 3:198, 3:199, 3:200, 3:201, 3:203, 3:204, 3:205, 3:207, 3:208, 3:209, 3:210, 3:211, 3:213, 3:216, 3:219, 3:220] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 45)
+2025-05-04 16:19:02,203 : WARN  : ModalContext :  : Node : ARFF Reader : 4:45 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.arff.
+2025-05-04 16:19:02,216 : WARN  : ModalContext :  : Node : ARFF Reader : 4:45 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.arff.
+2025-05-04 16:19:02,846 : WARN  : ModalContext :  : Node : Normalizer (Apply) : 4:28 : Normalized value is out of bounds. Original value: 4.3 Transformed value: -0.028571428571428692 Lower Bound: 0.0
+2025-05-04 16:19:07,421 : WARN  : ModalContext :  : Node : IBk (3.7) : 5:147 : No target column specified. Target column was set to class
+2025-05-04 16:20:53,180 : WARN  : KNIME-Worker-3-MultilayerPerceptron (3.7) 3:219 :  : Node : MultilayerPerceptron (3.7) : 3:219 : Execution canceled
+2025-05-04 16:21:15,183 : WARN  : comm-pool-thread-2 :  : Node : Partitioning : 3:221 : No sampling method selected
+2025-05-04 16:32:28,764 : WARN  : comm-pool-thread-2 :  : Node : MultilayerPerceptron (3.7) : 3:222 : No target column specified. Target column was set to LANDCOVER
+2025-05-04 17:16:41,729 : WARN  : comm-pool-thread-2 :  : Node : Parameter Optimization Loop End : 3:216 : Wrong Loop Start Node Connected
+2025-05-04 17:35:47,464 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:221 valid [3:1, 3:9, 3:11, 3:12, 3:13, 3:14, 3:15, 3:16, 3:17, 3:18, 3:20, 3:21, 3:22, 3:23, 3:24, 3:25, 3:146, 3:147, 3:148, 3:149, 3:175, 3:176, 3:177, 3:178, 3:179, 3:180, 3:181, 3:182, 3:183, 3:184, 3:188, 3:189, 3:190, 3:191, 3:192, 3:193, 3:194, 3:195, 3:196, 3:197, 3:198, 3:199, 3:200, 3:201, 3:203, 3:204, 3:205, 3:207, 3:208, 3:209, 3:210, 3:211, 3:213, 3:216, 3:220, 3:222] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-05-04 17:35:47,464 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-05-04 17:35:47,465 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:221 valid [3:1, 3:9, 3:11, 3:12, 3:13, 3:14, 3:15, 3:16, 3:17, 3:18, 3:20, 3:21, 3:22, 3:23, 3:24, 3:25, 3:146, 3:147, 3:148, 3:149, 3:175, 3:176, 3:177, 3:178, 3:179, 3:180, 3:181, 3:182, 3:183, 3:184, 3:188, 3:189, 3:190, 3:191, 3:192, 3:193, 3:194, 3:195, 3:196, 3:197, 3:198, 3:199, 3:200, 3:201, 3:203, 3:204, 3:205, 3:207, 3:208, 3:209, 3:210, 3:211, 3:213, 3:216, 3:220, 3:222] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 45)
+2025-05-04 17:36:32,184 : WARN  : KNIME-Worker-42-Normalizer (Apply) 3:204 :  : Node : Normalizer (Apply) : 3:204 : Normalized value is out of bounds. Original value: 1393.0 Transformed value: -0.003944962955835657 Lower Bound: 0.0
+2025-05-04 17:41:40,487 : WARN  : KNIME-Worker-48-Normalizer (Apply) 3:204 :  : Node : Normalizer (Apply) : 3:204 : Normalized value is out of bounds. Original value: 11008.0 Transformed value: 1.0265065230896666 Upper Bound: 1.0
+2025-05-04 17:43:15,141 : WARN  : KNIME-Worker-50-Normalizer (Apply) 3:204 :  : Node : Normalizer (Apply) : 3:204 : Normalized value is out of bounds. Original value: 11827.0 Transformed value: 1.0376926902038786 Upper Bound: 1.0
+2025-05-04 17:46:23,694 : WARN  : KNIME-Worker-54-Normalizer (Apply) 3:204 :  : Node : Normalizer (Apply) : 3:204 : Normalized value is out of bounds. Original value: 1141.0 Transformed value: -3.3442579091699787E-4 Lower Bound: 0.0
+2025-05-04 17:47:58,719 : WARN  : KNIME-Worker-56-Normalizer (Apply) 3:204 :  : Node : Normalizer (Apply) : 3:204 : Normalized value is out of bounds. Original value: 1185.0 Transformed value: -6.742078058281503E-4 Lower Bound: 0.0

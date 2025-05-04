@@ -2,7 +2,7 @@
   "version" : "5.4.3.v202503031608",
   "projects" : [ {
     "name" : "01. Classification",
-    "active" : true,
+    "active" : false,
     "origin" : {
       "providerId" : "local",
       "spaceId" : "local",
@@ -18,11 +18,27 @@
     }
   }, {
     "name" : "soluzione_1_contest1",
-    "active" : false,
+    "active" : true,
     "origin" : {
       "providerId" : "local",
       "spaceId" : "local",
       "relativePath" : "1_Contest\\soluzione_1_contest1"
+    }
+  }, {
+    "name" : "02. Normalization",
+    "active" : false,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "Esercitazione_1\\Esercitazione n2\\02. Normalization"
+    }
+  }, {
+    "name" : "02. Evaluation Metrics",
+    "active" : false,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "Esercitazione_1\\Esercitazione n1\\02. Evaluation Metrics"
     }
   } ],
   "mostRecentlyUsedProjects" : [ {
@@ -33,24 +49,6 @@
       "spaceId" : "local",
       "projectType" : "WORKFLOW",
       "relativePath" : "Esercitazione_1\\Esercitazione n1\\01. Basics"
-    }
-  }, {
-    "name" : "02. Evaluation Metrics",
-    "timeUsed" : "2025-05-02T19:57:36.6399229+02:00",
-    "origin" : {
-      "providerId" : "local",
-      "spaceId" : "local",
-      "projectType" : "WORKFLOW",
-      "relativePath" : "Esercitazione_1\\Esercitazione n1\\02. Evaluation Metrics"
-    }
-  }, {
-    "name" : "02. Normalization",
-    "timeUsed" : "2025-05-03T11:12:27.853357+02:00",
-    "origin" : {
-      "providerId" : "local",
-      "spaceId" : "local",
-      "projectType" : "WORKFLOW",
-      "relativePath" : "Esercitazione_1\\Esercitazione n2\\02. Normalization"
     }
   }, {
     "name" : "01. Classification",
@@ -78,6 +76,24 @@
       "spaceId" : "local",
       "projectType" : "WORKFLOW",
       "relativePath" : "1_Contest\\soluzione_1_contest1"
+    }
+  }, {
+    "name" : "02. Normalization",
+    "timeUsed" : "2025-05-04T10:31:37.2251024+02:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "Esercitazione_1\\Esercitazione n2\\02. Normalization"
+    }
+  }, {
+    "name" : "02. Evaluation Metrics",
+    "timeUsed" : "2025-05-04T10:31:47.5240923+02:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "Esercitazione_1\\Esercitazione n1\\02. Evaluation Metrics"
     }
   } ]
 }
