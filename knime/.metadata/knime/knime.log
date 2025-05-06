@@ -3474,3 +3474,601 @@ java.lang.RuntimeException: Cannot invoke "org.knime.base.node.mine.decisiontree
 2025-05-04 17:43:15,141 : WARN  : KNIME-Worker-50-Normalizer (Apply) 3:204 :  : Node : Normalizer (Apply) : 3:204 : Normalized value is out of bounds. Original value: 11827.0 Transformed value: 1.0376926902038786 Upper Bound: 1.0
 2025-05-04 17:46:23,694 : WARN  : KNIME-Worker-54-Normalizer (Apply) 3:204 :  : Node : Normalizer (Apply) : 3:204 : Normalized value is out of bounds. Original value: 1141.0 Transformed value: -3.3442579091699787E-4 Lower Bound: 0.0
 2025-05-04 17:47:58,719 : WARN  : KNIME-Worker-56-Normalizer (Apply) 3:204 :  : Node : Normalizer (Apply) : 3:204 : Normalized value is out of bounds. Original value: 1185.0 Transformed value: -6.742078058281503E-4 Lower Bound: 0.0
+2025-05-05 18:27:45,224 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-05-05 18:27:45,224 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-05-05 18:27:45,224 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Accesso al Registro di sistema non consentito.
+2025-05-05 18:27:45,224 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : In riga:1 car:1
+2025-05-05 18:27:45,224 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-05-05 18:27:45,224 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-05-05 18:27:45,224 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-05-05 18:27:45,224 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-05-05 18:27:45,224 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-05-05 18:27:45,224 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-05-05 18:28:05,000 : WARN  : ModalContext :  : Node : Normalizer (Apply) : 3:13 : Normalized value is out of bounds. Original value: 1111.0 Transformed value: -9.40010254657328E-4 Lower Bound: 0.0
+2025-05-05 18:31:18,195 : WARN  : comm-pool-thread-1 :  : Node : IBk (3.7) : 3:223 : No target column specified. Target column was set to LANDCOVER
+2025-05-05 18:32:02,523 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-05-05 18:42:59,878 : WARN  : comm-pool-thread-1 :  : Node : IBk (3.7) : 3:242 : No target column specified. Target column was set to LANDCOVER
+2025-05-05 18:43:04,439 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 18:59:24,697 : WARN  : ModalContext :  : Node : ARFF Reader : 4:45 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.arff.
+2025-05-05 18:59:24,711 : WARN  : ModalContext :  : Node : ARFF Reader : 4:45 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.arff.
+2025-05-05 18:59:25,077 : WARN  : ModalContext :  : Node : Normalizer (Apply) : 4:28 : Normalized value is out of bounds. Original value: 1.0 Transformed value: -0.017241379310344834 Lower Bound: 0.0
+2025-05-05 18:59:30,866 : WARN  : ModalContext :  : Node : IBk (3.7) : 5:147 : No target column specified. Target column was set to class
+2025-05-05 19:24:12,852 : WARN  : comm-pool-thread-1 :  : Node : IBk (3.7) : 3:223 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "k"
+2025-05-05 19:24:16,713 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-05-05 19:24:43,574 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 19:24:43,578 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 19:24:43,581 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 19:24:43,582 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 19:41:09,829 : WARN  : main :  : WrappedNodeDialog : IBk (3.7) : 3:223 : failed to apply settings: Cannot load settings into node; it is executing or has executing successors
+java.lang.IllegalStateException: Cannot load settings into node; it is executing or has executing successors
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2257)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1142)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:677)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:630)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$6.widgetSelected(WrappedNodeDialog.java:515)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:198)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:967)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:869)
+	at org.knime.ui.java.api.NodeAPI.openNodeDialog(NodeAPI.java:102)
+	at jdk.internal.reflect.GeneratedMethodAccessor309.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.invokeMethod(DesktopAPI.java:178)
+	at org.knime.ui.java.api.DesktopAPI.lambda$1(DesktopAPI.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:211)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+2025-05-05 19:41:21,932 : WARN  : main :  : WrappedNodeDialog : IBk (3.7) : 3:223 : failed to apply settings: Cannot load settings into node; it is executing or has executing successors
+java.lang.IllegalStateException: Cannot load settings into node; it is executing or has executing successors
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2257)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1142)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:677)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:630)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$6.widgetSelected(WrappedNodeDialog.java:515)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:198)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:967)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:869)
+	at org.knime.ui.java.api.NodeAPI.openNodeDialog(NodeAPI.java:102)
+	at jdk.internal.reflect.GeneratedMethodAccessor309.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.invokeMethod(DesktopAPI.java:178)
+	at org.knime.ui.java.api.DesktopAPI.lambda$1(DesktopAPI.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:211)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+2025-05-05 19:42:00,486 : WARN  : KNIME-Worker-50-Weka Predictor (3.7) 3:224 :  : Node : Weka Predictor (3.7) : 3:224 : Execution canceled
+2025-05-05 19:42:13,144 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-05-05 19:42:13,144 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-05-05 19:42:13,144 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Accesso al Registro di sistema non consentito.
+2025-05-05 19:42:13,144 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : In riga:1 car:1
+2025-05-05 19:42:13,144 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-05-05 19:42:13,144 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-05-05 19:42:13,144 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-05-05 19:42:13,144 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-05-05 19:42:13,144 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-05-05 19:42:13,144 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-05-05 19:42:18,351 : WARN  : ModalContext :  : Node : Normalizer (Apply) : 3:13 : Normalized value is out of bounds. Original value: 1111.0 Transformed value: -9.40010254657328E-4 Lower Bound: 0.0
+2025-05-05 19:42:20,635 : WARN  : ModalContext :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 19:42:20,636 : WARN  : ModalContext :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 19:42:20,636 : WARN  : ModalContext :  : Node : Weka Predictor (3.7) : 3:224 : Execution canceled
+2025-05-05 19:42:20,837 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  : Warnings during load: Status: Warning: soluzione_1_contest1 3 loaded with warnings
+2025-05-05 19:42:20,837 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: Warning: soluzione_1_contest1 3
+2025-05-05 19:42:20,837 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: State has changed from CONFIGURED to IDLE
+2025-05-05 19:42:37,563 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 19:42:37,566 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 19:42:37,569 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 19:42:37,571 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 19:42:37,586 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 19:42:37,591 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 19:42:37,595 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 19:42:37,597 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 19:49:59,921 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 19:49:59,922 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 19:49:59,924 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 19:49:59,930 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 19:49:59,934 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 19:49:59,936 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 19:58:18,040 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 19:58:18,042 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 19:58:18,043 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 19:58:18,045 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 19:58:18,051 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 19:58:18,055 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 19:58:18,058 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 20:00:18,336 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 20:00:18,338 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 20:00:18,343 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 20:00:18,346 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 20:00:18,349 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 20:00:36,932 : WARN  : KNIME-Worker-8-Weka Predictor (3.7) 3:224 :  : Node : Weka Predictor (3.7) : 3:224 : Execution canceled
+2025-05-05 20:00:40,569 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 20:00:40,572 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 20:00:40,574 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 20:00:40,575 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 20:00:40,584 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 20:00:40,588 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 20:00:40,591 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 20:00:40,593 : WARN  : comm-pool-thread-1 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 20:12:28,533 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-05-05 21:24:05,459 : WARN  : comm-pool-thread-5 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 21:24:05,465 : WARN  : comm-pool-thread-5 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 21:24:05,468 : WARN  : comm-pool-thread-5 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 21:24:05,470 : WARN  : comm-pool-thread-5 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 22:03:52,038 : WARN  : comm-pool-thread-6 :  : Node : IBk (3.7) : 3:223 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "k"
+2025-05-05 22:04:00,609 : WARN  : main :  : Node : IBk (3.7) : 3:223 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "k"
+2025-05-05 22:04:24,234 : WARN  : main :  : Node : IBk (3.7) : 3:223 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "k"
+2025-05-05 22:04:24,825 : WARN  : main :  : Node : IBk (3.7) : 3:223 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "k"
+2025-05-05 22:04:30,889 : WARN  : main :  : Node : IBk (3.7) : 3:223 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "k"
+2025-05-05 22:04:31,430 : WARN  : main :  : Node : IBk (3.7) : 3:223 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "k"
+2025-05-05 22:04:35,459 : WARN  : comm-pool-thread-6 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 22:04:35,460 : WARN  : comm-pool-thread-6 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 22:04:35,462 : WARN  : comm-pool-thread-6 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 22:04:35,463 : WARN  : comm-pool-thread-6 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 22:04:35,465 : WARN  : comm-pool-thread-6 :  : Node : IBk (3.7) : 3:223 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "k"
+2025-05-05 22:04:35,466 : WARN  : comm-pool-thread-6 :  : Node : IBk (3.7) : 3:223 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "k"
+2025-05-05 22:04:35,468 : WARN  : comm-pool-thread-6 :  : Node : IBk (3.7) : 3:223 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "k"
+2025-05-05 22:04:35,468 : WARN  : comm-pool-thread-6 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 22:04:35,470 : WARN  : comm-pool-thread-6 :  : Node : IBk (3.7) : 3:223 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "k"
+2025-05-05 22:04:35,470 : WARN  : comm-pool-thread-6 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 22:04:35,472 : WARN  : comm-pool-thread-6 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 22:04:35,473 : WARN  : comm-pool-thread-6 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 22:04:35,474 : WARN  : comm-pool-thread-6 :  : Node : IBk (3.7) : 3:223 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "k"
+2025-05-05 22:04:43,166 : WARN  : KNIME-Worker-18-CSV Reader 3:228 :  : Node : IBk (3.7) : 3:223 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "k"
+2025-05-05 22:04:43,200 : WARN  : KNIME-Worker-19-Number to String 3:232 :  : Node : IBk (3.7) : 3:223 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "k"
+2025-05-05 22:04:43,275 : WARN  : KNIME-Worker-20-X-Partitioner 3:235 :  : Node : IBk (3.7) : 3:223 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "k"
+2025-05-05 22:04:43,557 : WARN  : KNIME-Worker-18-Normalizer 3:226 :  : Node : IBk (3.7) : 3:223 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "k"
+2025-05-05 22:04:56,570 : WARN  : comm-pool-thread-6 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 22:04:56,574 : WARN  : comm-pool-thread-6 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 22:04:56,577 : WARN  : comm-pool-thread-6 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 22:04:56,580 : WARN  : comm-pool-thread-6 :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 22:06:47,653 : WARN  : main :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 22:06:57,859 : WARN  : main :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 22:06:58,623 : WARN  : main :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 22:07:11,398 : WARN  : main :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 22:07:12,360 : WARN  : main :  : Node : Column Renamer : 3:240 : The column 'Class [kNN]' is configured but no longer exists.
+2025-05-05 22:08:23,664 : ERROR : SwingWorker-pool-11-thread-2 :  : StatusSwingWorker : CSV Writer : 3:231 : Error while updating status message: Illegal char <?> at index 92: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_Contest\output\3_knnWeka?.csv
+java.nio.file.InvalidPathException: Illegal char <?> at index 92: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_Contest\output\3_knnWeka?.csv
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(Unknown Source)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(Unknown Source)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(Unknown Source)
+	at java.base/sun.nio.fs.WindowsPath.parse(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(Unknown Source)
+	at java.base/java.nio.file.Path.of(Unknown Source)
+	at java.base/java.nio.file.Paths.get(Unknown Source)
+	at org.knime.filehandling.core.fs.local.fs.LocalFileSystem.getPath(LocalFileSystem.java:108)
+	at org.knime.filehandling.core.fs.local.fs.LocalFileSystem.getPath(LocalFileSystem.java:1)
+	at org.knime.filehandling.core.connections.FSFileSystem.getPath(FSFileSystem.java:339)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.AbstractFileChooserPathAccessor.getPathFromConvenienceFs(AbstractFileChooserPathAccessor.java:214)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.AbstractFileChooserPathAccessor.getOutputPath(AbstractFileChooserPathAccessor.java:195)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.writer.DefaultWriterStatusMessageReporter.report(DefaultWriterStatusMessageReporter.java:122)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:107)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2025-05-05 22:08:24,249 : ERROR : SwingWorker-pool-11-thread-4 :  : StatusSwingWorker : CSV Writer : 3:231 : Error while updating status message: Illegal char <?> at index 92: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_Contest\output\3_knnWeka?K.csv
+java.nio.file.InvalidPathException: Illegal char <?> at index 92: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_Contest\output\3_knnWeka?K.csv
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(Unknown Source)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(Unknown Source)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(Unknown Source)
+	at java.base/sun.nio.fs.WindowsPath.parse(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(Unknown Source)
+	at java.base/java.nio.file.Path.of(Unknown Source)
+	at java.base/java.nio.file.Paths.get(Unknown Source)
+	at org.knime.filehandling.core.fs.local.fs.LocalFileSystem.getPath(LocalFileSystem.java:108)
+	at org.knime.filehandling.core.fs.local.fs.LocalFileSystem.getPath(LocalFileSystem.java:1)
+	at org.knime.filehandling.core.connections.FSFileSystem.getPath(FSFileSystem.java:339)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.AbstractFileChooserPathAccessor.getPathFromConvenienceFs(AbstractFileChooserPathAccessor.java:214)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.AbstractFileChooserPathAccessor.getOutputPath(AbstractFileChooserPathAccessor.java:195)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.writer.DefaultWriterStatusMessageReporter.report(DefaultWriterStatusMessageReporter.java:122)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:107)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2025-05-05 22:08:24,836 : ERROR : SwingWorker-pool-11-thread-5 :  : StatusSwingWorker : CSV Writer : 3:231 : Error while updating status message: Illegal char <?> at index 92: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_Contest\output\3_knnWeka?Kd.csv
+java.nio.file.InvalidPathException: Illegal char <?> at index 92: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_Contest\output\3_knnWeka?Kd.csv
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(Unknown Source)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(Unknown Source)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(Unknown Source)
+	at java.base/sun.nio.fs.WindowsPath.parse(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(Unknown Source)
+	at java.base/java.nio.file.Path.of(Unknown Source)
+	at java.base/java.nio.file.Paths.get(Unknown Source)
+	at org.knime.filehandling.core.fs.local.fs.LocalFileSystem.getPath(LocalFileSystem.java:108)
+	at org.knime.filehandling.core.fs.local.fs.LocalFileSystem.getPath(LocalFileSystem.java:1)
+	at org.knime.filehandling.core.connections.FSFileSystem.getPath(FSFileSystem.java:339)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.AbstractFileChooserPathAccessor.getPathFromConvenienceFs(AbstractFileChooserPathAccessor.java:214)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.AbstractFileChooserPathAccessor.getOutputPath(AbstractFileChooserPathAccessor.java:195)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.writer.DefaultWriterStatusMessageReporter.report(DefaultWriterStatusMessageReporter.java:122)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:107)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2025-05-05 22:08:25,863 : ERROR : SwingWorker-pool-11-thread-7 :  : StatusSwingWorker : CSV Writer : 3:231 : Error while updating status message: Illegal char <?> at index 92: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_Contest\output\3_knnWeka?.csv
+java.nio.file.InvalidPathException: Illegal char <?> at index 92: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_Contest\output\3_knnWeka?.csv
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(Unknown Source)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(Unknown Source)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(Unknown Source)
+	at java.base/sun.nio.fs.WindowsPath.parse(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(Unknown Source)
+	at java.base/java.nio.file.Path.of(Unknown Source)
+	at java.base/java.nio.file.Paths.get(Unknown Source)
+	at org.knime.filehandling.core.fs.local.fs.LocalFileSystem.getPath(LocalFileSystem.java:108)
+	at org.knime.filehandling.core.fs.local.fs.LocalFileSystem.getPath(LocalFileSystem.java:1)
+	at org.knime.filehandling.core.connections.FSFileSystem.getPath(FSFileSystem.java:339)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.AbstractFileChooserPathAccessor.getPathFromConvenienceFs(AbstractFileChooserPathAccessor.java:214)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.AbstractFileChooserPathAccessor.getOutputPath(AbstractFileChooserPathAccessor.java:195)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.writer.DefaultWriterStatusMessageReporter.report(DefaultWriterStatusMessageReporter.java:122)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:107)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2025-05-05 22:24:05,365 : WARN  : comm-pool-thread-8 :  : Node : Parameter Optimization Loop End : 3:263 : Wrong Loop Start Node Connected
+2025-05-05 22:24:30,744 : WARN  : KNIME-Worker-40-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1365.0 Transformed value: -0.0014972696846926314 Lower Bound: 0.0
+2025-05-05 22:24:36,132 : WARN  : KNIME-Worker-36-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1185.0 Transformed value: -6.742078058281503E-4 Lower Bound: 0.0
+2025-05-05 22:24:40,823 : WARN  : KNIME-Worker-41-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11827.0 Transformed value: 1.0376926902038786 Upper Bound: 1.0
+2025-05-05 22:24:45,681 : WARN  : KNIME-Worker-35-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1146.0 Transformed value: -6.855184233076211E-4 Lower Bound: 0.0
+2025-05-05 22:24:55,345 : WARN  : KNIME-Worker-37-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1242.0 Transformed value: -0.0017103762827822139 Lower Bound: 0.0
+2025-05-05 22:25:00,117 : WARN  : KNIME-Worker-43-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1393.0 Transformed value: -0.003944962955835657 Lower Bound: 0.0
+2025-05-05 22:25:09,696 : WARN  : KNIME-Worker-44-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11008.0 Transformed value: 1.0265065230896666 Upper Bound: 1.0
+2025-05-05 22:25:19,322 : WARN  : KNIME-Worker-37-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1365.0 Transformed value: -0.0014972696846926314 Lower Bound: 0.0
+2025-05-05 22:25:24,116 : WARN  : KNIME-Worker-43-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1141.0 Transformed value: -3.3442579091699787E-4 Lower Bound: 0.0
+2025-05-05 22:25:38,436 : WARN  : KNIME-Worker-39-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11827.0 Transformed value: 1.0376926902038786 Upper Bound: 1.0
+2025-05-05 22:25:43,247 : WARN  : KNIME-Worker-45-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11008.0 Transformed value: 1.0265065230896666 Upper Bound: 1.0
+2025-05-05 22:25:52,770 : WARN  : KNIME-Worker-36-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1122.0 Transformed value: -0.0020551464291830857 Lower Bound: 0.0
+2025-05-05 22:26:02,458 : WARN  : KNIME-Worker-35-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1434.0 Transformed value: -0.002024681835711528 Lower Bound: 0.0
+2025-05-05 22:26:07,224 : WARN  : KNIME-Worker-45-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1122.0 Transformed value: -0.0020551464291830857 Lower Bound: 0.0
+2025-05-05 22:26:16,740 : WARN  : KNIME-Worker-36-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1094.0 Transformed value: -0.002629449838187692 Lower Bound: 0.0
+2025-05-05 22:26:35,486 : WARN  : KNIME-Worker-37-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11827.0 Transformed value: 1.0376926902038786 Upper Bound: 1.0
+2025-05-05 22:26:40,067 : WARN  : KNIME-Worker-43-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1185.0 Transformed value: -6.742078058281503E-4 Lower Bound: 0.0
+2025-05-05 22:26:44,700 : WARN  : KNIME-Worker-38-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11008.0 Transformed value: 1.0265065230896666 Upper Bound: 1.0
+2025-05-05 22:26:49,281 : WARN  : KNIME-Worker-44-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1393.0 Transformed value: -0.003944962955835657 Lower Bound: 0.0
+2025-05-05 22:27:03,455 : WARN  : KNIME-Worker-43-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1365.0 Transformed value: -0.0014972696846926314 Lower Bound: 0.0
+2025-05-05 22:27:08,148 : WARN  : KNIME-Worker-38-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1185.0 Transformed value: -6.742078058281503E-4 Lower Bound: 0.0
+2025-05-05 22:27:17,290 : WARN  : KNIME-Worker-39-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1094.0 Transformed value: -0.002629449838187692 Lower Bound: 0.0
+2025-05-05 22:27:26,439 : WARN  : KNIME-Worker-40-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11008.0 Transformed value: 1.0265065230896666 Upper Bound: 1.0
+2025-05-05 22:27:30,993 : WARN  : KNIME-Worker-36-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1242.0 Transformed value: -0.0017103762827822139 Lower Bound: 0.0
+2025-05-05 22:27:35,573 : WARN  : KNIME-Worker-41-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11827.0 Transformed value: 1.0376926902038786 Upper Bound: 1.0
+2025-05-05 22:27:40,219 : WARN  : KNIME-Worker-39-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1094.0 Transformed value: -0.002629449838187692 Lower Bound: 0.0
+2025-05-05 22:27:49,237 : WARN  : KNIME-Worker-40-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1185.0 Transformed value: -6.742078058281503E-4 Lower Bound: 0.0
+2025-05-05 22:27:53,834 : WARN  : KNIME-Worker-36-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11827.0 Transformed value: 1.0376926902038786 Upper Bound: 1.0
+2025-05-05 22:28:02,977 : WARN  : KNIME-Worker-35-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1393.0 Transformed value: -0.003944962955835657 Lower Bound: 0.0
+2025-05-05 22:28:07,548 : WARN  : KNIME-Worker-42-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11008.0 Transformed value: 1.0265065230896666 Upper Bound: 1.0
+2025-05-05 22:28:21,369 : WARN  : KNIME-Worker-38-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1242.0 Transformed value: -0.0017103762827822139 Lower Bound: 0.0
+2025-05-05 22:28:25,959 : WARN  : KNIME-Worker-35-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1122.0 Transformed value: -0.0020551464291830857 Lower Bound: 0.0
+2025-05-05 22:28:30,459 : WARN  : KNIME-Worker-42-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1365.0 Transformed value: -0.0014972696846926314 Lower Bound: 0.0
+2025-05-05 22:28:44,166 : WARN  : KNIME-Worker-38-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1393.0 Transformed value: -0.003944962955835657 Lower Bound: 0.0
+2025-05-05 22:28:48,829 : WARN  : KNIME-Worker-44-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1141.0 Transformed value: -3.3442579091699787E-4 Lower Bound: 0.0
+2025-05-05 22:29:02,826 : WARN  : KNIME-Worker-40-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11827.0 Transformed value: 1.0376926902038786 Upper Bound: 1.0
+2025-05-05 22:29:07,738 : WARN  : KNIME-Worker-36-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1242.0 Transformed value: -0.0017103762827822139 Lower Bound: 0.0
+2025-05-05 22:29:12,476 : WARN  : KNIME-Worker-44-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11008.0 Transformed value: 1.0265065230896666 Upper Bound: 1.0
+2025-05-05 22:29:17,047 : WARN  : KNIME-Worker-39-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1393.0 Transformed value: -0.003944962955835657 Lower Bound: 0.0
+2025-05-05 22:29:26,402 : WARN  : KNIME-Worker-40-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1122.0 Transformed value: -0.0020551464291830857 Lower Bound: 0.0
+2025-05-05 22:29:31,011 : WARN  : KNIME-Worker-36-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1242.0 Transformed value: -0.0017103762827822139 Lower Bound: 0.0
+2025-05-05 22:29:35,604 : WARN  : KNIME-Worker-41-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11827.0 Transformed value: 1.0376926902038786 Upper Bound: 1.0
+2025-05-05 22:29:44,566 : WARN  : KNIME-Worker-42-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1141.0 Transformed value: -3.3442579091699787E-4 Lower Bound: 0.0
+2025-05-05 22:29:49,191 : WARN  : KNIME-Worker-37-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1185.0 Transformed value: -6.742078058281503E-4 Lower Bound: 0.0
+2025-05-05 22:32:09,385 : WARN  : KNIME-Worker-47-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1185.0 Transformed value: -1.0013484156116563 Lower Bound: -1.0
+2025-05-05 22:32:19,119 : WARN  : KNIME-Worker-46-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1365.0 Transformed value: -1.0029945393693853 Lower Bound: -1.0
+2025-05-05 22:32:23,999 : WARN  : KNIME-Worker-53-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11827.0 Transformed value: 1.075385380407757 Upper Bound: 1.0
+2025-05-05 22:32:28,950 : WARN  : KNIME-Worker-48-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1393.0 Transformed value: -1.0078899259116714 Lower Bound: -1.0
+2025-05-05 22:32:33,779 : WARN  : KNIME-Worker-54-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1242.0 Transformed value: -1.0055169789784075 Lower Bound: -1.0
+2025-05-05 22:32:43,834 : WARN  : KNIME-Worker-55-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11008.0 Transformed value: 1.053013046179333 Upper Bound: 1.0
+2025-05-05 22:32:53,716 : WARN  : KNIME-Worker-48-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11827.0 Transformed value: 1.075385380407757 Upper Bound: 1.0
+2025-05-05 22:33:03,803 : WARN  : KNIME-Worker-49-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1434.0 Transformed value: -1.0040493636714232 Lower Bound: -1.0
+2025-05-05 22:33:13,790 : WARN  : KNIME-Worker-50-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11008.0 Transformed value: 1.053013046179333 Upper Bound: 1.0
+2025-05-05 22:33:18,985 : WARN  : KNIME-Worker-56-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1185.0 Transformed value: -1.0013484156116563 Lower Bound: -1.0
+2025-05-05 22:33:34,021 : WARN  : KNIME-Worker-52-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1242.0 Transformed value: -1.0034207525655645 Lower Bound: -1.0
+2025-05-05 22:33:43,834 : WARN  : KNIME-Worker-56-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1393.0 Transformed value: -1.0078899259116714 Lower Bound: -1.0
+2025-05-05 22:33:53,491 : WARN  : KNIME-Worker-47-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1314.0 Transformed value: -1.0009650646593322 Lower Bound: -1.0
+2025-05-05 22:33:58,420 : WARN  : KNIME-Worker-52-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11008.0 Transformed value: 1.053013046179333 Upper Bound: 1.0
+2025-05-05 22:34:17,771 : WARN  : KNIME-Worker-54-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11827.0 Transformed value: 1.075385380407757 Upper Bound: 1.0
+2025-05-05 22:34:22,575 : WARN  : KNIME-Worker-49-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1365.0 Transformed value: -1.0029945393693853 Lower Bound: -1.0
+2025-05-05 22:34:27,174 : WARN  : KNIME-Worker-55-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1185.0 Transformed value: -1.0013484156116563 Lower Bound: -1.0
+2025-05-05 22:34:37,030 : WARN  : KNIME-Worker-48-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1393.0 Transformed value: -1.0078899259116714 Lower Bound: -1.0
+2025-05-05 22:34:47,136 : WARN  : KNIME-Worker-49-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11008.0 Transformed value: 1.053013046179333 Upper Bound: 1.0
+2025-05-05 22:34:56,576 : WARN  : KNIME-Worker-50-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1365.0 Transformed value: -1.0029945393693853 Lower Bound: -1.0
+2025-05-05 22:35:01,462 : WARN  : KNIME-Worker-56-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11827.0 Transformed value: 1.075385380407757 Upper Bound: 1.0
+2025-05-05 22:35:11,274 : WARN  : KNIME-Worker-47-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1094.0 Transformed value: -1.0052588996763754 Lower Bound: -1.0
+2025-05-05 22:35:16,065 : WARN  : KNIME-Worker-52-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1242.0 Transformed value: -1.0034207525655645 Lower Bound: -1.0
+2025-05-05 22:35:21,150 : WARN  : KNIME-Worker-50-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1365.0 Transformed value: -1.0029945393693853 Lower Bound: -1.0
+2025-05-05 22:35:31,199 : WARN  : KNIME-Worker-51-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1185.0 Transformed value: -1.0013484156116563 Lower Bound: -1.0
+2025-05-05 22:35:40,589 : WARN  : KNIME-Worker-52-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11827.0 Transformed value: 1.075385380407757 Upper Bound: 1.0
+2025-05-05 22:35:45,319 : WARN  : KNIME-Worker-46-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1393.0 Transformed value: -1.0078899259116714 Lower Bound: -1.0
+2025-05-05 22:35:49,979 : WARN  : KNIME-Worker-53-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11008.0 Transformed value: 1.053013046179333 Upper Bound: 1.0
+2025-05-05 22:36:03,930 : WARN  : KNIME-Worker-49-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1146.0 Transformed value: -1.0003425830763961 Lower Bound: -1.0
+2025-05-05 22:36:08,627 : WARN  : KNIME-Worker-46-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1094.0 Transformed value: -1.0052588996763754 Lower Bound: -1.0
+2025-05-05 22:36:27,543 : WARN  : KNIME-Worker-49-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1141.0 Transformed value: -1.000668851581834 Lower Bound: -1.0
+2025-05-05 22:36:32,231 : WARN  : KNIME-Worker-55-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1185.0 Transformed value: -1.0013484156116563 Lower Bound: -1.0
+2025-05-05 22:36:36,826 : WARN  : KNIME-Worker-50-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1242.0 Transformed value: -1.0034207525655645 Lower Bound: -1.0
+2025-05-05 22:36:41,419 : WARN  : KNIME-Worker-56-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11827.0 Transformed value: 1.075385380407757 Upper Bound: 1.0
+2025-05-05 22:36:46,115 : WARN  : KNIME-Worker-51-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11008.0 Transformed value: 1.053013046179333 Upper Bound: 1.0
+2025-05-05 22:36:50,864 : WARN  : KNIME-Worker-47-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1434.0 Transformed value: -1.0040493636714232 Lower Bound: -1.0
+2025-05-05 22:36:55,459 : WARN  : KNIME-Worker-55-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1242.0 Transformed value: -1.0034207525655645 Lower Bound: -1.0
+2025-05-05 22:37:00,124 : WARN  : KNIME-Worker-50-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1185.0 Transformed value: -1.0013484156116563 Lower Bound: -1.0
+2025-05-05 22:37:14,134 : WARN  : KNIME-Worker-47-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11008.0 Transformed value: 1.053013046179333 Upper Bound: 1.0
+2025-05-05 22:37:18,724 : WARN  : KNIME-Worker-52-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1141.0 Transformed value: -1.000668851581834 Lower Bound: -1.0
+2025-05-05 22:37:28,028 : WARN  : KNIME-Worker-53-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11827.0 Transformed value: 1.0756940283602954 Upper Bound: 1.0
+2025-05-05 22:37:32,728 : WARN  : KNIME-Worker-48-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1314.0 Transformed value: -1.0009650646593322 Lower Bound: -1.0
+2025-05-05 22:37:51,423 : WARN  : KNIME-Worker-53-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1185.0 Transformed value: -1.0013484156116563 Lower Bound: -1.0
+2025-05-05 22:37:55,993 : WARN  : KNIME-Worker-48-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11008.0 Transformed value: 1.053013046179333 Upper Bound: 1.0
+2025-05-05 22:38:05,507 : WARN  : KNIME-Worker-49-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11827.0 Transformed value: 1.075385380407757 Upper Bound: 1.0
+2025-05-05 22:38:10,188 : WARN  : KNIME-Worker-55-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1242.0 Transformed value: -1.0034207525655645 Lower Bound: -1.0
+2025-05-05 22:38:14,785 : WARN  : KNIME-Worker-50-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1365.0 Transformed value: -1.0029945393693853 Lower Bound: -1.0
+2025-05-05 22:38:19,482 : WARN  : KNIME-Worker-56-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1094.0 Transformed value: -1.0052588996763754 Lower Bound: -1.0
+2025-05-05 22:38:24,260 : WARN  : KNIME-Worker-51-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1393.0 Transformed value: -1.0078899259116714 Lower Bound: -1.0
+2025-05-05 22:38:28,943 : WARN  : KNIME-Worker-49-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1122.0 Transformed value: -1.0041102928583663 Lower Bound: -1.0
+2025-05-05 22:38:33,580 : WARN  : KNIME-Worker-55-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1185.0 Transformed value: -1.0013484156116563 Lower Bound: -1.0
+2025-05-05 22:38:38,149 : WARN  : KNIME-Worker-50-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1242.0 Transformed value: -1.0034207525655645 Lower Bound: -1.0
+2025-05-05 22:38:42,830 : WARN  : KNIME-Worker-56-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11827.0 Transformed value: 1.075385380407757 Upper Bound: 1.0
+2025-05-05 22:38:47,575 : WARN  : KNIME-Worker-51-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1141.0 Transformed value: -1.000668851581834 Lower Bound: -1.0
+2025-05-05 22:38:52,279 : WARN  : KNIME-Worker-47-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1094.0 Transformed value: -1.0052588996763754 Lower Bound: -1.0
+2025-05-05 22:38:56,907 : WARN  : KNIME-Worker-52-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11008.0 Transformed value: 1.053013046179333 Upper Bound: 1.0
+2025-05-05 22:39:11,689 : WARN  : KNIME-Worker-48-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1365.0 Transformed value: -1.0029945393693853 Lower Bound: -1.0
+2025-05-05 22:39:16,469 : WARN  : KNIME-Worker-47-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11827.0 Transformed value: 1.075385380407757 Upper Bound: 1.0
+2025-05-05 22:39:26,386 : WARN  : KNIME-Worker-46-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1365.0 Transformed value: -1.0029945393693853 Lower Bound: -1.0
+2025-05-05 22:39:40,375 : WARN  : KNIME-Worker-54-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 11008.0 Transformed value: 1.053013046179333 Upper Bound: 1.0
+2025-05-05 22:39:44,962 : WARN  : KNIME-Worker-49-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1393.0 Transformed value: -1.0078899259116714 Lower Bound: -1.0
+2025-05-05 22:39:49,592 : WARN  : KNIME-Worker-55-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1094.0 Transformed value: -1.0052588996763754 Lower Bound: -1.0
+2025-05-05 22:39:59,052 : WARN  : KNIME-Worker-56-Normalizer (Apply) 3:254 :  : Node : Normalizer (Apply) : 3:254 : Normalized value is out of bounds. Original value: 1185.0 Transformed value: -1.0013484156116563 Lower Bound: -1.0
+2025-05-05 23:37:45,659 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-05-05 23:38:08,832 : WARN  : KNIME-Worker-60-Normalizer (Apply) 3:260 :  : Node : Normalizer (Apply) : 3:260 : Normalized value is out of bounds. Original value: 1111.0 Transformed value: -1.0018800205093146 Lower Bound: -1.0
+2025-05-05 23:44:54,832 : WARN  : KNIME-Worker-79-Normalizer (Apply) 3:260 :  : Node : Normalizer (Apply) : 3:260 : Normalized value is out of bounds. Original value: 1111.0 Transformed value: -1.0018800205093146 Lower Bound: -1.0
+2025-05-05 23:55:22,630 : WARN  : comm-pool-thread-10 :  : Node : Parameter Optimization Loop End : 3:283 : Wrong Loop Start Node Connected
+2025-05-05 23:55:26,364 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-05-06 00:05:55,294 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-05-06 00:05:55,294 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-05-06 00:05:55,294 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Accesso al Registro di sistema non consentito.
+2025-05-06 00:05:55,294 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : In riga:1 car:1
+2025-05-06 00:05:55,294 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-05-06 00:05:55,294 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-05-06 00:05:55,294 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-05-06 00:05:55,294 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-05-06 00:05:55,294 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-05-06 00:05:55,294 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-05-06 00:06:49,355 : WARN  : ModalContext :  : Node : Normalizer (Apply) : 3:13 : Normalized value is out of bounds. Original value: 1111.0 Transformed value: -9.40010254657328E-4 Lower Bound: 0.0
+2025-05-06 00:06:58,630 : WARN  : ModalContext :  : Node : Normalizer (Apply) : 3:260 : Normalized value is out of bounds. Original value: 1111.0 Transformed value: -1.0018800205093146 Lower Bound: -1.0
+2025-05-06 10:00:32,834 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-05-06 10:00:32,834 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-05-06 10:00:32,834 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Accesso al Registro di sistema non consentito.
+2025-05-06 10:00:32,834 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : In riga:1 car:1
+2025-05-06 10:00:32,834 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-05-06 10:00:32,834 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-05-06 10:00:32,834 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-05-06 10:00:32,834 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-05-06 10:00:32,834 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-05-06 10:00:32,834 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-05-06 10:00:52,461 : WARN  : ModalContext :  : Node : Normalizer (Apply) : 3:13 : Normalized value is out of bounds. Original value: 1111.0 Transformed value: -9.40010254657328E-4 Lower Bound: 0.0
+2025-05-06 10:01:02,402 : WARN  : ModalContext :  : Node : Normalizer (Apply) : 3:260 : Normalized value is out of bounds. Original value: 1111.0 Transformed value: -1.0018800205093146 Lower Bound: -1.0
+2025-05-06 10:52:34,154 : ERROR : main :  : WekaSerializer : IBk (3.7) : 3:273 : Unexpected error while loading settings from class: Illegal options: 1 
+java.lang.Exception: Illegal options: 1 
+	at weka.core.Utils.checkForRemainingOptions(Utils.java:534)
+	at weka.classifiers.lazy.IBk.setOptions(IBk.java:715)
+	at weka.core.Utils.forName(Utils.java:1081)
+	at org.knime.ext.weka37.utils.WekaSerializer.deserialize(WekaSerializer.java:266)
+	at org.knime.ext.weka37.classifier.WekaClassifierNodeModel.loadValidatedSettingsFrom(WekaClassifierNodeModel.java:356)
+	at org.knime.core.node.NodeModel.loadSettingsFrom(NodeModel.java:469)
+	at org.knime.core.node.Node.loadModelSettingsFrom(Node.java:664)
+	at org.knime.core.node.workflow.NativeNodeContainer.performLoadModelSettingsFrom(NativeNodeContainer.java:580)
+	at org.knime.core.node.workflow.SingleNodeContainer.applyModelSettingsUsingFlowObjectStack(SingleNodeContainer.java:413)
+	at org.knime.core.node.workflow.SingleNodeContainer.applySettingsUsingFlowObjectStack(SingleNodeContainer.java:388)
+	at org.knime.core.node.workflow.SingleNodeContainer$1.preConfigure(SingleNodeContainer.java:294)
+	at org.knime.core.node.Node.configure(Node.java:1963)
+	at org.knime.core.node.workflow.NativeNodeContainer.performConfigure(NativeNodeContainer.java:574)
+	at org.knime.core.node.workflow.SingleNodeContainer.callNodeConfigure(SingleNodeContainer.java:315)
+	at org.knime.core.node.workflow.SingleNodeContainer.configure(SingleNodeContainer.java:200)
+	at org.knime.core.node.workflow.WorkflowManager.configureSingleNodeContainer(WorkflowManager.java:6850)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:7031)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:6969)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndSuccessors(WorkflowManager.java:6949)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2250)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1142)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:677)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:630)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$6.widgetSelected(WrappedNodeDialog.java:515)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:198)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:967)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:869)
+	at org.knime.ui.java.api.NodeAPI.openNodeDialog(NodeAPI.java:102)
+	at jdk.internal.reflect.GeneratedMethodAccessor198.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.invokeMethod(DesktopAPI.java:178)
+	at org.knime.ui.java.api.DesktopAPI.lambda$1(DesktopAPI.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:211)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+2025-05-06 10:52:34,157 : WARN  : main :  : Node : IBk (3.7) : 3:273 : Errors loading flow variables into node : Unexpected error while loading settings from class: Illegal options: 1 
+2025-05-06 10:53:49,566 : ERROR : KNIME-Worker-11-IBk (3.7) 3:273 :  : Node : IBk (3.7) : 3:273 : Execute failed: ClassCastException in Weka during training. Please verify your settings. class weka.core.ManhattanDistance cannot be cast to class weka.core.EuclideanDistance (weka.core.ManhattanDistance and weka.core.EuclideanDistance are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @400c5ba0)
+org.knime.core.node.InvalidSettingsException: ClassCastException in Weka during training. Please verify your settings. class weka.core.ManhattanDistance cannot be cast to class weka.core.EuclideanDistance (weka.core.ManhattanDistance and weka.core.EuclideanDistance are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @400c5ba0)
+	at org.knime.ext.weka37.classifier.WekaClassifierNodeModel.execute(WekaClassifierNodeModel.java:285)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: java.lang.ClassCastException: class weka.core.ManhattanDistance cannot be cast to class weka.core.EuclideanDistance (weka.core.ManhattanDistance and weka.core.EuclideanDistance are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @400c5ba0)
+	at weka.core.neighboursearch.BallTree.buildTree(BallTree.java:222)
+	at weka.core.neighboursearch.BallTree.setInstances(BallTree.java:435)
+	at weka.classifiers.lazy.IBk.buildClassifier(IBk.java:512)
+	at org.knime.ext.weka37.utils.WekaClassifierCreationTask.run(WekaClassifierCreationTask.java:124)
+2025-05-06 10:55:14,377 : ERROR : KNIME-Worker-10-IBk (3.7) 3:273 :  : Node : IBk (3.7) : 3:273 : Execute failed: ClassCastException in Weka during training. Please verify your settings. class weka.core.ManhattanDistance cannot be cast to class weka.core.EuclideanDistance (weka.core.ManhattanDistance and weka.core.EuclideanDistance are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @400c5ba0)
+org.knime.core.node.InvalidSettingsException: ClassCastException in Weka during training. Please verify your settings. class weka.core.ManhattanDistance cannot be cast to class weka.core.EuclideanDistance (weka.core.ManhattanDistance and weka.core.EuclideanDistance are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @400c5ba0)
+	at org.knime.ext.weka37.classifier.WekaClassifierNodeModel.execute(WekaClassifierNodeModel.java:285)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: java.lang.ClassCastException: class weka.core.ManhattanDistance cannot be cast to class weka.core.EuclideanDistance (weka.core.ManhattanDistance and weka.core.EuclideanDistance are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @400c5ba0)
+	at weka.core.neighboursearch.BallTree.buildTree(BallTree.java:222)
+	at weka.core.neighboursearch.BallTree.setInstances(BallTree.java:435)
+	at weka.classifiers.lazy.IBk.buildClassifier(IBk.java:512)
+	at org.knime.ext.weka37.utils.WekaClassifierCreationTask.run(WekaClassifierCreationTask.java:124)
+2025-05-06 13:55:02,310 : WARN  : comm-pool-thread-1 :  : Node : IBk (3.7) : 3:273 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "k"
+2025-05-06 14:04:12,119 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)

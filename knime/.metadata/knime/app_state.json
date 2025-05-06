@@ -9,36 +9,12 @@
       "relativePath" : "Esercitazione_1\\Esercitazione n2\\01. Classification"
     }
   }, {
-    "name" : "03. X-Validation",
-    "active" : false,
-    "origin" : {
-      "providerId" : "local",
-      "spaceId" : "local",
-      "relativePath" : "Esercitazione_1\\Esercitazione n1\\03. X-Validation"
-    }
-  }, {
     "name" : "soluzione_1_contest1",
     "active" : true,
     "origin" : {
       "providerId" : "local",
       "spaceId" : "local",
       "relativePath" : "1_Contest\\soluzione_1_contest1"
-    }
-  }, {
-    "name" : "02. Normalization",
-    "active" : false,
-    "origin" : {
-      "providerId" : "local",
-      "spaceId" : "local",
-      "relativePath" : "Esercitazione_1\\Esercitazione n2\\02. Normalization"
-    }
-  }, {
-    "name" : "02. Evaluation Metrics",
-    "active" : false,
-    "origin" : {
-      "providerId" : "local",
-      "spaceId" : "local",
-      "relativePath" : "Esercitazione_1\\Esercitazione n1\\02. Evaluation Metrics"
     }
   } ],
   "mostRecentlyUsedProjects" : [ {
@@ -69,15 +45,6 @@
       "relativePath" : "Esercitazione_1\\Esercitazione n1\\03. X-Validation"
     }
   }, {
-    "name" : "soluzione_1_contest1",
-    "timeUsed" : "2025-05-03T12:51:01.3917938+02:00",
-    "origin" : {
-      "providerId" : "local",
-      "spaceId" : "local",
-      "projectType" : "WORKFLOW",
-      "relativePath" : "1_Contest\\soluzione_1_contest1"
-    }
-  }, {
     "name" : "02. Normalization",
     "timeUsed" : "2025-05-04T10:31:37.2251024+02:00",
     "origin" : {
@@ -94,6 +61,15 @@
       "spaceId" : "local",
       "projectType" : "WORKFLOW",
       "relativePath" : "Esercitazione_1\\Esercitazione n1\\02. Evaluation Metrics"
+    }
+  }, {
+    "name" : "soluzione_1_contest1",
+    "timeUsed" : "2025-05-06T00:07:10.9854686+02:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "1_Contest\\soluzione_1_contest1"
     }
   } ]
 }
