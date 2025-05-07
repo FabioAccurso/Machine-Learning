@@ -4072,3 +4072,39 @@ Caused by: java.lang.ClassCastException: class weka.core.ManhattanDistance canno
       font-weight: bold;
       padding: 2px 0.5em;
       [object Object] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-05-07 11:30:43,473 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-05-07 11:30:43,473 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-05-07 11:30:43,473 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Accesso al Registro di sistema non consentito.
+2025-05-07 11:30:43,473 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : In riga:1 car:1
+2025-05-07 11:30:43,473 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-05-07 11:30:43,473 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-05-07 11:30:43,473 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-05-07 11:30:43,473 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-05-07 11:30:43,473 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-05-07 11:30:43,473 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-05-07 11:31:04,802 : WARN  : ModalContext :  : Node : Normalizer (Apply) : 3:13 : Normalized value is out of bounds. Original value: 1111.0 Transformed value: -9.40010254657328E-4 Lower Bound: 0.0
+2025-05-07 11:31:15,327 : WARN  : ModalContext :  : Node : Normalizer (Apply) : 3:260 : Normalized value is out of bounds. Original value: 1111.0 Transformed value: -1.0018800205093146 Lower Bound: -1.0
+2025-05-07 11:59:05,101 : ERROR : SwingWorker-pool-11-thread-5 :  : StatusSwingWorker : CSV Writer : 3:313 : Error while updating status message: Illegal char <?> at index 97: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_Contest\output\7_knnWeka_NN_4?_Manthattan.csv
+java.nio.file.InvalidPathException: Illegal char <?> at index 97: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_Contest\output\7_knnWeka_NN_4?_Manthattan.csv
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(Unknown Source)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(Unknown Source)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(Unknown Source)
+	at java.base/sun.nio.fs.WindowsPath.parse(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(Unknown Source)
+	at java.base/java.nio.file.Path.of(Unknown Source)
+	at java.base/java.nio.file.Paths.get(Unknown Source)
+	at org.knime.filehandling.core.fs.local.fs.LocalFileSystem.getPath(LocalFileSystem.java:108)
+	at org.knime.filehandling.core.fs.local.fs.LocalFileSystem.getPath(LocalFileSystem.java:1)
+	at org.knime.filehandling.core.connections.FSFileSystem.getPath(FSFileSystem.java:339)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.AbstractFileChooserPathAccessor.getPathFromConvenienceFs(AbstractFileChooserPathAccessor.java:214)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.AbstractFileChooserPathAccessor.getOutputPath(AbstractFileChooserPathAccessor.java:195)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.writer.DefaultWriterStatusMessageReporter.report(DefaultWriterStatusMessageReporter.java:122)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:107)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
