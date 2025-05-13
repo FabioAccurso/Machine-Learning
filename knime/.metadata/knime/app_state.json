@@ -1,68 +1,47 @@
 {
-  "version" : "5.4.3.v202503031608",
+  "version" : "5.4.4.v202504301443",
   "projects" : [ {
-    "name" : "01. Classification",
+    "name" : "01. Regression",
     "active" : false,
     "origin" : {
       "providerId" : "local",
       "spaceId" : "local",
-      "relativePath" : "Esercitazione_1\\Esercitazione n2\\01. Classification"
+      "relativePath" : "Esercitazione_3\\01. Regression"
     }
   }, {
-    "name" : "soluzione_1_contest1",
+    "name" : "04. Missing Values",
+    "active" : false,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "Esercitazione_3\\04. Missing Values"
+    }
+  }, {
+    "name" : "01. Feature Selection",
+    "active" : false,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "Esercitazione_3\\Esercitazione n3\\01. Feature Selection"
+    }
+  }, {
+    "name" : "02. Feature Projection",
+    "active" : false,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "Esercitazione_3\\Esercitazione n3\\02. Feature Projection"
+    }
+  }, {
+    "name" : "soluzione_2_minicontest",
     "active" : true,
     "origin" : {
       "providerId" : "local",
       "spaceId" : "local",
-      "relativePath" : "1_Contest\\soluzione_1_contest1"
+      "relativePath" : "2_Contest\\soluzione_2_minicontest"
     }
   } ],
   "mostRecentlyUsedProjects" : [ {
-    "name" : "01. Basics",
-    "timeUsed" : "2025-05-02T19:57:20.0689587+02:00",
-    "origin" : {
-      "providerId" : "local",
-      "spaceId" : "local",
-      "projectType" : "WORKFLOW",
-      "relativePath" : "Esercitazione_1\\Esercitazione n1\\01. Basics"
-    }
-  }, {
-    "name" : "01. Classification",
-    "timeUsed" : "2025-05-03T12:35:17.4047632+02:00",
-    "origin" : {
-      "providerId" : "local",
-      "spaceId" : "local",
-      "projectType" : "WORKFLOW",
-      "relativePath" : "Esercitazione_1\\Esercitazione n2\\01. Classification"
-    }
-  }, {
-    "name" : "03. X-Validation",
-    "timeUsed" : "2025-05-03T12:39:20.0435852+02:00",
-    "origin" : {
-      "providerId" : "local",
-      "spaceId" : "local",
-      "projectType" : "WORKFLOW",
-      "relativePath" : "Esercitazione_1\\Esercitazione n1\\03. X-Validation"
-    }
-  }, {
-    "name" : "02. Normalization",
-    "timeUsed" : "2025-05-04T10:31:37.2251024+02:00",
-    "origin" : {
-      "providerId" : "local",
-      "spaceId" : "local",
-      "projectType" : "WORKFLOW",
-      "relativePath" : "Esercitazione_1\\Esercitazione n2\\02. Normalization"
-    }
-  }, {
-    "name" : "02. Evaluation Metrics",
-    "timeUsed" : "2025-05-04T10:31:47.5240923+02:00",
-    "origin" : {
-      "providerId" : "local",
-      "spaceId" : "local",
-      "projectType" : "WORKFLOW",
-      "relativePath" : "Esercitazione_1\\Esercitazione n1\\02. Evaluation Metrics"
-    }
-  }, {
     "name" : "soluzione_1_contest1",
     "timeUsed" : "2025-05-06T00:07:10.9854686+02:00",
     "origin" : {
@@ -70,6 +49,60 @@
       "spaceId" : "local",
       "projectType" : "WORKFLOW",
       "relativePath" : "1_Contest\\soluzione_1_contest1"
+    }
+  }, {
+    "name" : "01. Regression",
+    "timeUsed" : "2025-05-13T10:15:45.0985645+02:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "Esercitazione_3\\01. Regression"
+    }
+  }, {
+    "name" : "04. Missing Values",
+    "timeUsed" : "2025-05-13T10:15:48.9615785+02:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "Esercitazione_3\\04. Missing Values"
+    }
+  }, {
+    "name" : "01. Feature Selection",
+    "timeUsed" : "2025-05-13T10:15:53.489322+02:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "Esercitazione_3\\Esercitazione n3\\01. Feature Selection"
+    }
+  }, {
+    "name" : "02. Feature Projection",
+    "timeUsed" : "2025-05-13T10:15:56.3621466+02:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "Esercitazione_3\\Esercitazione n3\\02. Feature Projection"
+    }
+  }, {
+    "name" : "soluzione_2_minicontest",
+    "timeUsed" : "2025-05-13T10:17:10.6090594+02:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "2_Contest\\soluzione_2_minicontest"
+    }
+  }, {
+    "name" : "ML_MC1_knn_preprocessing",
+    "timeUsed" : "2025-05-13T11:00:28.0904442+02:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "1_Contest\\soluzione_presentata_tizia\\ML_MC1_knn_preprocessing"
     }
   } ]
 }

@@ -4108,3 +4108,143 @@ java.nio.file.InvalidPathException: Illegal char <?> at index 97: C:\Users\Fabio
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.base/java.lang.Thread.run(Unknown Source)
+2025-05-13 10:10:08,697 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-05-13 10:10:08,697 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-05-13 10:10:08,697 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Accesso al Registro di sistema non consentito.
+2025-05-13 10:10:08,697 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : In riga:1 car:1
+2025-05-13 10:10:08,697 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-05-13 10:10:08,697 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-05-13 10:10:08,697 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-05-13 10:10:08,697 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-05-13 10:10:08,697 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-05-13 10:10:08,697 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-05-13 10:10:30,684 : WARN  : ModalContext :  : Node : Normalizer (Apply) : 3:13 : Normalized value is out of bounds. Original value: 1111.0 Transformed value: -9.40010254657328E-4 Lower Bound: 0.0
+2025-05-13 10:10:41,193 : WARN  : ModalContext :  : Node : Normalizer (Apply) : 3:260 : Normalized value is out of bounds. Original value: 1111.0 Transformed value: -1.0018800205093146 Lower Bound: -1.0
+2025-05-13 10:11:27,586 : ERROR : main :  : ProjectAPI :  :  : Workflow with ID '01. Classification_69304cf3-198c-4ef1-9f99-19fd03b916d7' couldn't be loaded. Workflow closed.
+2025-05-13 10:11:27,596 : WARN  : comm-pool-thread-1 :  : JsonRpcErrorResolver :  :  : An unexpected json rpc error occurred
+java.util.NoSuchElementException: Workflow project for ID "01. Classification_69304cf3-198c-4ef1-9f99-19fd03b916d7" not found.
+	at org.knime.gateway.impl.service.util.DefaultServiceUtil.lambda$0(DefaultServiceUtil.java:126)
+	at java.base/java.util.Optional.orElseThrow(Unknown Source)
+	at org.knime.gateway.impl.service.util.DefaultServiceUtil.getRootWorkflowManager(DefaultServiceUtil.java:125)
+	at org.knime.gateway.impl.service.util.DefaultServiceUtil.getWorkflowManager(DefaultServiceUtil.java:155)
+	at org.knime.gateway.impl.webui.WorkflowMiddleware$WorkflowState.<init>(WorkflowMiddleware.java:434)
+	at org.knime.gateway.impl.webui.WorkflowMiddleware.createWorkflowStateAndEventuallyClearCache(WorkflowMiddleware.java:388)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(Unknown Source)
+	at org.knime.gateway.impl.webui.WorkflowMiddleware.getWorkflowState(WorkflowMiddleware.java:384)
+	at org.knime.gateway.impl.webui.WorkflowMiddleware.buildWorkflowSnapshotEnt(WorkflowMiddleware.java:188)
+	at org.knime.gateway.impl.webui.service.DefaultWorkflowService.getWorkflow(DefaultWorkflowService.java:125)
+	at org.knime.gateway.impl.webui.jsonrpc.service.JsonRpcWorkflowServiceWrapper.getWorkflow(JsonRpcWorkflowServiceWrapper.java:124)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.invoke(JsonRpcBasicServer.java:478)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleObject(JsonRpcBasicServer.java:349)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleJsonNodeRequest(JsonRpcBasicServer.java:274)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleRequest(JsonRpcBasicServer.java:242)
+	at org.knime.gateway.impl.jsonrpc.JsonRpcRequestHandler.handle(JsonRpcRequestHandler.java:104)
+	at org.knime.ui.java.browser.lifecycle.Init.lambda$13(Init.java:290)
+	at com.equo.comm.common.MessageHandler.processReceivedEventMessage(MessageHandler.java:131)
+	at com.equo.comm.ee.provider.service.ChromiumService.receiveMessage(ChromiumService.java:98)
+	at com.equo.comm.ee.provider.CommunicationManagerChromiumImpl.receiveMessage(CommunicationManagerChromiumImpl.java:48)
+	at com.equo.chromium.swt.internal.spi.CommRouterHandler.handleRequest(CommRouterHandler.java:33)
+	at com.equo.chromium.swt.internal.spi.CommRouterHandler.lambda$1(CommRouterHandler.java:51)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2025-05-13 10:11:27,605 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Workflow project for ID "01. Classification_69304cf3-198c-4ef1-9f99-19fd03b916d7" not found. (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-05-13 10:11:27,605 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c lifecycle::loadWorkflow failed to load workflow 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-05-13 10:11:27,705 : ERROR : main :  : KnimeBrowserView :  :  : Error: dom element hasn't been set yet (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 41)
+2025-05-13 10:11:27,715 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-05-13 10:11:27,715 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: dom element hasn't been set yet (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 279)
+2025-05-13 10:14:06,348 : ERROR : Clear OSGi configuration :  : InvokeUpdateAction :  :  : Could not clean OSGi configuration area: C:\Users\Fabio\AppData\Local\Programs\KNIME\configuration\org.eclipse.osgi\141\0\.cp\os\win32\x86_64\localfile_1_0_0.dll
+2025-05-13 10:14:15,895 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-05-13 10:14:15,895 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-05-13 10:14:15,895 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Accesso al Registro di sistema non consentito.
+2025-05-13 10:14:15,895 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : In riga:1 car:1
+2025-05-13 10:14:15,895 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-05-13 10:14:15,895 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-05-13 10:14:15,895 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-05-13 10:14:15,895 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-05-13 10:14:15,895 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-05-13 10:14:15,895 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-05-13 10:15:44,872 : WARN  : ModalContext :  : Node : CVParameterSelection (3.7) : 3:86 : Execution canceled
+2025-05-13 10:15:44,874 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:184 : Only the first 2500 rows are displayed.
+2025-05-13 10:15:48,904 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:288 : Can't access 'knime://LOCAL/Anni%20precedenti/Dataset/horse-colic.data.txt'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Anni precedenti\Dataset\horse-colic.data.txt.)
+2025-05-13 10:15:48,909 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:289 : Can't access 'knime://LOCAL/Anni%20precedenti/Dataset/horse-colic.test.txt'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Anni precedenti\Dataset\horse-colic.test.txt.)
+2025-05-13 10:15:48,913 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:294 : Can't access 'knime://LOCAL/Dataset/horse-colic.data.txt'. (File not found: D:\Michela\DOTTORATO_ICTH\EsercitazioneDM\Knime_2019_2020\Dataset\horse-colic.data.txt.)
+2025-05-13 10:15:48,915 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:294 : Can't access 'knime://LOCAL/Dataset/horse-colic.data.txt'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\horse-colic.data.txt.)
+2025-05-13 10:15:53,444 : WARN  : ModalContext :  : Node : ARFF Reader : 5:5 : ARFFReader: I/O Error: File not found: D:\Michela\DOTTORATO_ICTH\EsercitazioneDM\Knime_2019_2020\Dataset\german-credit-test.arff.
+2025-05-13 10:15:53,450 : WARN  : ModalContext :  : Node : ARFF Reader : 5:5 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-test.arff.
+2025-05-13 10:15:53,451 : WARN  : ModalContext :  : Node : ARFF Reader : 5:6 : ARFFReader: I/O Error: File not found: D:\Michela\DOTTORATO_ICTH\EsercitazioneDM\Knime_2019_2020\Dataset\german-credit-train.arff.
+2025-05-13 10:15:53,455 : WARN  : ModalContext :  : Node : ARFF Reader : 5:6 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-train.arff.
+2025-05-13 10:15:53,457 : WARN  : ModalContext :  : Node : ARFF Reader : 5:37 : ARFFReader: I/O Error: File not found: D:\Michela\DOTTORATO_ICTH\EsercitazioneDM\Knime_2019_2020\Dataset\german-credit-test.arff.
+2025-05-13 10:15:53,460 : WARN  : ModalContext :  : Node : ARFF Reader : 5:37 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-test.arff.
+2025-05-13 10:15:53,460 : WARN  : ModalContext :  : Node : ARFF Reader : 5:42 : ARFFReader: I/O Error: File not found: D:\Michela\DOTTORATO_ICTH\EsercitazioneDM\Knime_2019_2020\Dataset\german-credit-test.arff.
+2025-05-13 10:15:53,463 : WARN  : ModalContext :  : Node : ARFF Reader : 5:42 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-test.arff.
+2025-05-13 10:15:56,311 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 6:5 : Can't access 'knime://LOCAL/Datasets/iris.csv'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.)
+2025-05-13 10:15:56,312 : WARN  : ModalContext :  : Node : ARFF Reader : 6:12 : ARFFReader: I/O Error: File not found: D:\Michela\DOTTORATO_ICTH\EsercitazioneDM\Knime_2019_2020\Dataset\german-credit-train.arff.
+2025-05-13 10:15:56,315 : WARN  : ModalContext :  : Node : ARFF Reader : 6:12 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-train.arff.
+2025-05-13 10:15:56,315 : WARN  : ModalContext :  : Node : ARFF Reader : 6:13 : ARFFReader: I/O Error: File not found: D:\Michela\DOTTORATO_ICTH\EsercitazioneDM\Knime_2019_2020\Dataset\german-credit-test.arff.
+2025-05-13 10:15:56,318 : WARN  : ModalContext :  : Node : ARFF Reader : 6:13 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-test.arff.
+2025-05-13 10:15:56,319 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 6:6 : No columns to visualize are available! Please refer to the NodeDescription to find out why!
+2025-05-13 10:15:56,360 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: DataLoadError: 02. Feature Projection 6 loaded with error during data load
+2025-05-13 10:15:56,360 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: DataLoadError: 02. Feature Projection 6
+2025-05-13 10:15:56,360 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "Linear Discriminant Analysis (deprecated)" not available from extension "KNIME Statistics Nodes (Labs)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.stats2" is not installed)
+2025-05-13 10:15:56,360 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: File Reader (deprecated) 6:5
+2025-05-13 10:15:56,360 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from CONFIGURED to IDLE
+2025-05-13 10:15:56,360 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: MISSING Linear Discriminant Analysis (deprecated) 6:4
+2025-05-13 10:15:56,360 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "MISSING Linear Discriminant Analysis (deprecated)": Invalid outport index in settings: 2
+2025-05-13 10:15:56,361 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from CONFIGURED to IDLE
+2025-05-13 10:16:28,189 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-05-13 10:16:28,189 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-05-13 10:16:28,189 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Accesso al Registro di sistema non consentito.
+2025-05-13 10:16:28,189 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : In riga:1 car:1
+2025-05-13 10:16:28,189 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-05-13 10:16:28,189 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-05-13 10:16:28,189 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-05-13 10:16:28,189 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-05-13 10:16:28,189 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-05-13 10:16:28,189 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-05-13 10:16:32,174 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 3:5 : Can't access 'knime://LOCAL/Datasets/iris.csv'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.)
+2025-05-13 10:16:32,202 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 3:5 : Can't access 'knime://LOCAL/Datasets/iris.csv'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.)
+2025-05-13 10:16:32,204 : WARN  : ModalContext :  : Node : ARFF Reader : 3:12 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-train.arff.
+2025-05-13 10:16:32,209 : WARN  : ModalContext :  : Node : ARFF Reader : 3:12 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-train.arff.
+2025-05-13 10:16:32,209 : WARN  : ModalContext :  : Node : ARFF Reader : 3:13 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-test.arff.
+2025-05-13 10:16:32,212 : WARN  : ModalContext :  : Node : ARFF Reader : 3:13 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-test.arff.
+2025-05-13 10:16:32,216 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 3:6 : No columns to visualize are available! Please refer to the NodeDescription to find out why!
+2025-05-13 10:16:37,197 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:288 : Can't access 'knime://LOCAL/Anni%20precedenti/Dataset/horse-colic.data.txt'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Anni precedenti\Dataset\horse-colic.data.txt.)
+2025-05-13 10:16:37,202 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:288 : Can't access 'knime://LOCAL/Anni%20precedenti/Dataset/horse-colic.data.txt'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Anni precedenti\Dataset\horse-colic.data.txt.)
+2025-05-13 10:16:37,205 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:289 : Can't access 'knime://LOCAL/Anni%20precedenti/Dataset/horse-colic.test.txt'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Anni precedenti\Dataset\horse-colic.test.txt.)
+2025-05-13 10:16:37,208 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:289 : Can't access 'knime://LOCAL/Anni%20precedenti/Dataset/horse-colic.test.txt'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Anni precedenti\Dataset\horse-colic.test.txt.)
+2025-05-13 10:16:37,213 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:294 : Can't access 'knime://LOCAL/Dataset/horse-colic.data.txt'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\horse-colic.data.txt.)
+2025-05-13 10:16:37,215 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:294 : Can't access 'knime://LOCAL/Dataset/horse-colic.data.txt'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\horse-colic.data.txt.)
+2025-05-13 10:17:25,741 : WARN  : comm-pool-thread-1 :  : Node : CSV Reader : 6:1 : Please specify a file
+2025-05-13 10:17:31,644 : WARN  : ModalContext :  : Node : ARFF Reader : 7:5 : ARFFReader: I/O Error: File not found: D:\Michela\DOTTORATO_ICTH\EsercitazioneDM\Knime_2019_2020\Dataset\german-credit-test.arff.
+2025-05-13 10:17:31,647 : WARN  : ModalContext :  : Node : ARFF Reader : 7:5 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-test.arff.
+2025-05-13 10:17:31,647 : WARN  : ModalContext :  : Node : ARFF Reader : 7:6 : ARFFReader: I/O Error: File not found: D:\Michela\DOTTORATO_ICTH\EsercitazioneDM\Knime_2019_2020\Dataset\german-credit-train.arff.
+2025-05-13 10:17:31,650 : WARN  : ModalContext :  : Node : ARFF Reader : 7:6 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-train.arff.
+2025-05-13 10:17:31,652 : WARN  : ModalContext :  : Node : ARFF Reader : 7:37 : ARFFReader: I/O Error: File not found: D:\Michela\DOTTORATO_ICTH\EsercitazioneDM\Knime_2019_2020\Dataset\german-credit-test.arff.
+2025-05-13 10:17:31,656 : WARN  : ModalContext :  : Node : ARFF Reader : 7:37 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-test.arff.
+2025-05-13 10:17:31,656 : WARN  : ModalContext :  : Node : ARFF Reader : 7:42 : ARFFReader: I/O Error: File not found: D:\Michela\DOTTORATO_ICTH\EsercitazioneDM\Knime_2019_2020\Dataset\german-credit-test.arff.
+2025-05-13 10:17:31,659 : WARN  : ModalContext :  : Node : ARFF Reader : 7:42 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-test.arff.
+2025-05-13 11:04:32,075 : WARN  : KNIME-Worker-2-Scatter Matrix (legacy) 7:29 :  : Node : Scatter Matrix (legacy) : 7:29 : Only the first 2500 rows are displayed.
+2025-05-13 11:08:42,579 : WARN  : comm-pool-thread-7 :  : Node : CSV Reader : 6:2 : Please specify a file

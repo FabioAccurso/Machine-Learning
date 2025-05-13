@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workflow-metadata content-type="text/plain" xmlns="http://www.knime.org/core/node/workflow/metadata/v1.0">
+    <author>&lt;unknown></author>
+    <created>1970-01-01T01:00:00.000+01:00</created>
+    <last-modified>2016-03-23T11:58:47.000+01:00</last-modified>
+    <description>Feature Elimination with Naive Bayes
+
+This workflow demonstrates the usage of the Feature Elimination Meta Node. The first input is labeled training data, the second test data which does not need to be labeled.
+Inside the meta node at least a learner and a predictor node need to be inserted between the loop start and the loop end node. Alternatively a partitioning node or even a cross validation meta node can be used.
+The loop iterates over all columns and iteratively removes the attribute that has the lowest influence on classification accuracy.
+After the loop has been finished the filter node can be used to filter out all attributes that do not affect classification accuracy much.</description>
+</workflow-metadata>
