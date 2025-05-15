@@ -4248,3 +4248,732 @@ java.util.NoSuchElementException: Workflow project for ID "01. Classification_69
 2025-05-13 10:17:31,659 : WARN  : ModalContext :  : Node : ARFF Reader : 7:42 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-test.arff.
 2025-05-13 11:04:32,075 : WARN  : KNIME-Worker-2-Scatter Matrix (legacy) 7:29 :  : Node : Scatter Matrix (legacy) : 7:29 : Only the first 2500 rows are displayed.
 2025-05-13 11:08:42,579 : WARN  : comm-pool-thread-7 :  : Node : CSV Reader : 6:2 : Please specify a file
+2025-05-14 18:02:30,702 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-05-14 18:02:30,702 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-05-14 18:02:30,702 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Accesso al Registro di sistema non consentito.
+2025-05-14 18:02:30,702 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : In riga:1 car:1
+2025-05-14 18:02:30,702 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-05-14 18:02:30,702 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-05-14 18:02:30,702 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-05-14 18:02:30,702 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-05-14 18:02:30,702 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-05-14 18:02:30,702 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-05-14 18:02:56,900 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:5 : Can't access 'knime://LOCAL/Datasets/iris.csv'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.)
+2025-05-14 18:02:56,914 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:5 : Can't access 'knime://LOCAL/Datasets/iris.csv'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.)
+2025-05-14 18:02:56,914 : WARN  : ModalContext :  : Node : ARFF Reader : 4:12 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-train.arff.
+2025-05-14 18:02:56,918 : WARN  : ModalContext :  : Node : ARFF Reader : 4:12 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-train.arff.
+2025-05-14 18:02:56,918 : WARN  : ModalContext :  : Node : ARFF Reader : 4:13 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-test.arff.
+2025-05-14 18:02:56,921 : WARN  : ModalContext :  : Node : ARFF Reader : 4:13 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-test.arff.
+2025-05-14 18:02:56,924 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 4:6 : No columns to visualize are available! Please refer to the NodeDescription to find out why!
+2025-05-14 18:02:59,048 : WARN  : ModalContext :  : Node : ARFF Reader : 5:5 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-test.arff.
+2025-05-14 18:02:59,055 : WARN  : ModalContext :  : Node : ARFF Reader : 5:5 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-test.arff.
+2025-05-14 18:02:59,055 : WARN  : ModalContext :  : Node : ARFF Reader : 5:6 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-train.arff.
+2025-05-14 18:02:59,058 : WARN  : ModalContext :  : Node : ARFF Reader : 5:6 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-train.arff.
+2025-05-14 18:02:59,079 : WARN  : ModalContext :  : Node : ARFF Reader : 5:37 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-test.arff.
+2025-05-14 18:02:59,083 : WARN  : ModalContext :  : Node : ARFF Reader : 5:37 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-test.arff.
+2025-05-14 18:02:59,083 : WARN  : ModalContext :  : Node : ARFF Reader : 5:42 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-test.arff.
+2025-05-14 18:02:59,086 : WARN  : ModalContext :  : Node : ARFF Reader : 5:42 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-test.arff.
+2025-05-14 18:02:59,287 : WARN  : ModalContext :  : Node : Scatter Matrix (legacy) : 5:29 : Only the first 2500 rows are displayed.
+2025-05-14 18:03:01,036 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 6:288 : Can't access 'knime://LOCAL/Anni%20precedenti/Dataset/horse-colic.data.txt'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Anni precedenti\Dataset\horse-colic.data.txt.)
+2025-05-14 18:03:01,039 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 6:288 : Can't access 'knime://LOCAL/Anni%20precedenti/Dataset/horse-colic.data.txt'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Anni precedenti\Dataset\horse-colic.data.txt.)
+2025-05-14 18:03:01,043 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 6:289 : Can't access 'knime://LOCAL/Anni%20precedenti/Dataset/horse-colic.test.txt'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Anni precedenti\Dataset\horse-colic.test.txt.)
+2025-05-14 18:03:01,046 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 6:289 : Can't access 'knime://LOCAL/Anni%20precedenti/Dataset/horse-colic.test.txt'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Anni precedenti\Dataset\horse-colic.test.txt.)
+2025-05-14 18:03:01,050 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 6:294 : Can't access 'knime://LOCAL/Dataset/horse-colic.data.txt'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\horse-colic.data.txt.)
+2025-05-14 18:03:01,053 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 6:294 : Can't access 'knime://LOCAL/Dataset/horse-colic.data.txt'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\horse-colic.data.txt.)
+2025-05-14 18:25:13,057 : WARN  : comm-pool-thread-5 :  : Node : Partitioning : 3:5 : No sampling method selected
+2025-05-14 18:29:44,860 : WARN  : comm-pool-thread-5 :  : Node : GroupBy : 3:5 : No grouping column included. Aggregate complete table.
+2025-05-14 18:29:44,861 : WARN  : comm-pool-thread-5 :  : Node : GroupBy : 3:5 : No aggregation column defined
+2025-05-14 18:29:44,889 : WARN  : comm-pool-thread-5 :  : Node : GroupBy : 3:5 : Please select at least one group or aggregation column
+2025-05-14 18:30:04,049 : WARN  : main :  : Node : GroupBy : 3:5 : No aggregation column defined
+2025-05-14 18:30:42,485 : ERROR : Thread-103206 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:5 valid [3:1, 3:2, 3:3, 3:4] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-14 18:30:42,486 : ERROR : Thread-103208 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-14 18:30:42,486 : ERROR : Thread-103210 :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:5 valid [3:1, 3:2, 3:3, 3:4] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 45)
+2025-05-14 18:32:36,670 : ERROR : Thread-105125 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:3 valid [3:1, 3:2, 3:4] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-14 18:32:36,671 : ERROR : Thread-105127 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-14 18:32:36,671 : ERROR : Thread-105130 :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:3 valid [3:1, 3:2, 3:4] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 45)
+2025-05-14 18:32:47,503 : WARN  : comm-pool-thread-5 :  : Node : Row Filter : 3:3 : At least one filter criterion is needed.
+2025-05-14 18:34:46,721 : WARN  : comm-pool-thread-5 :  : Node : Row Filter : 3:4 : At least one filter criterion is needed.
+2025-05-14 18:36:20,231 : WARN  : comm-pool-thread-5 :  : Node : Feature Selection Loop Start (1:1) : 3:10 : No feature columns selected. Please specify the feature columns in the configuration.
+2025-05-14 18:37:32,792 : WARN  : main :  : Node : Naive Bayes Learner (deprecated) : 3:6 : Classification column not found in input table
+2025-05-14 18:37:34,071 : WARN  : main :  : Node : Naive Bayes Learner (deprecated) : 3:6 : Classification column not found in input table
+2025-05-14 18:37:51,717 : WARN  : main :  : Node : Naive Bayes Learner (deprecated) : 3:6 : Classification column not found in input table
+2025-05-14 18:37:52,271 : WARN  : main :  : Node : Naive Bayes Learner (deprecated) : 3:6 : Classification column not found in input table
+2025-05-14 18:38:26,577 : WARN  : comm-pool-thread-5 :  : Node : M5P (3.7) : 3:12 : No target column specified. Target column was set to PLANT
+2025-05-14 18:38:35,265 : WARN  : comm-pool-thread-5 :  : Node : Scorer (deprecated) : 3:9 : Column 'Col20' not found.
+2025-05-14 18:38:46,254 : ERROR : AWT-EventQueue-0 :  : AccuracyScorerNodeDialog : Scorer (deprecated) : 3:9 : Saving intermediate settings failed with NullPointerException
+java.lang.NullPointerException: Cannot invoke "org.knime.core.data.DataColumnSpec.getName()" because the return value of "javax.swing.JComboBox.getSelectedItem()" is null
+	at org.knime.base.node.mine.scorer.accuracy.AccuracyScorerNodeDialog.saveSettingsTo(AccuracyScorerNodeDialog.java:327)
+	at org.knime.core.node.NodeDialogPane.updateFlowVariablesTab(NodeDialogPane.java:1536)
+	at org.knime.core.node.NodeDialogPane.lambda$3(NodeDialogPane.java:892)
+	at java.desktop/javax.swing.JTabbedPane.fireStateChanged(Unknown Source)
+	at java.desktop/javax.swing.JTabbedPane$ModelListener.stateChanged(Unknown Source)
+	at java.desktop/javax.swing.DefaultSingleSelectionModel.fireStateChanged(Unknown Source)
+	at java.desktop/javax.swing.DefaultSingleSelectionModel.setSelectedIndex(Unknown Source)
+	at java.desktop/javax.swing.JTabbedPane.setSelectedIndexImpl(Unknown Source)
+	at java.desktop/javax.swing.JTabbedPane.setSelectedIndex(Unknown Source)
+	at java.desktop/javax.swing.plaf.basic.BasicTabbedPaneUI$Handler.mousePressed(Unknown Source)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2025-05-14 18:38:55,435 : ERROR : AWT-EventQueue-0 :  : AccuracyScorerNodeDialog : Scorer (deprecated) : 3:9 : Saving intermediate settings failed with NullPointerException
+java.lang.NullPointerException: Cannot invoke "org.knime.core.data.DataColumnSpec.getName()" because the return value of "javax.swing.JComboBox.getSelectedItem()" is null
+	at org.knime.base.node.mine.scorer.accuracy.AccuracyScorerNodeDialog.saveSettingsTo(AccuracyScorerNodeDialog.java:327)
+	at org.knime.core.node.NodeDialogPane.updateFlowVariablesTab(NodeDialogPane.java:1536)
+	at org.knime.core.node.NodeDialogPane.lambda$3(NodeDialogPane.java:892)
+	at java.desktop/javax.swing.JTabbedPane.fireStateChanged(Unknown Source)
+	at java.desktop/javax.swing.JTabbedPane$ModelListener.stateChanged(Unknown Source)
+	at java.desktop/javax.swing.DefaultSingleSelectionModel.fireStateChanged(Unknown Source)
+	at java.desktop/javax.swing.DefaultSingleSelectionModel.setSelectedIndex(Unknown Source)
+	at java.desktop/javax.swing.JTabbedPane.setSelectedIndexImpl(Unknown Source)
+	at java.desktop/javax.swing.JTabbedPane.setSelectedIndex(Unknown Source)
+	at java.desktop/javax.swing.plaf.basic.BasicTabbedPaneUI$Handler.mousePressed(Unknown Source)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2025-05-14 18:39:16,190 : WARN  : comm-pool-thread-5 :  : Node : Numeric Scorer : 3:14 : No columns selected for reference
+2025-05-14 18:39:17,172 : WARN  : KNIME-Worker-7-CSV Reader 3:1 :  : Node : Numeric Scorer : 3:14 : No columns selected for reference
+2025-05-14 18:39:17,389 : WARN  : KNIME-Worker-9-Feature Selection Loop Start (1:1) 3:10 :  : Node : Numeric Scorer : 3:14 : No columns selected for reference
+2025-05-14 18:39:17,897 : ERROR : KNIME-Worker-11-M5P (3.7) 3:12 :  : Node : M5P (3.7) : 3:12 : Execute failed: Weka classifier cannot work with given data. Reason: weka.classifiers.functions.LinearRegression: Cannot handle string attributes!
+java.lang.Exception: Weka classifier cannot work with given data. Reason: weka.classifiers.functions.LinearRegression: Cannot handle string attributes!
+	at org.knime.ext.weka37.classifier.WekaClassifierNodeModel.execute(WekaClassifierNodeModel.java:240)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-05-14 18:40:20,668 : WARN  : comm-pool-thread-5 :  : Node : Feature Selection Loop End : 3:11 : The defined score variable "Accuracy" is not contained in the input flow variables.
+2025-05-14 18:50:11,471 : ERROR : Thread-219620 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:18 valid [3:1, 3:2, 3:3, 3:4, 3:5, 3:8, 3:10, 3:11, 3:12, 3:13, 3:14, 3:15, 3:16, 3:17] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-14 18:50:11,471 : ERROR : Thread-219622 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-14 18:50:11,472 : ERROR : Thread-219624 :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:18 valid [3:1, 3:2, 3:3, 3:4, 3:5, 3:8, 3:10, 3:11, 3:12, 3:13, 3:14, 3:15, 3:16, 3:17] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 45)
+2025-05-14 18:51:15,825 : ERROR : Thread-230767 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:14 valid [3:1, 3:2, 3:3, 3:4, 3:5, 3:8, 3:10, 3:11, 3:12, 3:13, 3:15, 3:16, 3:17, 3:18] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-14 18:51:15,825 : ERROR : Thread-230769 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-14 18:51:15,825 : ERROR : Thread-230771 :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:14 valid [3:1, 3:2, 3:3, 3:4, 3:5, 3:8, 3:10, 3:11, 3:12, 3:13, 3:15, 3:16, 3:17, 3:18] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 45)
+2025-05-14 18:51:31,732 : WARN  : comm-pool-thread-9 :  : Node : Numeric Scorer (deprecated) : 3:121 : No such column in input table: quality
+2025-05-14 18:51:51,137 : WARN  : main :  : Node : Feature Selection Loop End : 3:11 : There is no compatible flow variable (Double) at the inport.
+2025-05-14 18:51:52,260 : WARN  : main :  : Node : Feature Selection Loop End : 3:11 : There is no compatible flow variable (Double) at the inport.
+2025-05-14 18:51:58,751 : WARN  : main :  : Node : Feature Selection Loop End : 3:11 : There is no compatible flow variable (Double) at the inport.
+2025-05-14 19:03:53,946 : WARN  : comm-pool-thread-9 :  : Node : M5P (3.7) : 3:15 : No target column specified. Target column was set to Removed feature
+2025-05-14 19:03:53,947 : WARN  : comm-pool-thread-9 :  : Node : Weka Predictor (3.7) : 3:16 : Could not find the attribute 'Nr. of features' in the DataTableSpec of the test data
+2025-05-14 19:04:39,190 : ERROR : Thread-280542 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-14 19:21:54,107 : WARN  : KNIME-Worker-12-Feature Selection Loop End 3:11 :  : Node : M5P (3.7) : 3:15 : Target column Removed feature not found in DataTableSpec.
+2025-05-14 19:29:30,392 : WARN  : main :  : Node : M5P (3.7) : 3:15 : Target column Removed feature not found in DataTableSpec.
+2025-05-14 19:29:31,416 : WARN  : main :  : Node : M5P (3.7) : 3:15 : Target column Removed feature not found in DataTableSpec.
+2025-05-14 19:29:59,711 : WARN  : comm-pool-thread-13 :  : Node : M5P (3.7) : 3:15 : Target column Removed feature not found in DataTableSpec.
+2025-05-14 19:30:04,850 : WARN  : comm-pool-thread-13 :  : Node : M5P (3.7) : 3:15 : Target column Removed feature not found in DataTableSpec.
+2025-05-14 19:30:06,029 : ERROR : Thread-346067 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-14 19:30:08,487 : WARN  : main :  : Node : Numeric Scorer (deprecated) : 3:122 : No such column in input table: quality
+2025-05-14 19:30:09,513 : WARN  : main :  : Node : Numeric Scorer (deprecated) : 3:122 : No such column in input table: quality
+2025-05-14 19:30:38,699 : WARN  : main :  : Node : Numeric Scorer (deprecated) : 3:122 : No such column in input table: Prediction (year)
+2025-05-14 19:30:42,173 : WARN  : main :  : Node : Numeric Scorer (deprecated) : 3:122 : No such column in input table: Prediction (year)
+2025-05-14 19:30:42,705 : WARN  : main :  : Node : Numeric Scorer (deprecated) : 3:122 : No such column in input table: Prediction (year)
+2025-05-14 19:30:46,311 : WARN  : main :  : Node : Numeric Scorer (deprecated) : 3:122 : No such column in input table: Prediction (year)
+2025-05-14 19:30:46,749 : WARN  : main :  : Node : Numeric Scorer (deprecated) : 3:122 : No such column in input table: Prediction (year)
+2025-05-14 19:33:54,649 : ERROR : Thread-379982 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:123 valid [3:1, 3:2, 3:3, 3:4, 3:5, 3:8, 3:10, 3:11, 3:12, 3:13, 3:15, 3:16, 3:18, 3:121, 3:122] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-14 19:33:54,651 : ERROR : Thread-379984 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-14 19:33:54,652 : ERROR : Thread-379986 :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:123 valid [3:1, 3:2, 3:3, 3:4, 3:5, 3:8, 3:10, 3:11, 3:12, 3:13, 3:15, 3:16, 3:18, 3:121, 3:122] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 45)
+2025-05-14 19:33:55,525 : ERROR : Thread-380119 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 21:42:35,912 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-05-15 21:42:35,912 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-05-15 21:42:35,912 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Accesso al Registro di sistema non consentito.
+2025-05-15 21:42:35,912 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : In riga:1 car:1
+2025-05-15 21:42:35,912 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-05-15 21:42:35,912 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-05-15 21:42:35,912 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-05-15 21:42:35,912 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-05-15 21:42:35,912 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-05-15 21:42:35,912 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-05-15 22:03:26,390 : ERROR : Thread-25333 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 22:04:09,701 : WARN  : comm-pool-thread-1 :  : Node : Feature Selection Filter : 3:123 : No features selected yet
+2025-05-15 22:04:15,869 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:16 : Could not find the attribute 'year' in the DataTableSpec of the test data
+2025-05-15 22:04:17,367 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:16 : Could not find the attribute 'year' in the DataTableSpec of the test data
+2025-05-15 22:04:26,347 : WARN  : KNIME-Worker-1-Feature Selection Filter 3:123 :  : Node : Weka Predictor (3.7) : 3:16 : Could not find the attribute 'year' in the DataTableSpec of the test data
+2025-05-15 22:04:31,258 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:16 : Could not find the attribute 'year' in the DataTableSpec of the test data
+2025-05-15 22:04:32,149 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:16 : Could not find the attribute 'year' in the DataTableSpec of the test data
+2025-05-15 22:04:48,846 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:16 : Could not find the attribute 'year' in the DataTableSpec of the test data
+2025-05-15 22:04:49,443 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:16 : Could not find the attribute 'year' in the DataTableSpec of the test data
+2025-05-15 22:04:55,932 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:16 : Could not find the attribute 'year' in the DataTableSpec of the test data
+2025-05-15 22:04:56,335 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:16 : Could not find the attribute 'year' in the DataTableSpec of the test data
+2025-05-15 22:06:02,950 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:16 : Could not find the attribute 'cloudcover_mid' in the DataTableSpec of the test data
+2025-05-15 22:09:29,656 : ERROR : Thread-74958 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:133 valid [3:1, 3:2, 3:3, 3:4, 3:5, 3:8, 3:10, 3:11, 3:12, 3:13, 3:15, 3:16, 3:18, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:132, 3:134, 3:135, 3:136, 3:137, 3:138, 3:139] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 22:09:29,659 : ERROR : Thread-74962 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 22:09:29,659 : ERROR : Thread-74964 :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:133 valid [3:1, 3:2, 3:3, 3:4, 3:5, 3:8, 3:10, 3:11, 3:12, 3:13, 3:15, 3:16, 3:18, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:132, 3:134, 3:135, 3:136, 3:137, 3:138, 3:139] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 45)
+2025-05-15 22:17:38,432 : WARN  : comm-pool-thread-1 :  : Node : Parameter Optimization Loop Start : 3:143 : No parameters defined
+2025-05-15 22:21:17,470 : ERROR : Thread-170349 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 22:22:21,987 : ERROR : Thread-180750 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 22:54:03,434 : ERROR : KNIME-Worker-21-Feature Selection Loop End 3:139 :  : Node : Feature Selection Filter : 3:131 : Configure failed (IllegalStateException): There exists no feature level with the specified features: "[apparent_temperature, cloudcover, cloudcover_high, cloudcover_low, cloudcover_mid, dewpoint_2m, et0_fao_evapotranspiration, is_day, precipitation, pressure_msl, relativehumidity_2m, snowfall, soil_moisture_0_to_7cm, soil_moisture_100_to_255cm, soil_moisture_7_to_28cm, soil_temperature_0_to_7cm, soil_temperature_100_to_255cm, soil_temperature_28_to_100cm, soil_temperature_7_to_28cm, surface_pressure, temperature_2m, vapor_pressure_deficit, winddirection_100m, winddirection_10m, windgusts_10m, windspeed_100m, windspeed_10m, POAb, POAd, POAg, aoi, apparent_elevation, azimuth, dhi, dni, elevation, equation_of_time, ghi, surface_azimuth, surface_tilt, tracker_theta]".
+java.lang.IllegalStateException: There exists no feature level with the specified features: "[apparent_temperature, cloudcover, cloudcover_high, cloudcover_low, cloudcover_mid, dewpoint_2m, et0_fao_evapotranspiration, is_day, precipitation, pressure_msl, relativehumidity_2m, snowfall, soil_moisture_0_to_7cm, soil_moisture_100_to_255cm, soil_moisture_7_to_28cm, soil_temperature_0_to_7cm, soil_temperature_100_to_255cm, soil_temperature_28_to_100cm, soil_temperature_7_to_28cm, surface_pressure, temperature_2m, vapor_pressure_deficit, winddirection_100m, winddirection_10m, windgusts_10m, windspeed_100m, windspeed_10m, POAb, POAd, POAg, aoi, apparent_elevation, azimuth, dhi, dni, elevation, equation_of_time, ghi, surface_azimuth, surface_tilt, tracker_theta]".
+	at org.knime.base.node.meta.feature.selection.FeatureSelectionModel.getLevelWithFeatures(FeatureSelectionModel.java:217)
+	at org.knime.base.node.meta.feature.selection.FeatureSelectionModel.getIncludedFeatures(FeatureSelectionModel.java:184)
+	at org.knime.base.node.meta.feature.selection.FeatureSelectionModel.getTableSpecAndWarning(FeatureSelectionModel.java:162)
+	at org.knime.base.node.meta.feature.selection.FeatureSelectionFilterNodeModel.configure(FeatureSelectionFilterNodeModel.java:99)
+	at org.knime.core.node.NodeModel.configureModel(NodeModel.java:1139)
+	at org.knime.core.node.Node.invokeNodeModelConfigure(Node.java:2025)
+	at org.knime.core.node.Node.configure(Node.java:1968)
+	at org.knime.core.node.workflow.NativeNodeContainer.performConfigure(NativeNodeContainer.java:574)
+	at org.knime.core.node.workflow.SingleNodeContainer.callNodeConfigure(SingleNodeContainer.java:315)
+	at org.knime.core.node.workflow.SingleNodeContainer.configure(SingleNodeContainer.java:200)
+	at org.knime.core.node.workflow.WorkflowManager.configureSingleNodeContainer(WorkflowManager.java:6850)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:7031)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:6969)
+	at org.knime.core.node.workflow.WorkflowManager.doAfterExecution(WorkflowManager.java:3737)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteFinished(NodeContainer.java:689)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:235)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-05-15 22:54:03,439 : ERROR : KNIME-Worker-21-Feature Selection Loop End 3:139 :  : Node : Feature Selection Filter : 3:125 : Configure failed (IllegalStateException): There exists no feature level with the specified features: "[apparent_temperature, cloudcover, cloudcover_high, cloudcover_low, cloudcover_mid, dewpoint_2m, et0_fao_evapotranspiration, is_day, precipitation, pressure_msl, relativehumidity_2m, snowfall, soil_moisture_0_to_7cm, soil_moisture_100_to_255cm, soil_moisture_7_to_28cm, soil_temperature_0_to_7cm, soil_temperature_100_to_255cm, soil_temperature_28_to_100cm, soil_temperature_7_to_28cm, surface_pressure, temperature_2m, vapor_pressure_deficit, winddirection_100m, winddirection_10m, windgusts_10m, windspeed_100m, windspeed_10m, POAb, POAd, POAg, aoi, apparent_elevation, azimuth, dhi, dni, elevation, equation_of_time, ghi, surface_azimuth, surface_tilt, tracker_theta]".
+java.lang.IllegalStateException: There exists no feature level with the specified features: "[apparent_temperature, cloudcover, cloudcover_high, cloudcover_low, cloudcover_mid, dewpoint_2m, et0_fao_evapotranspiration, is_day, precipitation, pressure_msl, relativehumidity_2m, snowfall, soil_moisture_0_to_7cm, soil_moisture_100_to_255cm, soil_moisture_7_to_28cm, soil_temperature_0_to_7cm, soil_temperature_100_to_255cm, soil_temperature_28_to_100cm, soil_temperature_7_to_28cm, surface_pressure, temperature_2m, vapor_pressure_deficit, winddirection_100m, winddirection_10m, windgusts_10m, windspeed_100m, windspeed_10m, POAb, POAd, POAg, aoi, apparent_elevation, azimuth, dhi, dni, elevation, equation_of_time, ghi, surface_azimuth, surface_tilt, tracker_theta]".
+	at org.knime.base.node.meta.feature.selection.FeatureSelectionModel.getLevelWithFeatures(FeatureSelectionModel.java:217)
+	at org.knime.base.node.meta.feature.selection.FeatureSelectionModel.getIncludedFeatures(FeatureSelectionModel.java:184)
+	at org.knime.base.node.meta.feature.selection.FeatureSelectionModel.getTableSpecAndWarning(FeatureSelectionModel.java:162)
+	at org.knime.base.node.meta.feature.selection.FeatureSelectionFilterNodeModel.configure(FeatureSelectionFilterNodeModel.java:99)
+	at org.knime.core.node.NodeModel.configureModel(NodeModel.java:1139)
+	at org.knime.core.node.Node.invokeNodeModelConfigure(Node.java:2025)
+	at org.knime.core.node.Node.configure(Node.java:1968)
+	at org.knime.core.node.workflow.NativeNodeContainer.performConfigure(NativeNodeContainer.java:574)
+	at org.knime.core.node.workflow.SingleNodeContainer.callNodeConfigure(SingleNodeContainer.java:315)
+	at org.knime.core.node.workflow.SingleNodeContainer.configure(SingleNodeContainer.java:200)
+	at org.knime.core.node.workflow.WorkflowManager.configureSingleNodeContainer(WorkflowManager.java:6850)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:7031)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:6969)
+	at org.knime.core.node.workflow.WorkflowManager.doAfterExecution(WorkflowManager.java:3737)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteFinished(NodeContainer.java:689)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:235)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-05-15 22:54:03,439 : WARN  : KNIME-Worker-21-Feature Selection Loop End 3:139 :  : Node : Feature Selection Filter : 3:148 : No features selected yet
+2025-05-15 22:58:25,229 : ERROR : comm-pool-thread-1 :  : Node : Feature Selection Filter : 3:144 : Configure failed (IllegalStateException): There exists no feature level with the specified features: "[apparent_temperature, cloudcover, cloudcover_high, cloudcover_low, cloudcover_mid, dewpoint_2m, et0_fao_evapotranspiration, is_day, precipitation, pressure_msl, relativehumidity_2m, snowfall, soil_moisture_0_to_7cm, soil_moisture_100_to_255cm, soil_moisture_7_to_28cm, soil_temperature_0_to_7cm, soil_temperature_100_to_255cm, soil_temperature_28_to_100cm, soil_temperature_7_to_28cm, surface_pressure, temperature_2m, vapor_pressure_deficit, winddirection_100m, winddirection_10m, windgusts_10m, windspeed_100m, windspeed_10m, POAb, POAd, POAg, aoi, apparent_elevation, azimuth, dhi, dni, elevation, equation_of_time, ghi, surface_azimuth, surface_tilt, tracker_theta]".
+java.lang.IllegalStateException: There exists no feature level with the specified features: "[apparent_temperature, cloudcover, cloudcover_high, cloudcover_low, cloudcover_mid, dewpoint_2m, et0_fao_evapotranspiration, is_day, precipitation, pressure_msl, relativehumidity_2m, snowfall, soil_moisture_0_to_7cm, soil_moisture_100_to_255cm, soil_moisture_7_to_28cm, soil_temperature_0_to_7cm, soil_temperature_100_to_255cm, soil_temperature_28_to_100cm, soil_temperature_7_to_28cm, surface_pressure, temperature_2m, vapor_pressure_deficit, winddirection_100m, winddirection_10m, windgusts_10m, windspeed_100m, windspeed_10m, POAb, POAd, POAg, aoi, apparent_elevation, azimuth, dhi, dni, elevation, equation_of_time, ghi, surface_azimuth, surface_tilt, tracker_theta]".
+	at org.knime.base.node.meta.feature.selection.FeatureSelectionModel.getLevelWithFeatures(FeatureSelectionModel.java:217)
+	at org.knime.base.node.meta.feature.selection.FeatureSelectionModel.getIncludedFeatures(FeatureSelectionModel.java:184)
+	at org.knime.base.node.meta.feature.selection.FeatureSelectionModel.getTableSpecAndWarning(FeatureSelectionModel.java:162)
+	at org.knime.base.node.meta.feature.selection.FeatureSelectionFilterNodeModel.configure(FeatureSelectionFilterNodeModel.java:99)
+	at org.knime.core.node.NodeModel.configureModel(NodeModel.java:1139)
+	at org.knime.core.node.Node.invokeNodeModelConfigure(Node.java:2025)
+	at org.knime.core.node.Node.configure(Node.java:1968)
+	at org.knime.core.node.workflow.NativeNodeContainer.performConfigure(NativeNodeContainer.java:574)
+	at org.knime.core.node.workflow.SingleNodeContainer.callNodeConfigure(SingleNodeContainer.java:315)
+	at org.knime.core.node.workflow.SingleNodeContainer.configure(SingleNodeContainer.java:200)
+	at org.knime.core.node.workflow.WorkflowManager.configureSingleNodeContainer(WorkflowManager.java:6850)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:7031)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndSuccessors(WorkflowManager.java:6964)
+	at org.knime.core.node.workflow.WorkflowManager.resetAndConfigureNodeAndSuccessors(WorkflowManager.java:5562)
+	at org.knime.core.node.workflow.WorkflowManager.resetAndConfigureNode(WorkflowManager.java:5467)
+	at org.knime.core.node.workflow.WorkflowManager.addConnection(WorkflowManager.java:1450)
+	at org.knime.core.node.workflow.WorkflowManager.addConnection(WorkflowManager.java:1366)
+	at org.knime.gateway.impl.webui.service.commands.util.NodeConnector.connect(NodeConnector.java:276)
+	at org.knime.gateway.impl.webui.service.commands.Connect.executeWithLockedWorkflow(Connect.java:94)
+	at org.knime.gateway.impl.webui.service.commands.AbstractWorkflowCommand.execute(AbstractWorkflowCommand.java:76)
+	at org.knime.gateway.impl.webui.service.commands.WorkflowCommands.executeCommandAndModifyCommandStacks(WorkflowCommands.java:289)
+	at org.knime.gateway.impl.webui.service.commands.WorkflowCommands.execute(WorkflowCommands.java:177)
+	at org.knime.gateway.impl.webui.service.DefaultWorkflowService.executeWorkflowCommand(DefaultWorkflowService.java:167)
+	at org.knime.gateway.impl.webui.jsonrpc.service.JsonRpcWorkflowServiceWrapper.executeWorkflowCommand(JsonRpcWorkflowServiceWrapper.java:92)
+	at jdk.internal.reflect.GeneratedMethodAccessor261.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.invoke(JsonRpcBasicServer.java:478)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleObject(JsonRpcBasicServer.java:349)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleJsonNodeRequest(JsonRpcBasicServer.java:274)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleRequest(JsonRpcBasicServer.java:242)
+	at org.knime.gateway.impl.jsonrpc.JsonRpcRequestHandler.handle(JsonRpcRequestHandler.java:104)
+	at org.knime.ui.java.browser.lifecycle.Init.lambda$13(Init.java:290)
+	at com.equo.comm.common.MessageHandler.processReceivedEventMessage(MessageHandler.java:131)
+	at com.equo.comm.ee.provider.service.ChromiumService.receiveMessage(ChromiumService.java:98)
+	at com.equo.comm.ee.provider.CommunicationManagerChromiumImpl.receiveMessage(CommunicationManagerChromiumImpl.java:48)
+	at com.equo.chromium.swt.internal.spi.CommRouterHandler.handleRequest(CommRouterHandler.java:33)
+	at com.equo.chromium.swt.internal.spi.CommRouterHandler.lambda$1(CommRouterHandler.java:51)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2025-05-15 23:00:59,560 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:146 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-15 23:01:00,509 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:146 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-15 23:01:04,352 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:146 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-15 23:01:04,829 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:146 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-15 23:01:22,112 : WARN  : main :  : Node : Feature Selection Filter : 3:125 : The following columns used in the selected  level are missing in the input table: Irr
+2025-05-15 23:01:22,120 : WARN  : main :  : Node : CSV Writer : 3:140 : Please specify a file
+2025-05-15 23:01:22,841 : WARN  : main :  : Node : Feature Selection Filter : 3:125 : The following columns used in the selected  level are missing in the input table: Irr
+2025-05-15 23:01:22,842 : WARN  : main :  : Node : CSV Writer : 3:140 : Please specify a file
+2025-05-15 23:01:31,236 : WARN  : main :  : Node : CSV Writer : 3:140 : Please specify a file
+2025-05-15 23:01:31,994 : WARN  : main :  : Node : CSV Writer : 3:140 : Please specify a file
+2025-05-15 23:01:36,937 : WARN  : main :  : Node : Feature Selection Filter : 3:125 : The following columns used in the selected  level are missing in the input table: Irr
+2025-05-15 23:01:36,937 : WARN  : main :  : Node : CSV Writer : 3:140 : Please specify a file
+2025-05-15 23:01:37,686 : WARN  : main :  : Node : Feature Selection Filter : 3:125 : The following columns used in the selected  level are missing in the input table: Irr
+2025-05-15 23:01:37,686 : WARN  : main :  : Node : CSV Writer : 3:140 : Please specify a file
+2025-05-15 23:01:45,014 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:146 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-15 23:01:45,526 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:146 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-15 23:02:00,419 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:146 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-15 23:02:01,267 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:146 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-15 23:02:08,723 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:146 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-15 23:02:09,111 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:146 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-15 23:03:02,663 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:146 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-15 23:03:03,494 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:146 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-15 23:04:22,279 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:146 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-15 23:04:34,884 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:146 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-15 23:04:35,440 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:146 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-15 23:04:52,313 : WARN  : main :  : Node : CSV Writer : 3:140 : Please specify a file
+2025-05-15 23:04:52,846 : WARN  : main :  : Node : CSV Writer : 3:140 : Please specify a file
+2025-05-15 23:04:56,744 : WARN  : main :  : Node : Feature Selection Filter : 3:125 : The following columns used in the selected  level are missing in the input table: Irr
+2025-05-15 23:04:56,744 : WARN  : main :  : Node : CSV Writer : 3:140 : Please specify a file
+2025-05-15 23:04:57,223 : WARN  : main :  : Node : Feature Selection Filter : 3:125 : The following columns used in the selected  level are missing in the input table: Irr
+2025-05-15 23:04:57,223 : WARN  : main :  : Node : CSV Writer : 3:140 : Please specify a file
+2025-05-15 23:06:37,591 : ERROR : Thread-271246 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 23:08:53,666 : WARN  : main :  : Node : CSV Writer : 3:140 : Please specify a file
+2025-05-15 23:08:54,200 : WARN  : main :  : Node : CSV Writer : 3:140 : Please specify a file
+2025-05-15 23:09:00,452 : WARN  : main :  : Node : Feature Selection Filter : 3:125 : The following columns used in the selected  level are missing in the input table: Irr
+2025-05-15 23:09:00,452 : WARN  : main :  : Node : CSV Writer : 3:140 : Please specify a file
+2025-05-15 23:09:00,941 : WARN  : main :  : Node : Feature Selection Filter : 3:125 : The following columns used in the selected  level are missing in the input table: Irr
+2025-05-15 23:09:00,941 : WARN  : main :  : Node : CSV Writer : 3:140 : Please specify a file
+2025-05-15 23:09:11,209 : WARN  : main :  : Node : CSV Writer : 3:140 : Please specify a file
+2025-05-15 23:09:14,573 : WARN  : main :  : Node : CSV Writer : 3:140 : Please specify a file
+2025-05-15 23:09:18,772 : WARN  : main :  : Node : CSV Writer : 3:140 : Please specify a file
+2025-05-15 23:09:19,168 : WARN  : main :  : Node : CSV Writer : 3:140 : Please specify a file
+2025-05-15 23:09:45,451 : WARN  : comm-pool-thread-1 :  : Node : CSV Writer : 3:140 : Please specify a file
+2025-05-15 23:09:54,213 : WARN  : comm-pool-thread-1 :  : Node : CSV Writer : 3:140 : Please specify a file
+2025-05-15 23:10:20,116 : WARN  : comm-pool-thread-1 :  : Node : CSV Writer : 3:140 : Please specify a file
+2025-05-15 23:11:08,656 : WARN  : main :  : Node : Feature Selection Filter : 3:125 : The following columns used in the selected  level are missing in the input table: Irr
+2025-05-15 23:11:08,659 : WARN  : main :  : Node : CSV Writer : 3:140 : Please specify a file
+2025-05-15 23:11:57,010 : WARN  : main :  : Node : Feature Selection Filter : 3:125 : The following columns used in the selected  level are missing in the input table: Irr
+2025-05-15 23:11:57,011 : WARN  : main :  : Node : CSV Writer : 3:140 : Please specify a file
+2025-05-15 23:11:58,466 : WARN  : main :  : Node : Feature Selection Filter : 3:125 : The following columns used in the selected  level are missing in the input table: Irr
+2025-05-15 23:11:58,467 : WARN  : main :  : Node : CSV Writer : 3:140 : Please specify a file
+2025-05-15 23:35:59,313 : ERROR : Thread-310634 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:125 valid [3:1, 3:2, 3:3, 3:4, 3:5, 3:8, 3:10, 3:11, 3:12, 3:13, 3:15, 3:16, 3:18, 3:121, 3:122, 3:123, 3:124, 3:127, 3:128, 3:129, 3:130, 3:131, 3:132, 3:134, 3:135, 3:136, 3:137, 3:138, 3:139, 3:140, 3:141, 3:142, 3:143, 3:144, 3:145, 3:146, 3:147, 3:148, 3:149] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 23:35:59,318 : ERROR : Thread-310636 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 23:35:59,319 : ERROR : Thread-310638 :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:125 valid [3:1, 3:2, 3:3, 3:4, 3:5, 3:8, 3:10, 3:11, 3:12, 3:13, 3:15, 3:16, 3:18, 3:121, 3:122, 3:123, 3:124, 3:127, 3:128, 3:129, 3:130, 3:131, 3:132, 3:134, 3:135, 3:136, 3:137, 3:138, 3:139, 3:140, 3:141, 3:142, 3:143, 3:144, 3:145, 3:146, 3:147, 3:148, 3:149] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 45)
+2025-05-15 23:36:16,999 : WARN  : comm-pool-thread-1 :  : Node : CSV Writer : 3:140 : Please specify a file
+2025-05-15 23:37:26,215 : WARN  : comm-pool-thread-1 :  : Node : Weka Predictor (3.7) : 3:136 : Could not find the attribute 'dewpoint_2m' in the DataTableSpec of the test data
+2025-05-15 23:41:59,899 : WARN  : comm-pool-thread-1 :  : Node : CSV Writer : 3:140 : Please specify a file
+2025-05-15 23:44:33,053 : WARN  : comm-pool-thread-1 :  : Node : CSV Writer : 3:140 : Please specify a file
+2025-05-15 23:52:14,718 : ERROR : KNIME-Worker-40-Weka Predictor (3.7) 3:136 :  : Node : Weka Predictor (3.7) : 3:136 : Execute failed: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+java.lang.RuntimeException: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.execute(WekaPredictorNodeModel.java:327)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.isSubSpec(WekaPredictorNodeModel.java:473)
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.execute(WekaPredictorNodeModel.java:211)
+	... 13 more
+2025-05-15 23:56:32,931 : WARN  : comm-pool-thread-1 :  : Node : Weka Predictor (3.7) : 3:136 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-15 23:56:35,648 : WARN  : KNIME-Worker-41-Column Filter 3:150 :  : Node : Weka Predictor (3.7) : 3:136 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-15 23:56:38,714 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:136 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-15 23:56:39,176 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:136 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-15 23:57:34,241 : ERROR : KNIME-Worker-43-Weka Predictor (3.7) 3:136 :  : Node : Weka Predictor (3.7) : 3:136 : Execute failed: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+java.lang.RuntimeException: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.execute(WekaPredictorNodeModel.java:327)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.isSubSpec(WekaPredictorNodeModel.java:473)
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.execute(WekaPredictorNodeModel.java:211)
+	... 13 more
+2025-05-16 00:09:37,063 : WARN  : comm-pool-thread-1 :  : Node : M5P (3.7) : 3:135 : Target column Irr not found in DataTableSpec.
+2025-05-16 00:09:44,173 : WARN  : comm-pool-thread-1 :  : Node : M5P (3.7) : 3:135 : Target column Irr not found in DataTableSpec.
+2025-05-16 00:09:54,944 : WARN  : comm-pool-thread-1 :  : Node : M5P (3.7) : 3:135 : Target column Irr not found in DataTableSpec.
+2025-05-16 00:12:32,329 : ERROR : KNIME-Worker-46-M5P (3.7) 3:135 :  : Node : M5P (3.7) : 3:135 : Execute failed: Weka classifier cannot work with given data. Reason: weka.classifiers.functions.LinearRegression: Cannot handle string attributes!
+java.lang.Exception: Weka classifier cannot work with given data. Reason: weka.classifiers.functions.LinearRegression: Cannot handle string attributes!
+	at org.knime.ext.weka37.classifier.WekaClassifierNodeModel.execute(WekaClassifierNodeModel.java:240)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-05-16 00:23:45,216 : WARN  : comm-pool-thread-1 :  : Node : GroupBy : 3:152 : No grouping column included. Aggregate complete table.
+2025-05-16 00:23:45,217 : WARN  : comm-pool-thread-1 :  : Node : GroupBy : 3:152 : No aggregation column defined
+2025-05-16 00:23:45,219 : WARN  : comm-pool-thread-1 :  : Node : GroupBy : 3:152 : Please select at least one group or aggregation column
+2025-05-16 00:23:53,179 : WARN  : main :  : Node : GroupBy : 3:152 : No aggregation column defined
+2025-05-16 00:23:54,239 : WARN  : main :  : Node : GroupBy : 3:152 : No aggregation column defined
+2025-05-16 00:24:05,800 : WARN  : main :  : Node : GroupBy : 3:152 : No aggregation column defined
+2025-05-16 00:24:18,950 : WARN  : main :  : WrappedNodeDialog : GroupBy : 3:152 : failed to apply settings: Please select at least one group column or aggregation option
+org.knime.core.node.InvalidSettingsException: Please select at least one group column or aggregation option
+	at org.knime.base.node.preproc.groupby.GroupByNodeModel.validateSettings(GroupByNodeModel.java:433)
+	at org.knime.core.node.Node.validateSettings(Node.java:713)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:685)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:1202)
+	at org.knime.core.node.workflow.SingleNodeContainer.validateSettings(SingleNodeContainer.java:1173)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2244)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1142)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:677)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:649)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:564)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:500)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:198)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:967)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:869)
+	at org.knime.ui.java.api.NodeAPI.openNodeDialog(NodeAPI.java:102)
+	at jdk.internal.reflect.GeneratedMethodAccessor186.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.invokeMethod(DesktopAPI.java:178)
+	at org.knime.ui.java.api.DesktopAPI.lambda$1(DesktopAPI.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:211)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+2025-05-16 00:24:21,825 : WARN  : main :  : WrappedNodeDialog : GroupBy : 3:152 : failed to apply settings: Please select at least one group column or aggregation option
+org.knime.core.node.InvalidSettingsException: Please select at least one group column or aggregation option
+	at org.knime.base.node.preproc.groupby.GroupByNodeModel.validateSettings(GroupByNodeModel.java:433)
+	at org.knime.core.node.Node.validateSettings(Node.java:713)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:685)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:1202)
+	at org.knime.core.node.workflow.SingleNodeContainer.validateSettings(SingleNodeContainer.java:1173)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2244)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1142)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:677)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:649)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$6.widgetSelected(WrappedNodeDialog.java:515)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:198)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:967)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:869)
+	at org.knime.ui.java.api.NodeAPI.openNodeDialog(NodeAPI.java:102)
+	at jdk.internal.reflect.GeneratedMethodAccessor186.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.invokeMethod(DesktopAPI.java:178)
+	at org.knime.ui.java.api.DesktopAPI.lambda$1(DesktopAPI.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:211)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+2025-05-16 00:24:28,296 : WARN  : main :  : Node : GroupBy : 3:152 : No aggregation column defined
+2025-05-16 00:24:28,869 : WARN  : main :  : Node : GroupBy : 3:152 : No aggregation column defined
+2025-05-16 00:24:39,686 : ERROR : Thread-559402 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:152 valid [3:1, 3:2, 3:3, 3:4, 3:5, 3:8, 3:10, 3:11, 3:12, 3:13, 3:15, 3:16, 3:18, 3:121, 3:122, 3:123, 3:124, 3:127, 3:128, 3:129, 3:130, 3:132, 3:134, 3:135, 3:136, 3:137, 3:138, 3:139, 3:140, 3:141, 3:142, 3:143, 3:144, 3:145, 3:146, 3:147, 3:148, 3:149, 3:150, 3:151] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-16 00:24:39,686 : ERROR : Thread-559404 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-16 00:24:39,686 : ERROR : Thread-559406 :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:152 valid [3:1, 3:2, 3:3, 3:4, 3:5, 3:8, 3:10, 3:11, 3:12, 3:13, 3:15, 3:16, 3:18, 3:121, 3:122, 3:123, 3:124, 3:127, 3:128, 3:129, 3:130, 3:132, 3:134, 3:135, 3:136, 3:137, 3:138, 3:139, 3:140, 3:141, 3:142, 3:143, 3:144, 3:145, 3:146, 3:147, 3:148, 3:149, 3:150, 3:151] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 45)
+2025-05-16 00:24:44,436 : ERROR : Thread-561118 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-16 00:30:35,878 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:146 : Could not find the attribute 'apparent_temperature' in the DataTableSpec of the test data
+2025-05-16 00:30:37,120 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:146 : Could not find the attribute 'apparent_temperature' in the DataTableSpec of the test data
+2025-05-16 00:38:53,626 : ERROR : Thread-651411 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:152 valid [3:1, 3:2, 3:3, 3:4, 3:5, 3:8, 3:10, 3:11, 3:12, 3:13, 3:15, 3:16, 3:18, 3:121, 3:122, 3:123, 3:124, 3:127, 3:128, 3:129, 3:130, 3:132, 3:134, 3:135, 3:136, 3:137, 3:138, 3:139, 3:140, 3:141, 3:142, 3:143, 3:144, 3:145, 3:146, 3:147, 3:148, 3:149, 3:151, 3:153] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-16 00:38:53,627 : ERROR : Thread-651413 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-16 00:38:53,627 : ERROR : Thread-651416 :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:152 valid [3:1, 3:2, 3:3, 3:4, 3:5, 3:8, 3:10, 3:11, 3:12, 3:13, 3:15, 3:16, 3:18, 3:121, 3:122, 3:123, 3:124, 3:127, 3:128, 3:129, 3:130, 3:132, 3:134, 3:135, 3:136, 3:137, 3:138, 3:139, 3:140, 3:141, 3:142, 3:143, 3:144, 3:145, 3:146, 3:147, 3:148, 3:149, 3:151, 3:153] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 45)
+2025-05-16 00:39:48,667 : ERROR : Thread-657930 :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-05-16 00:48:06,471 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:5 : Can't access 'knime://LOCAL/Datasets/iris.csv'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.)
+2025-05-16 00:48:06,503 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:5 : Can't access 'knime://LOCAL/Datasets/iris.csv'. (File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Datasets\iris.csv.)
+2025-05-16 00:48:06,504 : WARN  : ModalContext :  : Node : ARFF Reader : 4:12 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-train.arff.
+2025-05-16 00:48:06,508 : WARN  : ModalContext :  : Node : ARFF Reader : 4:12 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-train.arff.
+2025-05-16 00:48:06,509 : WARN  : ModalContext :  : Node : ARFF Reader : 4:13 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-test.arff.
+2025-05-16 00:48:06,511 : WARN  : ModalContext :  : Node : ARFF Reader : 4:13 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-test.arff.
+2025-05-16 00:48:06,514 : WARN  : ModalContext :  : Node : Scatter Plot (legacy) : 4:6 : No columns to visualize are available! Please refer to the NodeDescription to find out why!
+2025-05-16 00:48:09,902 : WARN  : ModalContext :  : Node : ARFF Reader : 5:5 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-test.arff.
+2025-05-16 00:48:09,906 : WARN  : ModalContext :  : Node : ARFF Reader : 5:5 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-test.arff.
+2025-05-16 00:48:09,906 : WARN  : ModalContext :  : Node : ARFF Reader : 5:6 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-train.arff.
+2025-05-16 00:48:09,909 : WARN  : ModalContext :  : Node : ARFF Reader : 5:6 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-train.arff.
+2025-05-16 00:48:09,930 : WARN  : ModalContext :  : Node : ARFF Reader : 5:37 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-test.arff.
+2025-05-16 00:48:09,933 : WARN  : ModalContext :  : Node : ARFF Reader : 5:37 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-test.arff.
+2025-05-16 00:48:09,933 : WARN  : ModalContext :  : Node : ARFF Reader : 5:42 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-test.arff.
+2025-05-16 00:48:09,937 : WARN  : ModalContext :  : Node : ARFF Reader : 5:42 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-test.arff.
+2025-05-16 00:48:10,133 : WARN  : ModalContext :  : Node : Scatter Matrix (legacy) : 5:29 : Only the first 2500 rows are displayed.
+2025-05-16 00:50:36,079 : WARN  : comm-pool-thread-1 :  : Node : Weka Predictor (3.7) : 3:172 : Could not find the attribute 'apparent_temperature' in the DataTableSpec of the test data

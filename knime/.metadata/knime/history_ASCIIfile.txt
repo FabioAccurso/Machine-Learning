@@ -1,4 +1,4 @@
+knime://LOCAL/Datasets/iris.csv
 knime://LOCAL/Dataset/horse-colic.data.txt
 knime://LOCAL/Anni%20precedenti/Dataset/horse-colic.test.txt
 knime://LOCAL/Anni%20precedenti/Dataset/horse-colic.data.txt
-knime://LOCAL/Datasets/iris.csv
