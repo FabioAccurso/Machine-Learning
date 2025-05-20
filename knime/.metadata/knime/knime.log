@@ -4977,3 +4977,349 @@ org.knime.core.node.InvalidSettingsException: Please select at least one group c
 2025-05-16 00:48:09,937 : WARN  : ModalContext :  : Node : ARFF Reader : 5:42 : ARFFReader: I/O Error: File not found: C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\Dataset\german-credit-test.arff.
 2025-05-16 00:48:10,133 : WARN  : ModalContext :  : Node : Scatter Matrix (legacy) : 5:29 : Only the first 2500 rows are displayed.
 2025-05-16 00:50:36,079 : WARN  : comm-pool-thread-1 :  : Node : Weka Predictor (3.7) : 3:172 : Could not find the attribute 'apparent_temperature' in the DataTableSpec of the test data
+2025-05-16 18:04:55,954 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-05-16 18:04:55,954 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-05-16 18:04:55,954 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Accesso al Registro di sistema non consentito.
+2025-05-16 18:04:55,954 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : In riga:1 car:1
+2025-05-16 18:04:55,954 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-05-16 18:04:55,954 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-05-16 18:04:55,954 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-05-16 18:04:55,954 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-05-16 18:04:55,954 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-05-16 18:04:55,954 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-05-16 18:05:13,322 : WARN  : ModalContext :  : Node : Weka Predictor (3.7) : 3:172 : Could not find the attribute 'apparent_temperature' in the DataTableSpec of the test data
+2025-05-16 18:16:47,184 : ERROR : Thread-24018 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-16 18:17:03,962 : ERROR : Thread-26734 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-16 18:17:18,360 : ERROR : Thread-28957 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-16 18:17:31,909 : WARN  : comm-pool-thread-2 :  : Node : MultilayerPerceptron (3.7) : 3:108 : Target column quality not found in DataTableSpec.
+2025-05-16 18:18:42,008 : ERROR : Thread-35185 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-16 18:18:46,606 : WARN  : comm-pool-thread-2 :  : Node : MultilayerPerceptron (3.7) : 3:204 : Target column quality not found in DataTableSpec.
+2025-05-16 18:18:50,393 : ERROR : Thread-37263 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-16 18:18:56,964 : WARN  : main :  : Node : Numeric Scorer (deprecated) : 3:184 : No such column in input table: Prediction (Irr)
+2025-05-16 18:18:57,405 : WARN  : main :  : Node : Numeric Scorer (deprecated) : 3:184 : No such column in input table: Prediction (Irr)
+2025-05-16 18:19:54,019 : WARN  : KNIME-Worker-11-CSV Reader 3:186 :  : Node : MultilayerPerceptron (3.7) : 3:204 : Target column quality not found in DataTableSpec.
+2025-05-16 18:19:54,021 : WARN  : KNIME-Worker-11-CSV Reader 3:186 :  : Node : Numeric Scorer (deprecated) : 3:184 : No such column in input table: Prediction (Irr)
+2025-05-16 18:19:54,290 : WARN  : KNIME-Worker-15-Feature Selection Loop Start (1:1) 3:198 :  : Node : Numeric Scorer (deprecated) : 3:184 : No such column in input table: Prediction (Irr)
+2025-05-16 18:20:28,776 : WARN  : KNIME-Worker-16-MultilayerPerceptron (3.7) 3:108 :  : Node : MultilayerPerceptron (3.7) : 3:108 : Execution canceled
+2025-05-16 18:21:39,080 : WARN  : KNIME-Worker-17-MultilayerPerceptron (3.7) 3:108 :  : Node : MultilayerPerceptron (3.7) : 3:108 : Execution canceled
+2025-05-16 18:21:50,059 : ERROR : Thread-55807 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-16 18:21:58,371 : WARN  : comm-pool-thread-5 :  : Node : LibSVM (3.7) : 3:205 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "c"
+2025-05-16 18:22:01,890 : WARN  : main :  : Node : LibSVM (3.7) : 3:205 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "c"
+2025-05-16 18:22:04,987 : WARN  : main :  : Node : LibSVM (3.7) : 3:205 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "c"
+2025-05-16 18:22:05,702 : WARN  : main :  : Node : LibSVM (3.7) : 3:205 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "c"
+2025-05-16 18:35:43,212 : WARN  : KNIME-Worker-38-LibSVM (3.7) 3:205 :  : Node : LibSVM (3.7) : 3:205 : Execution canceled
+2025-05-17 12:32:46,290 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-05-17 12:32:46,290 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-05-17 12:32:46,290 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Accesso al Registro di sistema non consentito.
+2025-05-17 12:32:46,290 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : In riga:1 car:1
+2025-05-17 12:32:46,290 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-05-17 12:32:46,290 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-05-17 12:32:46,290 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-05-17 12:32:46,290 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-05-17 12:32:46,290 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-05-17 12:32:46,290 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-05-17 12:33:03,731 : WARN  : ModalContext :  : Node : Weka Predictor (3.7) : 3:172 : Could not find the attribute 'apparent_temperature' in the DataTableSpec of the test data
+2025-05-17 12:33:03,732 : WARN  : ModalContext :  : Node : MultilayerPerceptron (3.7) : 3:204 : Target column quality not found in DataTableSpec.
+2025-05-17 12:33:03,734 : WARN  : ModalContext :  : Node : MultilayerPerceptron (3.7) : 3:204 : Target column quality not found in DataTableSpec.
+2025-05-17 12:33:03,981 : WARN  : ModalContext :  : Node : LibSVM (3.7) : 3:205 : Execution canceled
+2025-05-17 17:48:57,483 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-05-17 17:48:57,483 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-05-17 17:48:57,483 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Accesso al Registro di sistema non consentito.
+2025-05-17 17:48:57,483 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : In riga:1 car:1
+2025-05-17 17:48:57,483 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-05-17 17:48:57,483 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-05-17 17:48:57,483 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-05-17 17:48:57,483 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-05-17 17:48:57,483 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-05-17 17:48:57,483 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-05-17 17:49:27,815 : WARN  : ModalContext :  : Node : Weka Predictor (3.7) : 3:172 : Could not find the attribute 'apparent_temperature' in the DataTableSpec of the test data
+2025-05-17 17:49:27,816 : WARN  : ModalContext :  : Node : MultilayerPerceptron (3.7) : 3:204 : Target column quality not found in DataTableSpec.
+2025-05-17 17:49:27,817 : WARN  : ModalContext :  : Node : MultilayerPerceptron (3.7) : 3:204 : Target column quality not found in DataTableSpec.
+2025-05-17 17:49:28,062 : WARN  : ModalContext :  : Node : LibSVM (3.7) : 3:205 : Execution canceled
+2025-05-17 17:54:17,045 : ERROR : Thread-25545 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-17 18:35:46,227 : ERROR : KNIME-Worker-19-Feature Selection Loop End 3:202 :  : Node : Feature Selection Filter : 3:182 : Configure failed (IllegalStateException): There exists no feature level with the specified features: "[apparent_temperature, cloudcover, cloudcover_high, cloudcover_low, cloudcover_mid, dewpoint_2m, et0_fao_evapotranspiration, soil_moisture_0_to_7cm, soil_moisture_100_to_255cm, soil_moisture_7_to_28cm, soil_temperature_0_to_7cm, soil_temperature_28_to_100cm, soil_temperature_7_to_28cm, winddirection_100m, winddirection_10m, windgusts_10m, windspeed_100m, Irr0, POAb, apparent_elevation, azimuth, dhi, dni, surface_tilt, tracker_theta]".
+java.lang.IllegalStateException: There exists no feature level with the specified features: "[apparent_temperature, cloudcover, cloudcover_high, cloudcover_low, cloudcover_mid, dewpoint_2m, et0_fao_evapotranspiration, soil_moisture_0_to_7cm, soil_moisture_100_to_255cm, soil_moisture_7_to_28cm, soil_temperature_0_to_7cm, soil_temperature_28_to_100cm, soil_temperature_7_to_28cm, winddirection_100m, winddirection_10m, windgusts_10m, windspeed_100m, Irr0, POAb, apparent_elevation, azimuth, dhi, dni, surface_tilt, tracker_theta]".
+	at org.knime.base.node.meta.feature.selection.FeatureSelectionModel.getLevelWithFeatures(FeatureSelectionModel.java:217)
+	at org.knime.base.node.meta.feature.selection.FeatureSelectionModel.getIncludedFeatures(FeatureSelectionModel.java:184)
+	at org.knime.base.node.meta.feature.selection.FeatureSelectionModel.getTableSpecAndWarning(FeatureSelectionModel.java:162)
+	at org.knime.base.node.meta.feature.selection.FeatureSelectionFilterNodeModel.configure(FeatureSelectionFilterNodeModel.java:99)
+	at org.knime.core.node.NodeModel.configureModel(NodeModel.java:1139)
+	at org.knime.core.node.Node.invokeNodeModelConfigure(Node.java:2025)
+	at org.knime.core.node.Node.configure(Node.java:1968)
+	at org.knime.core.node.workflow.NativeNodeContainer.performConfigure(NativeNodeContainer.java:574)
+	at org.knime.core.node.workflow.SingleNodeContainer.callNodeConfigure(SingleNodeContainer.java:315)
+	at org.knime.core.node.workflow.SingleNodeContainer.configure(SingleNodeContainer.java:200)
+	at org.knime.core.node.workflow.WorkflowManager.configureSingleNodeContainer(WorkflowManager.java:6850)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:7031)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:6969)
+	at org.knime.core.node.workflow.WorkflowManager.doAfterExecution(WorkflowManager.java:3737)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteFinished(NodeContainer.java:689)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:235)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-05-17 18:35:46,318 : ERROR : KNIME-Worker-19-Feature Selection Loop End 3:202 :  : Node : Feature Selection Filter : 3:188 : Configure failed (IllegalStateException): There exists no feature level with the specified features: "[apparent_temperature, cloudcover, cloudcover_high, cloudcover_low, cloudcover_mid, dewpoint_2m, et0_fao_evapotranspiration, soil_moisture_0_to_7cm, soil_moisture_100_to_255cm, soil_moisture_7_to_28cm, soil_temperature_0_to_7cm, soil_temperature_28_to_100cm, soil_temperature_7_to_28cm, winddirection_100m, winddirection_10m, windgusts_10m, windspeed_100m, Irr0, POAb, apparent_elevation, azimuth, dhi, dni, surface_tilt, tracker_theta]".
+java.lang.IllegalStateException: There exists no feature level with the specified features: "[apparent_temperature, cloudcover, cloudcover_high, cloudcover_low, cloudcover_mid, dewpoint_2m, et0_fao_evapotranspiration, soil_moisture_0_to_7cm, soil_moisture_100_to_255cm, soil_moisture_7_to_28cm, soil_temperature_0_to_7cm, soil_temperature_28_to_100cm, soil_temperature_7_to_28cm, winddirection_100m, winddirection_10m, windgusts_10m, windspeed_100m, Irr0, POAb, apparent_elevation, azimuth, dhi, dni, surface_tilt, tracker_theta]".
+	at org.knime.base.node.meta.feature.selection.FeatureSelectionModel.getLevelWithFeatures(FeatureSelectionModel.java:217)
+	at org.knime.base.node.meta.feature.selection.FeatureSelectionModel.getIncludedFeatures(FeatureSelectionModel.java:184)
+	at org.knime.base.node.meta.feature.selection.FeatureSelectionModel.getTableSpecAndWarning(FeatureSelectionModel.java:162)
+	at org.knime.base.node.meta.feature.selection.FeatureSelectionFilterNodeModel.configure(FeatureSelectionFilterNodeModel.java:99)
+	at org.knime.core.node.NodeModel.configureModel(NodeModel.java:1139)
+	at org.knime.core.node.Node.invokeNodeModelConfigure(Node.java:2025)
+	at org.knime.core.node.Node.configure(Node.java:1968)
+	at org.knime.core.node.workflow.NativeNodeContainer.performConfigure(NativeNodeContainer.java:574)
+	at org.knime.core.node.workflow.SingleNodeContainer.callNodeConfigure(SingleNodeContainer.java:315)
+	at org.knime.core.node.workflow.SingleNodeContainer.configure(SingleNodeContainer.java:200)
+	at org.knime.core.node.workflow.WorkflowManager.configureSingleNodeContainer(WorkflowManager.java:6850)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:7031)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:6969)
+	at org.knime.core.node.workflow.WorkflowManager.doAfterExecution(WorkflowManager.java:3737)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteFinished(NodeContainer.java:689)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:235)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-05-17 18:53:04,915 : ERROR : Thread-75880 :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-05-17 18:53:06,413 : WARN  : comm-pool-thread-5 :  : Node : Weka Predictor (3.7) : 3:196 : Could not find the attribute 'is_day' in the DataTableSpec of the test data
+2025-05-17 18:54:54,074 : ERROR : KNIME-Worker-47-Weka Predictor (3.7) 3:196 :  : Node : Weka Predictor (3.7) : 3:196 : Execute failed: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+java.lang.RuntimeException: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.execute(WekaPredictorNodeModel.java:327)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.isSubSpec(WekaPredictorNodeModel.java:473)
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.execute(WekaPredictorNodeModel.java:211)
+	... 13 more
+2025-05-17 18:55:17,197 : ERROR : KNIME-Worker-52-Weka Predictor (3.7) 3:196 :  : Node : Weka Predictor (3.7) : 3:196 : Execute failed: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+java.lang.RuntimeException: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.execute(WekaPredictorNodeModel.java:327)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.isSubSpec(WekaPredictorNodeModel.java:473)
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.execute(WekaPredictorNodeModel.java:211)
+	... 13 more
+2025-05-17 18:55:42,687 : WARN  : comm-pool-thread-6 :  : Node : Weka Predictor (3.7) : 3:196 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-17 18:55:47,065 : WARN  : comm-pool-thread-6 :  : Node : Weka Predictor (3.7) : 3:196 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-17 18:55:47,067 : WARN  : comm-pool-thread-6 :  : Node : Weka Predictor (3.7) : 3:196 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-17 18:55:47,067 : WARN  : comm-pool-thread-6 :  : Node : Weka Predictor (3.7) : 3:196 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-17 18:55:47,067 : WARN  : comm-pool-thread-6 :  : Node : Weka Predictor (3.7) : 3:196 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-17 18:55:47,067 : WARN  : comm-pool-thread-6 :  : Node : Weka Predictor (3.7) : 3:196 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-17 18:56:00,825 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:196 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-17 18:56:01,349 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:196 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-17 18:56:04,093 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:196 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-17 18:56:04,625 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:196 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-17 19:02:33,127 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-05-17 19:02:33,127 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-05-17 19:02:33,127 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Accesso al Registro di sistema non consentito.
+2025-05-17 19:02:33,127 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : In riga:1 car:1
+2025-05-17 19:02:33,127 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-05-17 19:02:33,127 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-05-17 19:02:33,127 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-05-17 19:02:33,127 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-05-17 19:02:33,127 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-05-17 19:02:33,127 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-05-17 19:02:39,607 : WARN  : ModalContext :  : Node : Weka Predictor (3.7) : 3:172 : Could not find the attribute 'apparent_temperature' in the DataTableSpec of the test data
+2025-05-17 19:03:01,646 : WARN  : comm-pool-thread-2 :  : Node : Weka Predictor (3.7) : 3:196 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-17 19:03:16,012 : ERROR : KNIME-Worker-0-Weka Predictor (3.7) 3:196 :  : Node : Weka Predictor (3.7) : 3:196 : Execute failed: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+java.lang.RuntimeException: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.execute(WekaPredictorNodeModel.java:327)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.isSubSpec(WekaPredictorNodeModel.java:473)
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.execute(WekaPredictorNodeModel.java:211)
+	... 13 more
+2025-05-17 19:07:29,830 : WARN  : comm-pool-thread-1 :  : Node : Weka Predictor (3.7) : 3:196 : The attribute 'PLANT' has a different type in the test data (Number (double) vs. String)
+2025-05-17 19:07:39,549 : WARN  : comm-pool-thread-1 :  : Node : Weka Predictor (3.7) : 3:196 : The attribute 'PLANT' has a different type in the test data (Number (double) vs. String)
+2025-05-17 19:08:18,866 : WARN  : KNIME-Worker-4-String to Number 3:205 :  : Node : String to Number : 3:205 : Problems in 64486 rows, first error: "Row11211" in cell ["Row0", column "rowID", row 1] can not be transformed into a number
+2025-05-17 19:08:18,871 : WARN  : KNIME-Worker-4-String to Number 3:205 :  : Node : String to Number : 3:205 : Problems in 64486 rows, first error: "Row11211" in cell ["Row0", column "rowID", row 1] can not be transformed into a number
+ RowID  |  rowID   | apparent_te...
+--------+----------+----------------
+ Row0   | Row11211 | 6.5           
+          ^^^^^^^^
+For input string: "Row11211"
+2025-05-17 19:08:18,876 : WARN  : KNIME-Worker-3-String to Number 3:204 :  : Node : String to Number : 3:204 : Problems in 41778 rows, first error: "plant_1" in cell ["Row0", column "PLANT", row 1] can not be transformed into a number
+2025-05-17 19:08:18,876 : WARN  : KNIME-Worker-3-String to Number 3:204 :  : Node : String to Number : 3:204 : Problems in 41778 rows, first error: "plant_1" in cell ["Row0", column "PLANT", row 1] can not be transformed into a number
+ RowID  |   ..   |      Irr       |  PLANT 
+--------+--------+----------------+---------
+ Row0   | ..     | 0.011254901... | plant_1
+                                    ^^^^^^^
+For input string: "plant_1"
+2025-05-17 19:10:12,985 : WARN  : KNIME-Worker-6-String to Number 3:205 :  : Node : String to Number : 3:205 : Problems in 32243 rows, first error: "plant_5" in cell ["Row0", column "PLANT", row 1] can not be transformed into a number
+2025-05-17 19:10:12,986 : WARN  : KNIME-Worker-6-String to Number 3:205 :  : Node : String to Number : 3:205 : Problems in 32243 rows, first error: "plant_5" in cell ["Row0", column "PLANT", row 1] can not be transformed into a number
+ RowID  |   ..   |     zenith     |  PLANT 
+--------+--------+----------------+---------
+ Row0   | ..     | 160.5783612... | plant_5
+                                    ^^^^^^^
+For input string: "plant_5"
+2025-05-17 19:10:20,029 : WARN  : KNIME-Worker-7-String to Number 3:204 :  : Node : String to Number : 3:204 : Problems in 41778 rows, first error: "plant_1" in cell ["Row0", column "PLANT", row 1] can not be transformed into a number
+2025-05-17 19:10:20,030 : WARN  : KNIME-Worker-7-String to Number 3:204 :  : Node : String to Number : 3:204 : Problems in 41778 rows, first error: "plant_1" in cell ["Row0", column "PLANT", row 1] can not be transformed into a number
+ RowID  |   ..   |      Irr       |  PLANT 
+--------+--------+----------------+---------
+ Row0   | ..     | 0.011254901... | plant_1
+                                    ^^^^^^^
+For input string: "plant_1"
+2025-05-17 19:10:20,158 : WARN  : KNIME-Worker-6-String to Number 3:205 :  : Node : String to Number : 3:205 : Problems in 32243 rows, first error: "plant_5" in cell ["Row0", column "PLANT", row 1] can not be transformed into a number
+2025-05-17 19:10:20,158 : WARN  : KNIME-Worker-6-String to Number 3:205 :  : Node : String to Number : 3:205 : Problems in 32243 rows, first error: "plant_5" in cell ["Row0", column "PLANT", row 1] can not be transformed into a number
+ RowID  |   ..   |     zenith     |  PLANT 
+--------+--------+----------------+---------
+ Row0   | ..     | 160.5783612... | plant_5
+                                    ^^^^^^^
+For input string: "plant_5"
+2025-05-17 19:13:53,019 : WARN  : comm-pool-thread-1 :  : Node : Weka Predictor (3.7) : 3:196 : The attribute 'PLANT' has a different type in the test data (String vs. Number (double))
+2025-05-17 19:13:56,593 : ERROR : Thread-45397 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:204 valid [3:124, 3:127, 3:128, 3:129, 3:130, 3:132, 3:134, 3:135, 3:136, 3:137, 3:138, 3:139, 3:140, 3:141, 3:142, 3:143, 3:144, 3:145, 3:146, 3:147, 3:148, 3:149, 3:151, 3:154, 3:155, 3:156, 3:157, 3:158, 3:159, 3:160, 3:161, 3:162, 3:163, 3:164, 3:165, 3:166, 3:167, 3:168, 3:169, 3:170, 3:171, 3:172, 3:173, 3:174, 3:175, 3:176, 3:177, 3:178, 3:179, 3:180, 3:181, 3:182, 3:183, 3:184, 3:185, 3:186, 3:187, 3:188, 3:189, 3:190, 3:191, 3:192, 3:193, 3:195, 3:196, 3:197, 3:198, 3:199, 3:200, 3:201, 3:202, 3:203, 3:205] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-17 19:13:56,615 : ERROR : Thread-45409 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-17 19:13:56,615 : ERROR : Thread-45411 :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:204 valid [3:124, 3:127, 3:128, 3:129, 3:130, 3:132, 3:134, 3:135, 3:136, 3:137, 3:138, 3:139, 3:140, 3:141, 3:142, 3:143, 3:144, 3:145, 3:146, 3:147, 3:148, 3:149, 3:151, 3:154, 3:155, 3:156, 3:157, 3:158, 3:159, 3:160, 3:161, 3:162, 3:163, 3:164, 3:165, 3:166, 3:167, 3:168, 3:169, 3:170, 3:171, 3:172, 3:173, 3:174, 3:175, 3:176, 3:177, 3:178, 3:179, 3:180, 3:181, 3:182, 3:183, 3:184, 3:185, 3:186, 3:187, 3:188, 3:189, 3:190, 3:191, 3:192, 3:193, 3:195, 3:196, 3:197, 3:198, 3:199, 3:200, 3:201, 3:202, 3:203, 3:205] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 45)
+2025-05-17 19:14:04,740 : ERROR : Thread-46780 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:205 valid [3:124, 3:127, 3:128, 3:129, 3:130, 3:132, 3:134, 3:135, 3:136, 3:137, 3:138, 3:139, 3:140, 3:141, 3:142, 3:143, 3:144, 3:145, 3:146, 3:147, 3:148, 3:149, 3:151, 3:154, 3:155, 3:156, 3:157, 3:158, 3:159, 3:160, 3:161, 3:162, 3:163, 3:164, 3:165, 3:166, 3:167, 3:168, 3:169, 3:170, 3:171, 3:172, 3:173, 3:174, 3:175, 3:176, 3:177, 3:178, 3:179, 3:180, 3:181, 3:182, 3:183, 3:184, 3:185, 3:186, 3:187, 3:188, 3:189, 3:190, 3:191, 3:192, 3:193, 3:195, 3:196, 3:197, 3:198, 3:199, 3:200, 3:201, 3:202, 3:203] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-17 19:14:04,746 : ERROR : Thread-46786 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-17 19:14:04,747 : ERROR : Thread-46788 :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:205 valid [3:124, 3:127, 3:128, 3:129, 3:130, 3:132, 3:134, 3:135, 3:136, 3:137, 3:138, 3:139, 3:140, 3:141, 3:142, 3:143, 3:144, 3:145, 3:146, 3:147, 3:148, 3:149, 3:151, 3:154, 3:155, 3:156, 3:157, 3:158, 3:159, 3:160, 3:161, 3:162, 3:163, 3:164, 3:165, 3:166, 3:167, 3:168, 3:169, 3:170, 3:171, 3:172, 3:173, 3:174, 3:175, 3:176, 3:177, 3:178, 3:179, 3:180, 3:181, 3:182, 3:183, 3:184, 3:185, 3:186, 3:187, 3:188, 3:189, 3:190, 3:191, 3:192, 3:193, 3:195, 3:196, 3:197, 3:198, 3:199, 3:200, 3:201, 3:202, 3:203] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 45)
+2025-05-17 19:14:11,131 : ERROR : KNIME-Worker-10-Weka Predictor (3.7) 3:196 :  : Node : Weka Predictor (3.7) : 3:196 : Execute failed: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+java.lang.RuntimeException: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.execute(WekaPredictorNodeModel.java:327)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.isSubSpec(WekaPredictorNodeModel.java:473)
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.execute(WekaPredictorNodeModel.java:211)
+	... 13 more
+2025-05-17 19:20:15,416 : WARN  : comm-pool-thread-1 :  : Node : Weka Predictor (3.7) : 3:196 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-17 19:20:20,563 : WARN  : KNIME-Worker-11-Column Filter 3:203 :  : Node : Weka Predictor (3.7) : 3:196 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-17 19:22:33,820 : ERROR : KNIME-Worker-14-Weka Predictor (3.7) 3:196 :  : Node : Weka Predictor (3.7) : 3:196 : Execute failed: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+java.lang.RuntimeException: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.execute(WekaPredictorNodeModel.java:327)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.isSubSpec(WekaPredictorNodeModel.java:473)
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.execute(WekaPredictorNodeModel.java:211)
+	... 13 more
