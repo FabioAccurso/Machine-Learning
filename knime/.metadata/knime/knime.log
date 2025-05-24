@@ -5323,3 +5323,99 @@ Caused by: org.knime.core.node.InvalidSettingsException: PLANT column has more p
 	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.isSubSpec(WekaPredictorNodeModel.java:473)
 	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.execute(WekaPredictorNodeModel.java:211)
 	... 13 more
+2025-05-21 19:32:53,631 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-05-21 19:32:53,631 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-05-21 19:32:53,631 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Accesso al Registro di sistema non consentito.
+2025-05-21 19:32:53,631 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : In riga:1 car:1
+2025-05-21 19:32:53,631 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-05-21 19:32:53,631 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-05-21 19:32:53,631 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-05-21 19:32:53,631 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-05-21 19:32:53,631 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-05-21 19:32:53,631 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-05-21 19:33:23,030 : WARN  : ModalContext :  : Node : Weka Predictor (3.7) : 3:172 : Could not find the attribute 'apparent_temperature' in the DataTableSpec of the test data
+2025-05-21 19:33:23,507 : WARN  : ModalContext :  : Node : Weka Predictor (3.7) : 3:196 : Execute failed: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+2025-05-21 19:34:50,949 : ERROR : KNIME-Worker-0-Weka Predictor (3.7) 3:196 :  : Node : Weka Predictor (3.7) : 3:196 : Execute failed: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+java.lang.RuntimeException: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.execute(WekaPredictorNodeModel.java:327)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.isSubSpec(WekaPredictorNodeModel.java:473)
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.execute(WekaPredictorNodeModel.java:211)
+	... 13 more
+2025-05-21 19:35:56,900 : WARN  : comm-pool-thread-2 :  : Node : Weka Predictor (3.7) : 3:196 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-21 19:36:02,573 : WARN  : KNIME-Worker-0-Column Filter 3:203 :  : Node : Weka Predictor (3.7) : 3:196 : Could not find the attribute 'PLANT' in the DataTableSpec of the test data
+2025-05-21 19:37:39,306 : ERROR : KNIME-Worker-2-Weka Predictor (3.7) 3:196 :  : Node : Weka Predictor (3.7) : 3:196 : Execute failed: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+java.lang.RuntimeException: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.execute(WekaPredictorNodeModel.java:327)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.isSubSpec(WekaPredictorNodeModel.java:473)
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.execute(WekaPredictorNodeModel.java:211)
+	... 13 more
+2025-05-21 19:37:57,326 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:196 : Could not find the attribute 'Irr' in the DataTableSpec of the test data
+2025-05-21 19:37:58,269 : WARN  : main :  : Node : Weka Predictor (3.7) : 3:196 : Could not find the attribute 'Irr' in the DataTableSpec of the test data
+2025-05-21 19:38:14,917 : ERROR : KNIME-Worker-2-Weka Predictor (3.7) 3:196 :  : Node : Weka Predictor (3.7) : 3:196 : Execute failed: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+java.lang.RuntimeException: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.execute(WekaPredictorNodeModel.java:327)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.isSubSpec(WekaPredictorNodeModel.java:473)
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.execute(WekaPredictorNodeModel.java:211)
+	... 13 more
+2025-05-21 19:39:59,579 : ERROR : KNIME-Worker-3-Weka Predictor (3.7) 3:196 :  : Node : Weka Predictor (3.7) : 3:196 : Execute failed: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+java.lang.RuntimeException: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.execute(WekaPredictorNodeModel.java:327)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.isSubSpec(WekaPredictorNodeModel.java:473)
+	at org.knime.ext.weka37.predictor3.WekaPredictorNodeModel.execute(WekaPredictorNodeModel.java:211)
+	... 13 more

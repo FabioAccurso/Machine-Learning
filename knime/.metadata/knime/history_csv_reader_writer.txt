@@ -1,3 +1,4 @@
+C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\2_Contest\output\4_21feature_m5p_14_PlantNumber.csv
 C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\2_Contest\output\3_21feature_m5p_14_PlantNumber.csv
 C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\2_Contest\output\3_21feature_m5p_14.csv
 C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\2_Contest\Nuova cartella\3_feature_m5p_14.csv
@@ -7,4 +8,3 @@ C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\2_Contest\Nuov
 C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\2_Contest\train.csv
 C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\2_Contest\test.csv
 C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_Contest\output\7_knnWeka_NN_4_Zscore_Manthattan.csv
-C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\1_Contest\output\6_knnWeka_NN_6_Decimal_Manthattan.csv
