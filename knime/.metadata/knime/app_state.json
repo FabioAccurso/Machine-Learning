@@ -2,11 +2,19 @@
   "version" : "5.4.4.v202504301443",
   "projects" : [ {
     "name" : "soluzione_2_minicontest",
-    "active" : true,
+    "active" : false,
     "origin" : {
       "providerId" : "local",
       "spaceId" : "local",
       "relativePath" : "2_Contest\\soluzione_2_minicontest"
+    }
+  }, {
+    "name" : "presentazione_orale_contest2",
+    "active" : true,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "presentazione_orale_contest2"
     }
   } ],
   "mostRecentlyUsedProjects" : [ {
@@ -55,15 +63,6 @@
       "relativePath" : "Esercitazione_3\\Esercitazione n3\\02. Feature Projection"
     }
   }, {
-    "name" : "soluzione_2_minicontest",
-    "timeUsed" : "2025-05-13T10:17:10.6090594+02:00",
-    "origin" : {
-      "providerId" : "local",
-      "spaceId" : "local",
-      "projectType" : "WORKFLOW",
-      "relativePath" : "2_Contest\\soluzione_2_minicontest"
-    }
-  }, {
     "name" : "ML_MC1_knn_preprocessing",
     "timeUsed" : "2025-05-13T11:00:28.0904442+02:00",
     "origin" : {
@@ -71,6 +70,24 @@
       "spaceId" : "local",
       "projectType" : "WORKFLOW",
       "relativePath" : "1_Contest\\soluzione_presentata_tizia\\ML_MC1_knn_preprocessing"
+    }
+  }, {
+    "name" : "soluzione_2_minicontest",
+    "timeUsed" : "2025-07-14T16:34:31.0587444+02:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "2_Contest\\soluzione_2_minicontest"
+    }
+  }, {
+    "name" : "presentazione_orale_contest2",
+    "timeUsed" : "2025-07-17T11:17:42.821932+02:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "presentazione_orale_contest2"
     }
   } ]
 }

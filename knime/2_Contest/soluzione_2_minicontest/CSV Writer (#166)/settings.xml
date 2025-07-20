@@ -26,7 +26,7 @@
                 <config key="path">
                     <entry key="location_present" type="xboolean" value="true"/>
                     <entry key="file_system_type" type="xstring" value="LOCAL"/>
-                    <entry key="path" type="xstring" value="C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\2_Contest\Nuova cartella\2_25feature_m5p_14.csv"/>
+                    <entry key="path" type="xstring" value="C:\Users\Fabio\Desktop\Magistrale\Machine_Learning\esercizi\knime\2_Contest\orale\1_try.csv"/>
                 </config>
                 <config key="filter_mode_Internals">
                     <entry key="SettingsModelID" type="xstring" value="SMID_FilterMode"/>

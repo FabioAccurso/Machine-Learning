@@ -32,36 +32,6 @@
             <entry key="class" type="xstring" value="DOUBLE"/>
             <entry key="value" type="xdouble" value="0.0"/>
         </config>
-        <config key="Variable_5">
-            <entry key="type" type="xstring" value="variable"/>
-            <entry key="name" type="xstring" value="R^2"/>
-            <entry key="class" type="xstring" value="DOUBLE"/>
-            <entry key="value" type="xdouble" value="0.8871878296541582"/>
-        </config>
-        <config key="Variable_6">
-            <entry key="type" type="xstring" value="variable"/>
-            <entry key="name" type="xstring" value="mean absolute error"/>
-            <entry key="class" type="xstring" value="DOUBLE"/>
-            <entry key="value" type="xdouble" value="50.67603590297148"/>
-        </config>
-        <config key="Variable_7">
-            <entry key="type" type="xstring" value="variable"/>
-            <entry key="name" type="xstring" value="mean squared error"/>
-            <entry key="class" type="xstring" value="DOUBLE"/>
-            <entry key="value" type="xdouble" value="11372.126535830768"/>
-        </config>
-        <config key="Variable_8">
-            <entry key="type" type="xstring" value="variable"/>
-            <entry key="name" type="xstring" value="root mean squared deviation"/>
-            <entry key="class" type="xstring" value="DOUBLE"/>
-            <entry key="value" type="xdouble" value="106.64017317986111"/>
-        </config>
-        <config key="Variable_9">
-            <entry key="type" type="xstring" value="variable"/>
-            <entry key="name" type="xstring" value="mean signed difference"/>
-            <entry key="class" type="xstring" value="DOUBLE"/>
-            <entry key="value" type="xdouble" value="7.825707649287622"/>
-        </config>
     </config>
     <config key="internal_node_subsettings">
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
@@ -120,7 +90,7 @@
         <config key="styles"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="state" type="xstring" value="CONFIGURED"/>
     <entry key="factory" type="xstring" value="org.knime.base.node.mine.scorer.numeric.NumericScorerNodeFactory"/>
     <entry key="node-name" type="xstring" value="Numeric Scorer (deprecated)"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -133,15 +103,12 @@
     <entry key="node-feature-version" type="xstring" value="5.4.4.v202504301443"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Numeric Scorer (deprecated)"/>
-    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 5, Cols: 1"/>
-            <entry key="port_dir_location" type="xstring" value="port_1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
         </config>
     </config>
     <config key="filestores">
