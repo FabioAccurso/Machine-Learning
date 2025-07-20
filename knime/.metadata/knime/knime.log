@@ -6441,3 +6441,103 @@ java.lang.IllegalStateException: There exists no feature level with the specifie
       font-weight: bold;
       padding: 2px 0.5em;
       [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-07-20 10:49:02,597 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-07-20 10:49:02,597 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-07-20 10:49:02,597 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Accesso al Registro di sistema non consentito.
+2025-07-20 10:49:02,597 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : In riga:1 car:1
+2025-07-20 10:49:02,597 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-07-20 10:49:02,597 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-07-20 10:49:02,597 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-07-20 10:49:02,597 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-07-20 10:49:02,597 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-07-20 10:49:02,597 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-07-20 10:49:21,672 : ERROR : Thread-1498 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: The item with id 'root' is not a workflow group (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-07-20 10:49:21,682 : ERROR : Thread-1511 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: The item with id 'root' is not a workflow group (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-07-20 10:49:21,682 : ERROR : Thread-1513 :  : KnimeBrowserView :  :  : %cerror%c Error trying to fetch workflow group content 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-07-20 10:49:21,682 : ERROR : Thread-1515 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-07-20 10:51:56,993 : WARN  : ModalContext :  : Node : Weka Predictor (3.7) : 4:172 : Could not find the attribute 'apparent_temperature' in the DataTableSpec of the test data
+2025-07-20 10:51:57,393 : WARN  : ModalContext :  : Node : Weka Predictor (3.7) : 4:196 : Execute failed: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+2025-07-20 11:23:21,263 : ERROR : Thread-18305 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-07-20 11:49:54,233 : ERROR : KNIME-Worker-13-Feature Selection Loop End 4:315 :  : Node : Feature Selection Filter : 4:231 : Configure failed (IllegalStateException): There exists no feature level with the specified features: "[apparent_temperature, cloudcover, cloudcover_high, cloudcover_low, cloudcover_mid, dewpoint_2m, et0_fao_evapotranspiration, soil_moisture_0_to_7cm, soil_moisture_100_to_255cm, soil_moisture_7_to_28cm, soil_temperature_0_to_7cm, soil_temperature_28_to_100cm, soil_temperature_7_to_28cm, winddirection_100m, winddirection_10m, windgusts_10m, windspeed_100m, Irr0, POAb, apparent_elevation, azimuth, dhi, dni, surface_tilt, tracker_theta]".
+java.lang.IllegalStateException: There exists no feature level with the specified features: "[apparent_temperature, cloudcover, cloudcover_high, cloudcover_low, cloudcover_mid, dewpoint_2m, et0_fao_evapotranspiration, soil_moisture_0_to_7cm, soil_moisture_100_to_255cm, soil_moisture_7_to_28cm, soil_temperature_0_to_7cm, soil_temperature_28_to_100cm, soil_temperature_7_to_28cm, winddirection_100m, winddirection_10m, windgusts_10m, windspeed_100m, Irr0, POAb, apparent_elevation, azimuth, dhi, dni, surface_tilt, tracker_theta]".
+	at org.knime.base.node.meta.feature.selection.FeatureSelectionModel.getLevelWithFeatures(FeatureSelectionModel.java:217)
+	at org.knime.base.node.meta.feature.selection.FeatureSelectionModel.getIncludedFeatures(FeatureSelectionModel.java:184)
+	at org.knime.base.node.meta.feature.selection.FeatureSelectionModel.getTableSpecAndWarning(FeatureSelectionModel.java:162)
+	at org.knime.base.node.meta.feature.selection.FeatureSelectionFilterNodeModel.configure(FeatureSelectionFilterNodeModel.java:99)
+	at org.knime.core.node.NodeModel.configureModel(NodeModel.java:1139)
+	at org.knime.core.node.Node.invokeNodeModelConfigure(Node.java:2025)
+	at org.knime.core.node.Node.configure(Node.java:1968)
+	at org.knime.core.node.workflow.NativeNodeContainer.performConfigure(NativeNodeContainer.java:574)
+	at org.knime.core.node.workflow.SingleNodeContainer.callNodeConfigure(SingleNodeContainer.java:315)
+	at org.knime.core.node.workflow.SingleNodeContainer.configure(SingleNodeContainer.java:200)
+	at org.knime.core.node.workflow.WorkflowManager.configureSingleNodeContainer(WorkflowManager.java:6850)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:7031)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:6969)
+	at org.knime.core.node.workflow.WorkflowManager.doAfterExecution(WorkflowManager.java:3737)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteFinished(NodeContainer.java:689)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:235)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-07-20 12:11:49,801 : ERROR : Thread-42814 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: The item with id 'root' is not a workflow group (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-07-20 12:11:49,826 : ERROR : Thread-42827 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: The item with id 'root' is not a workflow group (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-07-20 12:11:49,826 : ERROR : Thread-42829 :  : KnimeBrowserView :  :  : %cerror%c Error trying to fetch workflow group content 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-07-20 12:11:49,827 : ERROR : Thread-42831 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
