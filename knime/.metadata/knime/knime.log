@@ -6541,3 +6541,194 @@ java.lang.IllegalStateException: There exists no feature level with the specifie
       font-weight: bold;
       padding: 2px 0.5em;
       [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-07-20 16:57:13,071 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-07-20 16:57:13,071 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-07-20 16:57:13,071 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Accesso al Registro di sistema non consentito.
+2025-07-20 16:57:13,071 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : In riga:1 car:1
+2025-07-20 16:57:13,071 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-07-20 16:57:13,071 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-07-20 16:57:13,071 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-07-20 16:57:13,071 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-07-20 16:57:13,071 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-07-20 16:57:13,071 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-07-20 16:57:31,409 : ERROR : Thread-1054 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: The item with id 'root' is not a workflow group (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-07-20 16:57:31,417 : ERROR : Thread-1067 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: The item with id 'root' is not a workflow group (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-07-20 16:57:31,418 : ERROR : Thread-1069 :  : KnimeBrowserView :  :  : %cerror%c Error trying to fetch workflow group content 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-07-20 16:57:31,418 : ERROR : Thread-1071 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-07-20 16:57:45,967 : WARN  : ModalContext :  : Node : Weka Predictor (3.7) : 4:172 : Could not find the attribute 'apparent_temperature' in the DataTableSpec of the test data
+2025-07-20 16:57:46,353 : WARN  : ModalContext :  : Node : Weka Predictor (3.7) : 4:196 : Execute failed: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+2025-07-20 16:59:57,160 : WARN  : comm-pool-thread-1 :  : Node : RandomForest (3.7) : 4:316 : No target column specified. Target column was set to PLANT
+2025-07-20 16:59:57,170 : WARN  : comm-pool-thread-1 :  : Node : Numeric Scorer (deprecated) : 4:233 : No such column in input table: Prediction (Irr)
+2025-07-20 17:00:04,378 : ERROR : Thread-24356 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-07-20 17:00:14,769 : WARN  : main :  : Node : Numeric Scorer (deprecated) : 4:233 : No such column in input table: Prediction (Irr)
+2025-07-20 17:00:15,332 : WARN  : main :  : Node : Numeric Scorer (deprecated) : 4:233 : No such column in input table: Prediction (Irr)
+2025-07-20 17:00:18,398 : WARN  : KNIME-Worker-1-Feature Selection Loop Start (1:1) 4:311 :  : Node : Numeric Scorer (deprecated) : 4:233 : No such column in input table: Prediction (Irr)
+2025-07-20 17:00:20,315 : WARN  : KNIME-Worker-1-Weka Predictor (3.7) 4:308 :  : Node : Numeric Scorer (deprecated) : 4:233 : No such column in input table: Prediction (Irr)
+2025-07-20 17:00:52,017 : ERROR : KNIME-Worker-2-RandomForest (3.7) 4:316 :  : Node : RandomForest (3.7) : 4:316 : Execute failed: Weka classifier cannot work with given data. Reason: weka.classifiers.trees.RandomTree: Cannot handle numeric class!
+java.lang.Exception: Weka classifier cannot work with given data. Reason: weka.classifiers.trees.RandomTree: Cannot handle numeric class!
+	at org.knime.ext.weka37.classifier.WekaClassifierNodeModel.execute(WekaClassifierNodeModel.java:240)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-07-20 17:01:05,570 : ERROR : KNIME-Worker-1-RandomForest (3.7) 4:316 :  : Node : RandomForest (3.7) : 4:316 : Execute failed: Weka classifier cannot work with given data. Reason: weka.classifiers.trees.RandomTree: Cannot handle numeric class!
+java.lang.Exception: Weka classifier cannot work with given data. Reason: weka.classifiers.trees.RandomTree: Cannot handle numeric class!
+	at org.knime.ext.weka37.classifier.WekaClassifierNodeModel.execute(WekaClassifierNodeModel.java:240)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-07-20 17:01:42,545 : WARN  : comm-pool-thread-1 :  : Node : Random Forest Learner (Regression) : 4:316 : No configuration available
+2025-07-20 17:04:41,352 : WARN  : KNIME-Worker-26-Random Forest Learner (Regression) 4:316 :  : Node : Random Forest Learner (Regression) : 4:316 : Execution canceled
+2025-07-20 17:05:06,484 : WARN  : comm-pool-thread-1 :  : Node : Random Forest Learner (Regression) : 4:327 : 1 column(s) were ignored due to missing domain information: ["PLANT"] -- change the node configuration or use a Domain Calculator node to fix it
+2025-07-20 17:05:06,490 : WARN  : comm-pool-thread-1 :  : Node : Random Forest Learner (Regression) : 4:327 : 1 column(s) were ignored due to missing domain information: ["PLANT"] -- change the node configuration or use a Domain Calculator node to fix it
+2025-07-20 17:05:24,617 : ERROR : Thread-51206 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 4:337 valid [4:124, 4:127, 4:128, 4:129, 4:130, 4:132, 4:134, 4:135, 4:136, 4:137, 4:138, 4:139, 4:140, 4:141, 4:142, 4:143, 4:144, 4:145, 4:146, 4:147, 4:148, 4:149, 4:151, 4:154, 4:155, 4:156, 4:157, 4:158, 4:159, 4:160, 4:161, 4:162, 4:163, 4:164, 4:165, 4:166, 4:167, 4:168, 4:169, 4:170, 4:171, 4:172, 4:173, 4:174, 4:175, 4:176, 4:177, 4:178, 4:179, 4:180, 4:181, 4:182, 4:183, 4:184, 4:185, 4:186, 4:187, 4:188, 4:189, 4:190, 4:191, 4:192, 4:193, 4:195, 4:196, 4:197, 4:198, 4:199, 4:200, 4:201, 4:202, 4:203, 4:204, 4:205, 4:206, 4:207, 4:208, 4:209, 4:210, 4:211, 4:212, 4:213, 4:214, 4:215, 4:216, 4:217, 4:218, 4:219, 4:220, 4:221, 4:222, 4:223, 4:224, 4:225, 4:226, 4:227, 4:228, 4:229, 4:230, 4:231, 4:232, 4:233, 4:234, 4:235, 4:236, 4:237, 4:238, 4:239, 4:240, 4:305, 4:306, 4:307, 4:308, 4:309, 4:310, 4:311, 4:312, 4:313, 4:314, 4:315, 4:319, 4:320, 4:321, 4:322, 4:323, 4:324, 4:325, 4:326, 4:327, 4:328, 4:329, 4:330, 4:331, 4:332, 4:333, 4:334, 4:335, 4:336, 4:338, 4:339, 4:340, 4:341, 4:342] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-07-20 17:05:24,624 : ERROR : Thread-51212 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-07-20 17:05:24,624 : ERROR : Thread-51214 :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 4:337 valid [4:124, 4:127, 4:128, 4:129, 4:130, 4:132, 4:134, 4:135, 4:136, 4:137, 4:138, 4:139, 4:140, 4:141, 4:142, 4:143, 4:144, 4:145, 4:146, 4:147, 4:148, 4:149, 4:151, 4:154, 4:155, 4:156, 4:157, 4:158, 4:159, 4:160, 4:161, 4:162, 4:163, 4:164, 4:165, 4:166, 4:167, 4:168, 4:169, 4:170, 4:171, 4:172, 4:173, 4:174, 4:175, 4:176, 4:177, 4:178, 4:179, 4:180, 4:181, 4:182, 4:183, 4:184, 4:185, 4:186, 4:187, 4:188, 4:189, 4:190, 4:191, 4:192, 4:193, 4:195, 4:196, 4:197, 4:198, 4:199, 4:200, 4:201, 4:202, 4:203, 4:204, 4:205, 4:206, 4:207, 4:208, 4:209, 4:210, 4:211, 4:212, 4:213, 4:214, 4:215, 4:216, 4:217, 4:218, 4:219, 4:220, 4:221, 4:222, 4:223, 4:224, 4:225, 4:226, 4:227, 4:228, 4:229, 4:230, 4:231, 4:232, 4:233, 4:234, 4:235, 4:236, 4:237, 4:238, 4:239, 4:240, 4:305, 4:306, 4:307, 4:308, 4:309, 4:310, 4:311, 4:312, 4:313, 4:314, 4:315, 4:319, 4:320, 4:321, 4:322, 4:323, 4:324, 4:325, 4:326, 4:327, 4:328, 4:329, 4:330, 4:331, 4:332, 4:333, 4:334, 4:335, 4:336, 4:338, 4:339, 4:340, 4:341, 4:342] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 45)
+2025-07-20 17:06:04,660 : WARN  : comm-pool-thread-1 :  : Node : Random Forest Learner (Regression) : 4:327 : 1 column(s) were ignored due to missing domain information: ["PLANT"] -- change the node configuration or use a Domain Calculator node to fix it
+2025-07-20 17:06:04,661 : WARN  : comm-pool-thread-1 :  : Node : Parameter Optimization Loop End : 4:321 : Wrong Loop Start Node Connected
+2025-07-20 17:06:15,916 : WARN  : comm-pool-thread-1 :  : Node : Random Forest Learner (Regression) : 4:327 : 1 column(s) were ignored due to missing domain information: ["PLANT"] -- change the node configuration or use a Domain Calculator node to fix it
+2025-07-20 17:07:42,661 : WARN  : comm-pool-thread-1 :  : Node : Parameter Optimization Loop End : 4:321 : Wrong Loop Start Node Connected
+2025-07-20 17:07:42,884 : ERROR : Thread-66893 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 4:323 valid [4:124, 4:127, 4:128, 4:129, 4:130, 4:132, 4:134, 4:135, 4:136, 4:137, 4:138, 4:139, 4:140, 4:141, 4:142, 4:143, 4:144, 4:145, 4:146, 4:147, 4:148, 4:149, 4:151, 4:154, 4:155, 4:156, 4:157, 4:158, 4:159, 4:160, 4:161, 4:162, 4:163, 4:164, 4:165, 4:166, 4:167, 4:168, 4:169, 4:170, 4:171, 4:172, 4:173, 4:174, 4:175, 4:176, 4:177, 4:178, 4:179, 4:180, 4:181, 4:182, 4:183, 4:184, 4:185, 4:186, 4:187, 4:188, 4:189, 4:190, 4:191, 4:192, 4:193, 4:195, 4:196, 4:197, 4:198, 4:199, 4:200, 4:201, 4:202, 4:203, 4:204, 4:205, 4:206, 4:207, 4:208, 4:209, 4:210, 4:211, 4:212, 4:213, 4:214, 4:215, 4:216, 4:217, 4:218, 4:219, 4:220, 4:221, 4:222, 4:223, 4:224, 4:225, 4:226, 4:227, 4:228, 4:229, 4:230, 4:231, 4:232, 4:233, 4:234, 4:235, 4:236, 4:237, 4:238, 4:239, 4:240, 4:305, 4:306, 4:307, 4:308, 4:309, 4:310, 4:311, 4:312, 4:313, 4:314, 4:315, 4:319, 4:320, 4:321, 4:322, 4:324, 4:325, 4:326, 4:327, 4:328, 4:331, 4:332, 4:333, 4:334, 4:335, 4:338, 4:339] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-07-20 17:07:42,896 : ERROR : Thread-66905 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-07-20 17:07:42,896 : ERROR : Thread-66908 :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 4:323 valid [4:124, 4:127, 4:128, 4:129, 4:130, 4:132, 4:134, 4:135, 4:136, 4:137, 4:138, 4:139, 4:140, 4:141, 4:142, 4:143, 4:144, 4:145, 4:146, 4:147, 4:148, 4:149, 4:151, 4:154, 4:155, 4:156, 4:157, 4:158, 4:159, 4:160, 4:161, 4:162, 4:163, 4:164, 4:165, 4:166, 4:167, 4:168, 4:169, 4:170, 4:171, 4:172, 4:173, 4:174, 4:175, 4:176, 4:177, 4:178, 4:179, 4:180, 4:181, 4:182, 4:183, 4:184, 4:185, 4:186, 4:187, 4:188, 4:189, 4:190, 4:191, 4:192, 4:193, 4:195, 4:196, 4:197, 4:198, 4:199, 4:200, 4:201, 4:202, 4:203, 4:204, 4:205, 4:206, 4:207, 4:208, 4:209, 4:210, 4:211, 4:212, 4:213, 4:214, 4:215, 4:216, 4:217, 4:218, 4:219, 4:220, 4:221, 4:222, 4:223, 4:224, 4:225, 4:226, 4:227, 4:228, 4:229, 4:230, 4:231, 4:232, 4:233, 4:234, 4:235, 4:236, 4:237, 4:238, 4:239, 4:240, 4:305, 4:306, 4:307, 4:308, 4:309, 4:310, 4:311, 4:312, 4:313, 4:314, 4:315, 4:319, 4:320, 4:321, 4:322, 4:324, 4:325, 4:326, 4:327, 4:328, 4:331, 4:332, 4:333, 4:334, 4:335, 4:338, 4:339] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 45)
+2025-07-20 21:52:44,658 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-07-20 21:52:44,658 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-07-20 21:52:44,658 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Accesso al Registro di sistema non consentito.
+2025-07-20 21:52:44,658 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : In riga:1 car:1
+2025-07-20 21:52:44,658 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-07-20 21:52:44,658 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-07-20 21:52:44,658 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-07-20 21:52:44,658 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-07-20 21:52:44,658 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-07-20 21:52:44,658 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-07-20 21:53:01,320 : WARN  : ModalContext :  : Node : Weka Predictor (3.7) : 3:172 : Could not find the attribute 'apparent_temperature' in the DataTableSpec of the test data
+2025-07-20 21:53:01,712 : WARN  : ModalContext :  : Node : Weka Predictor (3.7) : 3:196 : Execute failed: org.knime.core.node.InvalidSettingsException: PLANT column has more possible values in test data than in the training data.
+2025-07-20 21:53:05,853 : ERROR : Thread-1063 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: The item with id 'root' is not a workflow group (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-07-20 21:53:05,863 : ERROR : Thread-1076 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: The item with id 'root' is not a workflow group (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-07-20 21:53:05,863 : ERROR : Thread-1078 :  : KnimeBrowserView :  :  : %cerror%c Error trying to fetch workflow group content 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-07-20 21:53:05,863 : ERROR : Thread-1080 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-07-20 21:53:16,817 : ERROR : Thread-3010 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: The item with id 'root' is not a workflow group (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-07-20 21:53:16,832 : ERROR : Thread-3024 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: The item with id 'root' is not a workflow group (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-07-20 21:53:16,832 : ERROR : Thread-3026 :  : KnimeBrowserView :  :  : %cerror%c Error trying to fetch workflow group content 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-07-20 21:53:16,832 : ERROR : Thread-3028 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)

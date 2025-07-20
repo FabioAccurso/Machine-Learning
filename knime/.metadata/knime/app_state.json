@@ -1,6 +1,14 @@
 {
   "version" : "5.4.4.v202504301443",
   "projects" : [ {
+    "name" : "soluzione_2_minicontest",
+    "active" : false,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "2_Contest\\soluzione_2_minicontest"
+    }
+  }, {
     "name" : "presentazione_orale_contest2",
     "active" : true,
     "origin" : {
@@ -65,7 +73,7 @@
     }
   }, {
     "name" : "soluzione_2_minicontest",
-    "timeUsed" : "2025-07-14T16:34:31.0587444+02:00",
+    "timeUsed" : "2025-07-20T16:57:49.5267208+02:00",
     "origin" : {
       "providerId" : "local",
       "spaceId" : "local",
@@ -74,7 +82,7 @@
     }
   }, {
     "name" : "presentazione_orale_contest2",
-    "timeUsed" : "2025-07-17T11:17:42.821932+02:00",
+    "timeUsed" : "2025-07-20T21:53:16.4504089+02:00",
     "origin" : {
       "providerId" : "local",
       "spaceId" : "local",
