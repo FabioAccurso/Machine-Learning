@@ -6,36 +6,19 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <config key="perform_evaluation_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        <entry key="ClassColumn" type="xstring" value="Irr"/>
+        <entry key="keep_training_instances" type="xboolean" value="false"/>
+        <entry key="VectorColumn" type="xstring" isnull="true" value=""/>
+        <config key="weka-optionhandler-settings">
+            <entry key="-M_(#0)" type="xstring" value="14.0"/>
+            <entry key="options_list_with_placeholders" type="xstring" value="-M #0"/>
+            <entry key="additional_options" type="xstring" value=""/>
         </config>
-        <entry key="perform_evaluation" type="xboolean" value="true"/>
-        <config key="change prediction_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="change prediction" type="xboolean" value="false"/>
-        <config key="prediction column name_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="false"/>
-        </config>
-        <entry key="prediction column name" type="xstring" value="Prediction (Irr)"/>
-        <config key="show_distribution_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="show_distribution" type="xboolean" value="false"/>
-        <config key="class probability suffix_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="false"/>
-        </config>
-        <entry key="class probability suffix" type="xstring" value=""/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="IDLE"/>
-    <entry key="factory" type="xstring" value="org.knime.ext.weka37.predictor3.WekaPredictorNodeFactory"/>
-    <entry key="node-name" type="xstring" value="Weka Predictor (3.7)"/>
+    <entry key="state" type="xstring" value="CONFIGURED"/>
+    <entry key="factory" type="xstring" value="org.knime.ext.weka37.classifier.WekaClassifierNodeFactory"/>
+    <entry key="node-name" type="xstring" value="M5P (3.7)"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME WEKA nodes (3.7)"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.weka_3.7"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
@@ -44,8 +27,13 @@
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ext.weka_3.7.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
     <entry key="node-feature-version" type="xstring" value="5.4.0.v202407231410"/>
-    <config key="factory_settings"/>
-    <entry key="name" type="xstring" value="Weka Predictor (3.7)"/>
+    <entry key="factory-id-uniquifier" type="xstring" isnull="true" value=""/>
+    <config key="factory_settings">
+        <entry key="weka-class" type="xstring" value="weka.classifiers.trees.M5P"/>
+        <entry key="weka-version" type="xstring" value="3.7"/>
+        <entry key="weka_nodes_version" type="xstring" value="V112015"/>
+    </config>
+    <entry key="name" type="xstring" value="M5P (3.7)"/>
     <entry key="hasContent" type="xboolean" value="false"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">

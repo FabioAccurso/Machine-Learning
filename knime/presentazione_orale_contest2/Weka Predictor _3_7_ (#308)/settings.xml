@@ -6,34 +6,34 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <config key="perform_evaluation_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="perform_evaluation" type="xboolean" value="true"/>
-        <config key="change prediction_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="change prediction" type="xboolean" value="false"/>
-        <config key="prediction column name_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="false"/>
-        </config>
-        <entry key="prediction column name" type="xstring" value="Prediction (Irr)"/>
         <config key="show_distribution_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="show_distribution" type="xboolean" value="false"/>
+        <config key="change prediction_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="change prediction" type="xboolean" value="false"/>
         <config key="class probability suffix_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="false"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="class probability suffix" type="xstring" value=""/>
+        <config key="prediction column name_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="prediction column name" type="xstring" value="Prediction ()"/>
+        <config key="perform_evaluation_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="perform_evaluation" type="xboolean" value="true"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="state" type="xstring" value="CONFIGURED"/>
     <entry key="factory" type="xstring" value="org.knime.ext.weka37.predictor3.WekaPredictorNodeFactory"/>
     <entry key="node-name" type="xstring" value="Weka Predictor (3.7)"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME WEKA nodes (3.7)"/>

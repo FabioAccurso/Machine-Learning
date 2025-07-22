@@ -1,14 +1,6 @@
 {
-  "version" : "5.4.4.v202504301443",
+  "version" : "5.4.3.v202503031608",
   "projects" : [ {
-    "name" : "soluzione_2_minicontest",
-    "active" : false,
-    "origin" : {
-      "providerId" : "local",
-      "spaceId" : "local",
-      "relativePath" : "2_Contest\\soluzione_2_minicontest"
-    }
-  }, {
     "name" : "presentazione_orale_contest2",
     "active" : true,
     "origin" : {
